@@ -114,7 +114,7 @@ for idx, rel in enumerate(set(nx.get_edge_attributes(G, 'relationship').values()
 fig.update_layout(
     showlegend=True,
     title="Kinship Relations in Macbeth",
-    legend=dict(orientation="v", x=0.5, y=1.6),
+    legend=dict(orientation="v", x=1, y=0.6),
     margin=dict(b=30, t=30, l=0, r=0),
 )
 
