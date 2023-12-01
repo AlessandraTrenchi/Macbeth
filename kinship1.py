@@ -51,25 +51,29 @@ for idx, character in enumerate(param['Character']):
     role = param['Role'][idx]
     G.add_node(character, gender=gender, place=place, description=description, role=role)
 
-# Create layout of the graph
-pos = nx.circular_layout(G)
+# Extract unique relationships from edges
+unique_relationships = list(set(nx.get_edge_attributes(G, 'relationship').values()))
+
+# Create layout of the graph using Spring layout
+pos = nx.spring_layout(G, k=400, scale=50)
+
 # Calculate degree centrality for each node
 degree_centrality = nx.degree_centrality(G)
 
 # Scale node sizes based on degree centrality
-node_sizes = [3000 * degree_centrality[node] for node in G.nodes()]
+node_sizes = [500 * degree_centrality[node] for node in G.nodes()]
 
 # Create edge trace
 edge_trace = []
+
 # Create a colormap for relationships
 cmap = px.colors.qualitative.Plotly
-edge_trace.append(go.Scatter(x=(x0, x1, None), y=(y0, y1, None), mode='lines', line=dict(width=2, color=cmap[idx % len(cmap)]), hoverinfo='none', legendgroup=f"edge_{idx}"))
 
 for idx, edge in enumerate(G.edges(data=True)):
     rel_type = edge[2]['relationship']
     x0, y0 = pos[edge[0]]
     x1, y1 = pos[edge[1]]
-    edge_trace.append(go.Scatter(x=(x0, x1, None), y=(y0, y1, None), mode='lines', line=dict(width=2, color=rgb2hex(cmap(unique_relationships.index(rel_type)))), hoverinfo='none', legendgroup=f"edge_{idx}"))  # Update to use the index of the relationship
+    edge_trace.append(go.Scatter(x=(x0, x1, None), y=(y0, y1, None), mode='lines', line=dict(width=2, color=rgb2hex(cmap[idx % len(cmap)])), hoverinfo='none', legendgroup=f"edge_{idx}"))  # Update to use the index of the relationship
 
 # Create node trace
 node_trace = go.Scatter(
@@ -95,7 +99,7 @@ fig.update_traces(
 )
 
 # Create relationship legends
-for idx, rel in enumerate(unique_relationships):
+for idx, rel in enumerate(set(nx.get_edge_attributes(G, 'relationship').values())):
     rel_str = ', '.join(map(str, rel))
     fig.add_trace(go.Scatter(
         x=[None],
@@ -111,7 +115,7 @@ fig.update_layout(
     showlegend=True,
     title="Kinship Relations in Macbeth",
     legend=dict(orientation="v", x=0.5, y=1.6),
-    margin=dict(b=20, t=20, l=0, r=0),
+    margin=dict(b=30, t=30, l=0, r=0),
 )
 
 fig.update_xaxes(showgrid=False, zeroline=False)
