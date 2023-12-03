@@ -1,11 +1,8 @@
-from distutils.util import change_root
 import networkx as nx
-import matplotlib.pyplot as plt
 import plotly.graph_objects as go
-import plotly.express as px
 from macbeth import param
-import matplotlib.cm as cm
 from matplotlib.colors import rgb2hex
+import plotly.express as px
 
 # Sample data for starting relationships
 starting_relationships = [
@@ -30,6 +27,7 @@ starting_relationships = [
     ('Macduff', 'Macbeth', 'Friendship'),
     ('Lady Macbeth', 'Macbeth', 'Love')
 ]
+
 # Create a directed graph
 G = nx.DiGraph()
 
@@ -39,93 +37,65 @@ for source, target, _ in starting_relationships:
     unique_nodes.add(source)
     unique_nodes.add(target)
 
-# Add nodes to the graph
+# Add nodes to the graph with additional attributes
 for node in unique_nodes:
-    G.add_node(node)  # You may want to provide additional attributes if needed
+    G.add_node(node, gender='Female' if param['Gender'][param['Character'].index(node)] == 'Female' else 'Male',
+               place='Scotland', role='Character', description='Description')
 
 # Add edges to the graph with initial relationships
 for source, target, rel_type in starting_relationships:
     G.add_edge(source, target, relationship_type=rel_type, weight=1)
 
-# Now you can update the layout of the graph
 # Create layout of the graph
-pos = nx.spring_layout(G, seed=42)
+pos = nx.spring_layout(G, k=400, scale=50, seed=42)
 
-# Ensure that 'Self' node is in the layout
-if 'Self' not in pos:
-    pos['Self'] = (0, 0)
-
-for source, target, rel_type in starting_relationships:
-    G.add_edge(source, target, relationship_type=rel_type, weight=1)  # Adding weight as 1
-
-# Create layout of the graph
-pos = nx.spring_layout(G, seed=42)
+# Add degree centrality as node attribute
+degree_centrality = nx.degree_centrality(G)
+nx.set_node_attributes(G, degree_centrality, 'degree_centrality')
 
 # Extract unique relationships from edges
 unique_relationships = list(set(nx.get_edge_attributes(G, 'relationship_type').values()))
 
-# Create a colormap for relationships
-cmap = cm.get_cmap('tab10', len(unique_relationships))
-
-# Create a legend for relationships
-legend_data = []
-for idx, rel in enumerate(unique_relationships):
-    legend_data.append(go.Scatter(
-        x=[None],
-        y=[None],
-        mode='markers',
-        marker=dict(size=0, color=rgb2hex(cmap(idx))),
-        legendgroup=rel,
-        name=rel
-    ))
-
-# Create edge trace
+# Create edge trace with hover information
 edge_trace = []
-color_dict = {rel: rgb2hex(cmap(idx % cmap.N)) for idx, rel in enumerate(unique_relationships)}
+color_dict = {rel: rgb2hex(px.colors.qualitative.Plotly[i % len(px.colors.qualitative.Plotly)]) for i, rel in enumerate(unique_relationships)}
 
-for edge in G.edges(data=True):
-    source, target, data = edge
+for rel_type in unique_relationships:
+    edges = [(source, target, data) for source, target, data in G.edges(data=True) if data['relationship_type'] == rel_type]
+    x_coords = []
+    y_coords = []
+    hover_texts = []
+    
+    for source, target, data in edges:
+        x_coords.extend([pos[source][0], pos[target][0], None])
+        y_coords.extend([pos[source][1], pos[target][1], None])
+        hover_texts.append(f"Type: {data['relationship_type']}<br>Weight: {data['weight']}")
+
     edge_trace.append(go.Scatter(
-        x=[pos[source][0], pos[target][0]],
-        y=[pos[source][1], pos[target][1]],
-        line=dict(width=data['weight'], color=color_dict[data['relationship_type']]),
-        hoverinfo='none',
-        mode='lines'
+        x=x_coords,
+        y=y_coords,
+        line=dict(width=data['weight'], color=color_dict[rel_type]),
+        hoverinfo='text',
+        text=hover_texts,
+        mode='lines',
+        name=rel_type
     ))
 
-# Create node trace
+# Create node trace with hover information
 node_trace = go.Scatter(
     x=[pos[node][0] for node in G.nodes()],
     y=[pos[node][1] for node in G.nodes()],
-    mode='markers+text',
+    mode='markers',
     hoverinfo='text',
     marker=dict(
-        showscale=False,
-        color=['red' if 'gender' in G.nodes[node] and G.nodes[node]['gender'] == 'Female' else 'blue' for node in G.nodes()]
+        color=['red' if G.nodes[node]['gender'] == 'Female' else 'blue' for node in G.nodes()],
+        size=[300 * G.nodes[node]['degree_centrality'] for node in G.nodes()],
     ),
-    text=[node for node in G.nodes()],
-    textposition='bottom center',
-    textfont=dict(size=10),
-    customdata=[[f"Character: {node}<br>Gender: {G.nodes[node].get('gender', 'N/A')}"] for node in G.nodes()]
+    text=[f"Character: {node}<br>Gender: {G.nodes[node]['gender']}<br>Place: {G.nodes[node]['place']}<br>Role: {G.nodes[node]['role']}<br>Description: {param['Description'][param['Character'].index(node)]}" for node in G.nodes()],
 )
 
 # Create Plotly graph
 fig = go.Figure(edge_trace + [node_trace])
-fig.update_traces(
-    hovertemplate='%{customdata}',  # Show attributes on hover
-)
-
-# Create relationship legends
-for idx, rel in enumerate(unique_relationships):
-    rel_str = rel
-    fig.add_trace(go.Scatter(
-        x=[None],
-        y=[None],
-        mode='markers',
-        marker=dict(size=0, color=color_dict[rel]),
-        legendgroup=rel,
-        name=rel_str
-    ))
 
 # Update layout
 fig.update_layout(

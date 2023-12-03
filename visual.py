@@ -31,7 +31,8 @@ node_trace = go.Scatter(
     hoverinfo='text',
     marker=dict(
         showscale=False,
-        color=['red' if G.nodes[node]['gender'] == 'Female' else 'blue' for node in G.nodes()]
+        color=['red' if G.nodes[node]['gender'] == 'Female' else 'blue' for node in G.nodes()],
+        size=10  # Adjust the size of the nodes as needed
     ),
     text=[node for node in G.nodes()],
     textposition='bottom center',
