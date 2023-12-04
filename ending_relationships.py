@@ -101,22 +101,23 @@ for act in unique_actions:
     hover_texts = []
 
     for source, target, data in edges:
+        # Make sure edges are directed from source to target
         x_coords.extend([pos_events[source][0], pos_events[target][0], None])
         y_coords.extend([pos_events[source][1], pos_events[target][1], None])
 
         # Check if it's a self-loop
         if source == target:
-            hover_texts.append(f"Character: {source}<br>Action: {data['action']}<br>Status: {data['status']}<br>Time: {data['time']}")
+            hover_texts.append(f"Character: {source}<br>Action: {data['action']}<br>Status: {data['status']}<br>Time: {data['time']}<br>Description: {G_events.nodes[source]['description']}")
         else:
-            hover_texts.append(f"Source: {source}<br>Target: {target}<br>Action: {data['action']}<br>Status: {data['status']}<br>Time: {data['time']}")
+            hover_texts.append(f"Source: {source}<br>Target: {target}<br>Action: {data['action']}<br>Status: {data['status']}<br>Time: {data['time']}<br>Description: {G_events.nodes[source]['description']} -> {G_events.nodes[target]['description']}")
 
     edge_trace_events.append(go.Scatter(
         x=x_coords,
         y=y_coords,
         line=dict(width=2, color=color_dict_events[act]),
-        hoverinfo='text',
+        hoverinfo='text',  # Set hoverinfo to 'text' to show hover text
         text=hover_texts,
-        mode='lines',
+        mode='lines',  # Removed 'text' mode to only show text on hover
         marker=dict(
             size=8,
             color=color_dict_events[act],
@@ -134,6 +135,7 @@ for act in unique_actions:
             line=dict(width=2, color=color_dict_events[act]),
         )
     ))
+
 # Create node trace with hover information for events
 node_trace_events = go.Scatter(
     x=[pos_events[node][0] for node in G_events.nodes()],
