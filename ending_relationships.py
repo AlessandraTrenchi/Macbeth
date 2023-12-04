@@ -123,7 +123,7 @@ for act in unique_actions:
             line=dict(width=0),
             symbol='arrow-up'  # Use 'arrow-up' symbol for arrowheads
         ),
-        legendgroup=act,  # Group edges of the same type in the legend
+        name=act  # Use name instead of legendgroup
     ))
 
     # Add custom legend entry
