@@ -61,27 +61,44 @@ act_3_df.to_csv('csv/dialogues/act3.csv')
 act_4_df.to_csv('csv/dialogues/act4.csv')
 act_5_df.to_csv('csv/dialogues/act5.csv')
 
-# Define the network for Scene 2
-scene_2_network = {
-    "Duncan": ["Malcolm", "Donalbain", "Lennox", "Attendants", "Sergeant"],
-    "Malcolm": ["Duncan", "Donalbain", "Lennox", "Attendants", "Sergeant"],
-    "Donalbain": ["Duncan", "Malcolm", "Lennox", "Attendants", "Sergeant"],
-    "Lennox": ["Duncan", "Malcolm", "Donalbain", "Attendants", "Sergeant"],
-    "Attendants": ["Duncan", "Malcolm", "Donalbain", "Lennox", "Sergeant"],
-    "Sergeant": ["Duncan", "Malcolm", "Donalbain", "Lennox", "Attendants"],
-    "Ross": ["Angus", "Macbeth", "Banquo"],
-    "Angus": ["Ross", "Macbeth", "Banquo"],
-    "Macbeth": ["Ross", "Angus", "Banquo"],
-    "Banquo": ["Ross", "Angus", "Macbeth"]
-}
+# Load the CSV files into DataFrames
+act_1_df = pd.read_csv('csv/dialogues/act1.csv', index_col=0)
+act_2_df = pd.read_csv('csv/dialogues/act2.csv', index_col=0)
+act_3_df = pd.read_csv('csv/dialogues/act3.csv', index_col=0)
+act_4_df = pd.read_csv('csv/dialogues/act4.csv', index_col=0)
+act_5_df = pd.read_csv('csv/dialogues/act5.csv', index_col=0)
+
+# Combine all DataFrames into a single DataFrame
+combined_df = pd.concat([act_1_df, act_2_df, act_3_df, act_4_df, act_5_df])
 
 # Create a directed graph
-G = nx.DiGraph(scene_2_network)
-# Specify the layout using spring_layout and adjust the k parameter for distance
-pos = nx.spring_layout(G, k=5.5)
+G = nx.DiGraph()
 
-# Plot the graph
-pos = nx.spring_layout(G)
-nx.draw(G, pos, with_labels=True, node_size=500, node_color="skyblue", font_size=10, font_color="black", font_weight="bold", edge_color="green", linewidths=0.3, arrowsize=10)
-plt.title("Character Network - Scene 2")
+# Add nodes and edges to the graph based on the combined DataFrame
+for _, row in combined_df.iterrows():
+    characters = [char.strip() for char in row['Characters'].split(',')]
+    dialogue = row['Dialogue']
+
+    for i in range(len(characters)):
+        for j in range(i + 1, len(characters)):
+            source = characters[i]
+            target = characters[j]
+
+            # Add nodes and edge
+            G.add_node(source)
+            G.add_node(target)
+            if G.has_edge(source, target):
+                G[source][target]['weight'] += 1  # Increment the weight if the edge already exists
+            else:
+                G.add_edge(source, target, weight=1)  # Add a new edge with weight 1
+
+# Specify the layout using spring_layout and adjust the k parameter for distance
+pos = nx.spring_layout(G, k=1.5)
+
+# Draw the graph with edge weights
+edge_labels = {(source, target): f"{G[source][target]['weight']}" for source, target in G.edges()}
+nx.draw(G, pos, with_labels=True, node_size=500, node_color="skyblue", font_size=8, font_color="black", font_weight="bold", edge_color="green", linewidths=0.3, arrowsize=10)
+nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color="red", font_size=8)
+
+plt.title("Character Network - All Dialogues")
 plt.show()
