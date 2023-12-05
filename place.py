@@ -26,14 +26,17 @@ for place in places:
         for j in range(i + 1, len(characters_in_place)):
             G.add_edge(characters_in_place[i], characters_in_place[j])
 
-# Create a color mapping based on gender
+# Create a color mapping based on place and gender
 color_mapping = {
-    'Female': 'red',
-    'Male': 'blue',
+    'Unknown_Female': 'red',
+    'Unknown_Male': 'blue',
+    'Glamis_Male': 'green',
+    'Scotland_Female': 'purple',
+    'Scotland_Male': 'orange',
 }
 
-# Assign colors to nodes based on the gender attribute
-node_colors = [color_mapping.get(gender, 'gray') for gender in df['Gender']]
+# Assign colors to nodes based on the color mapping
+node_colors = [color_mapping.get(f"{place}_{gender}", 'gray') for place, gender in zip(df['Place of belonging'], df['Gender'])]
 
 # Draw the graph
 pos = nx.spring_layout(G)

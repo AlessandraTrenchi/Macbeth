@@ -93,7 +93,7 @@ for _, row in combined_df.iterrows():
                 G.add_edge(source, target, weight=1)  # Add a new edge with weight 1
 
 # Specify the layout using spring_layout and adjust the k parameter for distance
-pos = nx.spring_layout(G, k=1.5)
+pos = nx.spring_layout(G, k=4.0)
 
 # Draw the graph with edge weights
 edge_labels = {(source, target): f"{G[source][target]['weight']}" for source, target in G.edges()}
