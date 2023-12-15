@@ -39,7 +39,8 @@ kinship_relations = [
 G = nx.DiGraph()
 for relation in kinship_relations:
     if len(relation) == 4:
-        G.add_edge(relation[0], relation[1], relationship=(relation[2], relation[3]))
+        rel_attr = f"{relation[2]}, {relation[3]}"
+        G.add_edge(relation[0], relation[1], relationship=rel_attr)
     else:
         G.add_edge(relation[0], relation[1], relationship=relation[2])
 
@@ -91,6 +92,17 @@ node_trace = go.Scatter(
     textfont=dict(size=10),
     customdata=[[f"Character: {node}<br>Gender: {G.nodes[node].get('gender', 'N/A')}<br>Place: {G.nodes[node].get('place', 'N/A')}<br>Description: {G.nodes[node].get('description', 'N/A')}<br>Role: {G.nodes[node].get('role', 'N/A')}"] for node in G.nodes()]
 )
+# Calculate and print various measures
+print("Number of nodes:", G.number_of_nodes())
+print("Number of edges:", G.number_of_edges())
+print("Density:", nx.density(G))
+print("Average clustering coefficient:", nx.average_clustering(G))
+print("In-degree centrality:", nx.in_degree_centrality(G))
+print("Out-degree centrality:", nx.out_degree_centrality(G))
+print("PageRank:", nx.pagerank(G))
+print("Hubs and authorities (hits):", nx.hits(G))
+print("Closeness centrality:", nx.closeness_centrality(G))
+print("Betweenness centrality:", nx.betweenness_centrality(G))
 
 # Create Plotly graph
 fig = go.Figure(edge_trace + [node_trace])

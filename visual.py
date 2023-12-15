@@ -26,6 +26,19 @@ for place in places:
         for j in range(i + 1, len(characters_in_place)):
             G.add_edge(characters_in_place[i], characters_in_place[j])
 
+# Calculate and print various measures
+print("Number of nodes:", G.number_of_nodes())
+print("Number of edges:", G.number_of_edges())
+print("Density:", nx.density(G))
+print("Average clustering coefficient:", nx.average_clustering(G))
+print("In-degree centrality:", nx.in_degree_centrality(G))
+print("Out-degree centrality:", nx.out_degree_centrality(G))
+print("PageRank:", nx.pagerank(G))
+print("Hubs and authorities (hits):", nx.hits(G))
+print("Closeness centrality:", nx.closeness_centrality(G))
+print("Betweenness centrality:", nx.betweenness_centrality(G))
+# Other measures can be added based on your specific requirements
+
 # Create a color mapping based on gender
 color_mapping = {
     'Female': 'red',

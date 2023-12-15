@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-15">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="4" title="relationship" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="place" type="string" />
+      <attribute id="2" title="description" type="string" />
+      <attribute id="3" title="role" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Macduff" label="Macduff">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Thane of Fife" />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Malcolm" label="Malcolm">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Duncan's son and heir to the throne, target for Macbeth's ambition." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Lennox" label="Lennox">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Another Scottish nobleman and supporter of Malcolm." />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Ross" label="Ross">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="A Scottish nobleman and ally to Macbeth" />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Menteith" label="Menteith">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Scottish noblemen supporting Malcolm's cause against Macbeth." />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Angus" label="Angus">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="A Scottish nobleman who supports Malcolm's cause against Macbeth." />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Caithness" label="Caithness">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Scottish noblemen supporting Malcolm's cause against Macbeth." />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Old Siward" label="Old Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Earl of Northumberland, is a veteran soldier of the English king." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Young Siward" label="Young Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Son of the English Commander" />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Lady Macbeth" label="Lady Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="The wife of Macbeth" />
+          <attvalue for="3" value="Confidant" />
+        </attvalues>
+      </node>
+      <node id="Duncan" label="Duncan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="The King of Scotland" />
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Donalbain" label="Donalbain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Duncan's younger son, who flees to Ireland after his father's murder." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Macbeth" label="Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Glamis" />
+          <attvalue for="2" value="Thane of Glamis, Thane of Cawdor and then king of Scotland" />
+          <attvalue for="3" value="Protagonist" />
+        </attvalues>
+      </node>
+      <node id="Seyton" label="Seyton">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Seyton is a servant and attendant to Macbeth." />
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Banquo" label="Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Scottish nobleman, friend of Macbeth, his descendants will inherit the throne." />
+          <attvalue for="3" value="Confidant" />
+        </attvalues>
+      </node>
+      <node id="Fleance" label="Fleance">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Banquo's son." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Porter" label="Porter">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="The gatekeeper at Macbeth's castle" />
+          <attvalue for="3" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="GentleWoman" label="GentleWoman">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Uknown" />
+          <attvalue for="2" value="The companion of Lady Macbeth" />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First Witch" label="First Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Mysterious and supernatural" />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Second Witch" label="Second Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Mysterious and supernatural" />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Third Witch" label="Third Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Mysterious and supernatural" />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Captain" label="Captain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="A soldier in Duncan's army, reporting on Macbeth's heroism in battle." />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Old man" label="Old man">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="An old man who witnesses the unnatural events occurring in Scotland." />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First murderer" label="First murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Assassin hired by Macbeth to carry out murders." />
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Second murderer" label="Second murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Assassin hired by Macbeth to carry out murders." />
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Third murderer" label="Third murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Assassin hired by Macbeth to carry out murders." />
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Ghost of Banquo" label="Ghost of Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="The supernatural manifestation of Banquo, haunting Macbeth as a ghost." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Hecate" label="Hecate">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="The goddess of witchcraft." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Lady Macduff" label="Lady Macduff">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="The wife of Macduff, who becomes a victim of Macbeth's tyranny." />
+          <attvalue for="3" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="Son" label="Son">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="The son of Lady Macduff, who also falls victim to the violence in Scotland." />
+          <attvalue for="3" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="Doctor" label="Doctor">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="A doctor attending to Lady Macbeth." />
+          <attvalue for="3" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First Apparition" label="First Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="An apparition for Macbeth." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Second Apparition" label="Second Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="An apparition for Macbeth." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Third Apparition" label="Third Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="An apparition for Macbeth." />
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Macduff" target="Malcolm" id="0">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Lennox" id="1">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Ross" id="2">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Menteith" id="3">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Angus" id="4">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Caithness" id="5">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Porter" id="6">
+        <attvalues>
+          <attvalue for="4" value="master" />
+        </attvalues>
+      </edge>
+      <edge source="Malcolm" target="Old Siward" id="7">
+        <attvalues>
+          <attvalue for="4" value="nephew" />
+        </attvalues>
+      </edge>
+      <edge source="Malcolm" target="Young Siward" id="8">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Lennox" target="Ross" id="9">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Ross" target="Macduff" id="10">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Menteith" target="Caithness" id="11">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Menteith" target="Angus" id="12">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Angus" target="Lennox" id="13">
+        <attvalues>
+          <attvalue for="4" value="cousins, 2" />
+        </attvalues>
+      </edge>
+      <edge source="Old Siward" target="Seyton" id="14">
+        <attvalues>
+          <attvalue for="4" value="son" />
+        </attvalues>
+      </edge>
+      <edge source="Old Siward" target="Malcolm" id="15">
+        <attvalues>
+          <attvalue for="4" value="uncle" />
+        </attvalues>
+      </edge>
+      <edge source="Old Siward" target="Duncan" id="16">
+        <attvalues>
+          <attvalue for="4" value="brothers, 3" />
+        </attvalues>
+      </edge>
+      <edge source="Young Siward" target="Old Siward" id="17">
+        <attvalues>
+          <attvalue for="4" value="son" />
+        </attvalues>
+      </edge>
+      <edge source="Lady Macbeth" target="Duncan" id="18">
+        <attvalues>
+          <attvalue for="4" value="host" />
+        </attvalues>
+      </edge>
+      <edge source="Lady Macbeth" target="Macbeth" id="19">
+        <attvalues>
+          <attvalue for="4" value="wife" />
+        </attvalues>
+      </edge>
+      <edge source="Duncan" target="Donalbain" id="20">
+        <attvalues>
+          <attvalue for="4" value="father" />
+        </attvalues>
+      </edge>
+      <edge source="Duncan" target="Lady Macbeth" id="21">
+        <attvalues>
+          <attvalue for="4" value="lost father" />
+        </attvalues>
+      </edge>
+      <edge source="Donalbain" target="Malcolm" id="22">
+        <attvalues>
+          <attvalue for="4" value="brothers, 3" />
+        </attvalues>
+      </edge>
+      <edge source="Banquo" target="Fleance" id="23">
+        <attvalues>
+          <attvalue for="4" value="father" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
