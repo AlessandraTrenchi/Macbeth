@@ -1,7 +1,8 @@
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
-
+import community
+import igraph
 # Define the data
 act_1_data = {
     'SCENE 1': ["First Witch, Second Witch, Third Witch", "Discussing the place and time of the event."],
@@ -97,7 +98,48 @@ pos = nx.spring_layout(G, k=4.0)
 
 # Draw the graph with edge weights
 edge_labels = {(source, target): f"{G[source][target]['weight']}" for source, target in G.edges()}
-nx.draw(G, pos, with_labels=True, node_size=500, node_color="skyblue", font_size=8, font_color="black", font_weight="bold", edge_color="green", linewidths=0.3, arrowsize=10)
+# Calculate centrality measures
+degree_centrality = nx.degree_centrality(G)
+closeness_centrality = nx.closeness_centrality(G)
+betweenness_centrality = nx.betweenness_centrality(G)
+
+# Add centrality measures as node attributes
+nx.set_node_attributes(G, degree_centrality, 'degree_centrality')
+nx.set_node_attributes(G, closeness_centrality, 'closeness_centrality')
+nx.set_node_attributes(G, betweenness_centrality, 'betweenness_centrality')
+
+# Community detection using Girvan-Newman algorithm
+communities = list(nx.community.girvan_newman(G))
+best_community = max(communities, key=len)
+
+# Flatten the list of sets to create a list of nodes in each community
+flattened_communities = [node for community in communities for node in community]
+
+# Create a dictionary to map each node to its community index
+community_dict = {node: idx for idx, nodes in enumerate(flattened_communities) for node in nodes}
+nx.set_node_attributes(G, community_dict, 'girvan_newman_community')
+
+# Use Girvan-Newman community as node colors
+node_colors = [community_dict[node] for node in G.nodes()]
+
+# Create an undirected graph for k-clique community detection
+G_undirected = G.to_undirected()
+
+# Community detection using k-clique method
+k_cliques = list(nx.community.k_clique_communities(G_undirected, k=3))
+k_clique_dict = {node: idx for idx, nodes in enumerate(k_cliques) for node in nodes}
+nx.set_node_attributes(G, k_clique_dict, 'k_clique_community')
+
+# Create an undirected graph for label propagation community detection
+G_undirected_lp = G.to_undirected()
+
+# Community detection using label propagation
+label_propagation_communities = nx.community.label_propagation_communities(G_undirected_lp)
+label_propagation_dict = {node: idx for idx, nodes in enumerate(label_propagation_communities) for node in nodes}
+nx.set_node_attributes(G, label_propagation_dict, 'label_propagation_community')
+
+# Draw the graph with different colors for each community
+nx.draw(G, pos, with_labels=True, node_size=500, node_color=node_colors, font_size=8, font_color="black", font_weight="bold", edge_color="green", linewidths=0.3, arrowsize=10)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color="red", font_size=8)
 
 plt.title("Character Network - All Dialogues")
