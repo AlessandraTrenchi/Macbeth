@@ -1,7 +1,7 @@
 import networkx as nx 
 
 # Create a directed graph
-G = nx.DiGraph()
+G = nx.Graph()
 
 class SceneCharacterCooccurrences:
     def __init__(self):
@@ -10,7 +10,9 @@ class SceneCharacterCooccurrences:
     def add_cooccurrence(self, character1, character2):
         pair = tuple(sorted([character1, character2]))
         self.cooccurrences[pair] = self.cooccurrences.get(pair, 0) + 1
-
+        # Ensure that nodes and edges are added to the graph
+        G.add_nodes_from(pair)
+        G.add_edge(*pair)
 
     def display_cooccurrences(self):
         for pair, count in self.cooccurrences.items():
@@ -306,5 +308,26 @@ all_scenes_cooccurrences.add_cooccurrence('MALCOLM', 'MACDUFF')
 # Export the graph to Gephi
 nx.write_gexf(G, 'occurrences.gexf')
 
-# Displaying the updated results
-all_scenes_cooccurrences.display_cooccurrences()
+# Calculate and add centrality measures
+centrality_measures = {
+    'degree_centrality': nx.degree_centrality(G),
+    'betweenness_centrality': nx.betweenness_centrality(G),
+    'closeness_centrality': nx.closeness_centrality(G),
+    'eigenvector_centrality': nx.eigenvector_centrality(G, max_iter=1000)
+}
+
+for measure, values in centrality_measures.items():
+    nx.set_node_attributes(G, values, measure)
+
+# Export the graph to Gephi
+nx.write_gexf(G, 'occurrences.gexf')
+
+# Calculate and add clique measures
+cliques = list(nx.find_cliques(G))
+
+# Flatten the list of cliques to create a list of nodes in each clique
+flattened_cliques = [node for clique in cliques for node in clique]
+
+# Create a dictionary to map each node to its clique index
+clique_dict = {node: idx for idx, nodes in enumerate(cliques) for node in nodes}
+nx.set_node_attributes(G, clique_dict, 'clique_membership')

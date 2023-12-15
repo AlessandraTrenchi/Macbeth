@@ -1,9 +1,6 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# Create a directed graph
-G = nx.DiGraph()
-
 class MacbethPlacesGraph:
     def __init__(self):
         self.graph = nx.DiGraph()
@@ -66,6 +63,23 @@ macbeth_graph.add_scene("Country near Birnam wood.", ["MALCOLM", "SIWARD", "YOUN
 macbeth_graph.add_scene("Dunsinane. Within the castle.", ["MACBETH", "SEYTON", "Soldiers", "Drum", "Colours"])
 macbeth_graph.add_scene("Another part of the field.", ["MACBETH", "MACDUFF", "YOUNG SIWARD", "Messenger"])
 
-nx.write_gexf(G, 'occurr_places.gexf')
+# Calculate and print various measures
+print("Number of nodes:", macbeth_graph.graph.number_of_nodes())
+print("Number of edges:", macbeth_graph.graph.number_of_edges())
+print("Density:", nx.density(macbeth_graph.graph))
+print("Average clustering coefficient:", nx.average_clustering(macbeth_graph.graph))
+print("Degree centrality:", nx.degree_centrality(macbeth_graph.graph))
+print("Betweenness centrality:", nx.betweenness_centrality(macbeth_graph.graph))
+print("Closeness centrality:", nx.closeness_centrality(macbeth_graph.graph))
+
+# Convert the graph to undirected and find cliques
+undirected_graph = macbeth_graph.graph.to_undirected()
+cliques = list(nx.find_cliques(undirected_graph))
+print("All cliques:", cliques)
+print("Size of the largest clique:", len(max(cliques, key=len)))
+
+# Write the graph to GEXF file
+macbeth_graph.export_to_gephi('occurrences.gexf')
+
 # Plot the graph (optional)
 macbeth_graph.plot_graph()
