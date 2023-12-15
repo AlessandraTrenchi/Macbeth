@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-15">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="First Witch" label="First Witch" />
+      <node id="Second Witch" label="Second Witch" />
+      <node id="Third Witch" label="Third Witch" />
+      <node id="Duncan" label="Duncan" />
+      <node id="Malcolm" label="Malcolm" />
+      <node id="Donalbain" label="Donalbain" />
+      <node id="Lennox" label="Lennox" />
+      <node id="Attendants" label="Attendants" />
+      <node id="Sergeant" label="Sergeant" />
+      <node id="DUNCAN" label="DUNCAN" />
+      <node id="MALCOLM" label="MALCOLM" />
+      <node id="DONALBAIN" label="DONALBAIN" />
+      <node id="LENNOX" label="LENNOX" />
+      <node id="and Attendants" label="and Attendants" />
+      <node id="LADY MACBETH" label="LADY MACBETH" />
+      <node id="SERVANT" label="SERVANT" />
+      <node id="MACBETH" label="MACBETH" />
+      <node id="BANQUO" label="BANQUO" />
+      <node id="FLEANCE" label="FLEANCE" />
+      <node id="PORTER" label="PORTER" />
+      <node id="MACDUFF" label="MACDUFF" />
+      <node id="LORDS" label="LORDS" />
+      <node id="HECATE" label="HECATE" />
+      <node id="FIRST WITCH" label="FIRST WITCH" />
+      <node id="SECOND WITCH" label="SECOND WITCH" />
+      <node id="THIRD WITCH" label="THIRD WITCH" />
+      <node id="LORD" label="LORD" />
+      <node id="FIRST MURDERER" label="FIRST MURDERER" />
+      <node id="SECOND MURDERER" label="SECOND MURDERER" />
+      <node id="ROSS" label="ROSS" />
+      <node id="DOCTOR" label="DOCTOR" />
+      <node id="GENTLEWOMAN" label="GENTLEWOMAN" />
+      <node id="MENTEITH" label="MENTEITH" />
+      <node id="ANGUS" label="ANGUS" />
+      <node id="CAITHNESS" label="CAITHNESS" />
+      <node id="OLD SIWARD" label="OLD SIWARD" />
+      <node id="OLD SEYTON" label="OLD SEYTON" />
+      <node id="MESSANGER" label="MESSANGER" />
+      <node id="SIWARD" label="SIWARD" />
+    </nodes>
+    <edges>
+      <edge source="First Witch" target="Second Witch" id="0" weight="2" />
+      <edge source="First Witch" target="Third Witch" id="1" weight="2" />
+      <edge source="Second Witch" target="Third Witch" id="2" weight="2" />
+      <edge source="Duncan" target="Malcolm" id="3" weight="1" />
+      <edge source="Duncan" target="Donalbain" id="4" weight="1" />
+      <edge source="Duncan" target="Lennox" id="5" weight="1" />
+      <edge source="Duncan" target="Attendants" id="6" weight="1" />
+      <edge source="Duncan" target="Sergeant" id="7" weight="1" />
+      <edge source="Malcolm" target="Donalbain" id="8" weight="1" />
+      <edge source="Malcolm" target="Lennox" id="9" weight="1" />
+      <edge source="Malcolm" target="Attendants" id="10" weight="1" />
+      <edge source="Malcolm" target="Sergeant" id="11" weight="1" />
+      <edge source="Donalbain" target="Lennox" id="12" weight="1" />
+      <edge source="Donalbain" target="Attendants" id="13" weight="1" />
+      <edge source="Donalbain" target="Sergeant" id="14" weight="1" />
+      <edge source="Lennox" target="Attendants" id="15" weight="1" />
+      <edge source="Lennox" target="Sergeant" id="16" weight="1" />
+      <edge source="Attendants" target="Sergeant" id="17" weight="1" />
+      <edge source="DUNCAN" target="MALCOLM" id="18" weight="1" />
+      <edge source="DUNCAN" target="DONALBAIN" id="19" weight="1" />
+      <edge source="DUNCAN" target="LENNOX" id="20" weight="1" />
+      <edge source="DUNCAN" target="and Attendants" id="21" weight="1" />
+      <edge source="DUNCAN" target="LADY MACBETH" id="22" weight="1" />
+      <edge source="MALCOLM" target="DONALBAIN" id="23" weight="1" />
+      <edge source="MALCOLM" target="LENNOX" id="24" weight="1" />
+      <edge source="MALCOLM" target="and Attendants" id="25" weight="1" />
+      <edge source="MALCOLM" target="OLD SIWARD" id="26" weight="1" />
+      <edge source="MALCOLM" target="MACDUFF" id="27" weight="2" />
+      <edge source="MALCOLM" target="MENTEITH" id="28" weight="1" />
+      <edge source="MALCOLM" target="SIWARD" id="29" weight="1" />
+      <edge source="DONALBAIN" target="LENNOX" id="30" weight="1" />
+      <edge source="DONALBAIN" target="and Attendants" id="31" weight="1" />
+      <edge source="LENNOX" target="and Attendants" id="32" weight="1" />
+      <edge source="LENNOX" target="LORD" id="33" weight="1" />
+      <edge source="LENNOX" target="ROSS" id="34" weight="1" />
+      <edge source="LENNOX" target="LORDS" id="35" weight="1" />
+      <edge source="LENNOX" target="MACBETH" id="36" weight="1" />
+      <edge source="LADY MACBETH" target="SERVANT" id="37" weight="1" />
+      <edge source="LADY MACBETH" target="LADY MACBETH" id="38" weight="1" />
+      <edge source="LADY MACBETH" target="BANQUO" id="39" weight="1" />
+      <edge source="LADY MACBETH" target="LENNOX" id="40" weight="1" />
+      <edge source="LADY MACBETH" target="ROSS" id="41" weight="1" />
+      <edge source="LADY MACBETH" target="LORDS" id="42" weight="1" />
+      <edge source="SERVANT" target="MACBETH" id="43" weight="1" />
+      <edge source="MACBETH" target="MACBETH" id="44" weight="1" />
+      <edge source="MACBETH" target="LORDS" id="45" weight="2" />
+      <edge source="MACBETH" target="LADY MACBETH" id="46" weight="1" />
+      <edge source="MACBETH" target="BANQUO" id="47" weight="1" />
+      <edge source="MACBETH" target="SERVANT" id="48" weight="1" />
+      <edge source="MACBETH" target="FIRST MURDERER" id="49" weight="1" />
+      <edge source="MACBETH" target="SECOND MURDERER" id="50" weight="1" />
+      <edge source="MACBETH" target="DOCTOR" id="51" weight="1" />
+      <edge source="BANQUO" target="FLEANCE" id="52" weight="1" />
+      <edge source="BANQUO" target="BANQUO" id="53" weight="1" />
+      <edge source="PORTER" target="MACDUFF" id="54" weight="1" />
+      <edge source="MACDUFF" target="MENTEITH" id="55" weight="1" />
+      <edge source="HECATE" target="FIRST WITCH" id="56" weight="1" />
+      <edge source="HECATE" target="SECOND WITCH" id="57" weight="1" />
+      <edge source="HECATE" target="THIRD WITCH" id="58" weight="1" />
+      <edge source="FIRST WITCH" target="SECOND WITCH" id="59" weight="2" />
+      <edge source="FIRST WITCH" target="THIRD WITCH" id="60" weight="2" />
+      <edge source="SECOND WITCH" target="THIRD WITCH" id="61" weight="2" />
+      <edge source="FIRST MURDERER" target="SECOND MURDERER" id="62" weight="1" />
+      <edge source="ROSS" target="LORDS" id="63" weight="1" />
+      <edge source="DOCTOR" target="GENTLEWOMAN" id="64" weight="1" />
+      <edge source="MENTEITH" target="ANGUS" id="65" weight="1" />
+      <edge source="MENTEITH" target="CAITHNESS" id="66" weight="1" />
+      <edge source="MENTEITH" target="LENNOX" id="67" weight="1" />
+      <edge source="ANGUS" target="CAITHNESS" id="68" weight="1" />
+      <edge source="ANGUS" target="LENNOX" id="69" weight="1" />
+      <edge source="CAITHNESS" target="LENNOX" id="70" weight="1" />
+      <edge source="OLD SIWARD" target="MACDUFF" id="71" weight="1" />
+      <edge source="OLD SIWARD" target="MENTEITH" id="72" weight="1" />
+      <edge source="OLD SEYTON" target="MACBETH" id="73" weight="1" />
+      <edge source="MESSANGER" target="MACBETH" id="74" weight="1" />
+      <edge source="SIWARD" target="MACDUFF" id="75" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-15">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="role" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="place" type="string" />
+      <attribute id="2" title="role" type="string" />
+    </attributes>
+    <nodes>
+      <node id="GentleWoman" label="GentleWoman">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Uknown" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First Witch" label="First Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Second Witch" label="Second Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Third Witch" label="Third Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Macbeth" label="Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Glamis" />
+          <attvalue for="2" value="Protagonist" />
+        </attvalues>
+      </node>
+      <node id="Banquo" label="Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Confidant" />
+        </attvalues>
+      </node>
+      <node id="Ross" label="Ross">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Duncan" label="Duncan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Malcolm" label="Malcolm">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Captain" label="Captain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Angus" label="Angus">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Lennox" label="Lennox">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Lady Macbeth" label="Lady Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Confidant" />
+        </attvalues>
+      </node>
+      <node id="Fleance" label="Fleance">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Porter" label="Porter">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="Donalbain" label="Donalbain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Old man" label="Old man">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First murderer" label="First murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Second murderer" label="Second murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Third murderer" label="Third murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Ghost of Banquo" label="Ghost of Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Hecate" label="Hecate">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Lady Macduff" label="Lady Macduff">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="Son" label="Son">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="Doctor" label="Doctor">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First Apparition" label="First Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Second Apparition" label="Second Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Third Apparition" label="Third Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Menteith" label="Menteith">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Caithness" label="Caithness">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Seyton" label="Seyton">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Old Siward" label="Old Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Young Siward" label="Young Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Macduff" label="Macduff">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="First Witch" target="Macbeth" id="0">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Macbeth" id="1">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="Macbeth" id="2">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Banquo" id="3">
+        <attvalues>
+          <attvalue for="3" value="Confidant" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Duncan" id="4">
+        <attvalues>
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Lady Macbeth" id="5">
+        <attvalues>
+          <attvalue for="3" value="Confidant" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="First murderer" id="6">
+        <attvalues>
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Second murderer" id="7">
+        <attvalues>
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Third murderer" id="8">
+        <attvalues>
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Seyton" id="9">
+        <attvalues>
+          <attvalue for="3" value="Henchman" />
+        </attvalues>
+      </edge>
+      <edge source="Malcolm" target="Macbeth" id="10">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Fleance" target="Macbeth" id="11">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Donalbain" target="Macbeth" id="12">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Ghost of Banquo" target="Macbeth" id="13">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Hecate" target="Macbeth" id="14">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="First Apparition" target="Macbeth" id="15">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Second Apparition" target="Macbeth" id="16">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Third Apparition" target="Macbeth" id="17">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Old Siward" target="Macbeth" id="18">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Young Siward" target="Macbeth" id="19">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Macbeth" id="20">
+        <attvalues>
+          <attvalue for="3" value="Antagonist" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-15">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="5" title="relationship_type" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="place" type="string" />
+      <attribute id="2" title="role" type="string" />
+      <attribute id="3" title="description" type="string" />
+      <attribute id="4" title="degree_centrality" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Banquo" label="Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.07692307692307693" />
+        </attvalues>
+      </node>
+      <node id="Second Witch" label="Second Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.38461538461538464" />
+        </attvalues>
+      </node>
+      <node id="First Apparition" label="First Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.15384615384615385" />
+        </attvalues>
+      </node>
+      <node id="Second Apparition" label="Second Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.23076923076923078" />
+        </attvalues>
+      </node>
+      <node id="Lady Macbeth" label="Lady Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.07692307692307693" />
+        </attvalues>
+      </node>
+      <node id="Third Witch" label="Third Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.46153846153846156" />
+        </attvalues>
+      </node>
+      <node id="Macbeth" label="Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.3076923076923077" />
+        </attvalues>
+      </node>
+      <node id="Captain" label="Captain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.07692307692307693" />
+        </attvalues>
+      </node>
+      <node id="Hecate" label="Hecate">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.23076923076923078" />
+        </attvalues>
+      </node>
+      <node id="Duncan" label="Duncan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.07692307692307693" />
+        </attvalues>
+      </node>
+      <node id="First Witch" label="First Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.46153846153846156" />
+        </attvalues>
+      </node>
+      <node id="Macduff" label="Macduff">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.07692307692307693" />
+        </attvalues>
+      </node>
+      <node id="Third Apparition" label="Third Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.23076923076923078" />
+        </attvalues>
+      </node>
+      <node id="Malcolm" label="Malcolm">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.07692307692307693" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Banquo" target="Macbeth" id="0" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Best Friends" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Third Witch" id="1" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Third Apparition" id="2" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Second Apparition" id="3" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Lady Macbeth" target="Macbeth" id="4" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Love" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="First Witch" id="5" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="First Apparition" id="6" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="Second Apparition" id="7" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="Third Apparition" id="8" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Hecate" target="Third Witch" id="9" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Hecate" target="Second Witch" id="10" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Duncan" target="Macbeth" id="11" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Second Witch" id="12" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Hecate" id="13" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="First Apparition" id="14" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Second Apparition" id="15" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Third Apparition" id="16" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Macbeth" id="17" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Malcolm" target="Captain" id="18" weight="1">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

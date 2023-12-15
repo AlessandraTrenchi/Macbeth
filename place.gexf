@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-15">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="place" type="string" />
+      <attribute id="2" title="role" type="string" />
+    </attributes>
+    <nodes>
+      <node id="GentleWoman" label="GentleWoman">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Uknown" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First Witch" label="First Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Second Witch" label="Second Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Third Witch" label="Third Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Macbeth" label="Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Glamis" />
+          <attvalue for="2" value="Protagonist" />
+        </attvalues>
+      </node>
+      <node id="Banquo" label="Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Confidant" />
+        </attvalues>
+      </node>
+      <node id="Ross" label="Ross">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Duncan" label="Duncan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Malcolm" label="Malcolm">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Captain" label="Captain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Angus" label="Angus">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Lennox" label="Lennox">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Lady Macbeth" label="Lady Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Confidant" />
+        </attvalues>
+      </node>
+      <node id="Fleance" label="Fleance">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Porter" label="Porter">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="Donalbain" label="Donalbain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Old man" label="Old man">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First murderer" label="First murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Second murderer" label="Second murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Third murderer" label="Third murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Ghost of Banquo" label="Ghost of Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Hecate" label="Hecate">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Lady Macduff" label="Lady Macduff">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="Son" label="Son">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor character" />
+        </attvalues>
+      </node>
+      <node id="Doctor" label="Doctor">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="First Apparition" label="First Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Second Apparition" label="Second Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Third Apparition" label="Third Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Menteith" label="Menteith">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Caithness" label="Caithness">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Minor Character" />
+        </attvalues>
+      </node>
+      <node id="Seyton" label="Seyton">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Henchman" />
+        </attvalues>
+      </node>
+      <node id="Old Siward" label="Old Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Young Siward" label="Young Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+      <node id="Macduff" label="Macduff">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Antagonist" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="First Witch" target="Second Witch" id="0" />
+      <edge source="First Witch" target="Third Witch" id="1" />
+      <edge source="First Witch" target="First murderer" id="2" />
+      <edge source="First Witch" target="Second murderer" id="3" />
+      <edge source="First Witch" target="Third murderer" id="4" />
+      <edge source="First Witch" target="Ghost of Banquo" id="5" />
+      <edge source="First Witch" target="Hecate" id="6" />
+      <edge source="First Witch" target="First Apparition" id="7" />
+      <edge source="First Witch" target="Second Apparition" id="8" />
+      <edge source="First Witch" target="Third Apparition" id="9" />
+      <edge source="First Witch" target="Menteith" id="10" />
+      <edge source="Second Witch" target="Third Witch" id="11" />
+      <edge source="Second Witch" target="First murderer" id="12" />
+      <edge source="Second Witch" target="Second murderer" id="13" />
+      <edge source="Second Witch" target="Third murderer" id="14" />
+      <edge source="Second Witch" target="Ghost of Banquo" id="15" />
+      <edge source="Second Witch" target="Hecate" id="16" />
+      <edge source="Second Witch" target="First Apparition" id="17" />
+      <edge source="Second Witch" target="Second Apparition" id="18" />
+      <edge source="Second Witch" target="Third Apparition" id="19" />
+      <edge source="Second Witch" target="Menteith" id="20" />
+      <edge source="Third Witch" target="First murderer" id="21" />
+      <edge source="Third Witch" target="Second murderer" id="22" />
+      <edge source="Third Witch" target="Third murderer" id="23" />
+      <edge source="Third Witch" target="Ghost of Banquo" id="24" />
+      <edge source="Third Witch" target="Hecate" id="25" />
+      <edge source="Third Witch" target="First Apparition" id="26" />
+      <edge source="Third Witch" target="Second Apparition" id="27" />
+      <edge source="Third Witch" target="Third Apparition" id="28" />
+      <edge source="Third Witch" target="Menteith" id="29" />
+      <edge source="Banquo" target="Ross" id="30" />
+      <edge source="Banquo" target="Duncan" id="31" />
+      <edge source="Banquo" target="Malcolm" id="32" />
+      <edge source="Banquo" target="Captain" id="33" />
+      <edge source="Banquo" target="Angus" id="34" />
+      <edge source="Banquo" target="Lennox" id="35" />
+      <edge source="Banquo" target="Lady Macbeth" id="36" />
+      <edge source="Banquo" target="Fleance" id="37" />
+      <edge source="Banquo" target="Porter" id="38" />
+      <edge source="Banquo" target="Donalbain" id="39" />
+      <edge source="Banquo" target="Old man" id="40" />
+      <edge source="Banquo" target="Lady Macduff" id="41" />
+      <edge source="Banquo" target="Son" id="42" />
+      <edge source="Banquo" target="Doctor" id="43" />
+      <edge source="Banquo" target="Caithness" id="44" />
+      <edge source="Banquo" target="Seyton" id="45" />
+      <edge source="Banquo" target="Old Siward" id="46" />
+      <edge source="Banquo" target="Young Siward" id="47" />
+      <edge source="Banquo" target="Macduff" id="48" />
+      <edge source="Ross" target="Duncan" id="49" />
+      <edge source="Ross" target="Malcolm" id="50" />
+      <edge source="Ross" target="Captain" id="51" />
+      <edge source="Ross" target="Angus" id="52" />
+      <edge source="Ross" target="Lennox" id="53" />
+      <edge source="Ross" target="Lady Macbeth" id="54" />
+      <edge source="Ross" target="Fleance" id="55" />
+      <edge source="Ross" target="Porter" id="56" />
+      <edge source="Ross" target="Donalbain" id="57" />
+      <edge source="Ross" target="Old man" id="58" />
+      <edge source="Ross" target="Lady Macduff" id="59" />
+      <edge source="Ross" target="Son" id="60" />
+      <edge source="Ross" target="Doctor" id="61" />
+      <edge source="Ross" target="Caithness" id="62" />
+      <edge source="Ross" target="Seyton" id="63" />
+      <edge source="Ross" target="Old Siward" id="64" />
+      <edge source="Ross" target="Young Siward" id="65" />
+      <edge source="Ross" target="Macduff" id="66" />
+      <edge source="Duncan" target="Malcolm" id="67" />
+      <edge source="Duncan" target="Captain" id="68" />
+      <edge source="Duncan" target="Angus" id="69" />
+      <edge source="Duncan" target="Lennox" id="70" />
+      <edge source="Duncan" target="Lady Macbeth" id="71" />
+      <edge source="Duncan" target="Fleance" id="72" />
+      <edge source="Duncan" target="Porter" id="73" />
+      <edge source="Duncan" target="Donalbain" id="74" />
+      <edge source="Duncan" target="Old man" id="75" />
+      <edge source="Duncan" target="Lady Macduff" id="76" />
+      <edge source="Duncan" target="Son" id="77" />
+      <edge source="Duncan" target="Doctor" id="78" />
+      <edge source="Duncan" target="Caithness" id="79" />
+      <edge source="Duncan" target="Seyton" id="80" />
+      <edge source="Duncan" target="Old Siward" id="81" />
+      <edge source="Duncan" target="Young Siward" id="82" />
+      <edge source="Duncan" target="Macduff" id="83" />
+      <edge source="Malcolm" target="Captain" id="84" />
+      <edge source="Malcolm" target="Angus" id="85" />
+      <edge source="Malcolm" target="Lennox" id="86" />
+      <edge source="Malcolm" target="Lady Macbeth" id="87" />
+      <edge source="Malcolm" target="Fleance" id="88" />
+      <edge source="Malcolm" target="Porter" id="89" />
+      <edge source="Malcolm" target="Donalbain" id="90" />
+      <edge source="Malcolm" target="Old man" id="91" />
+      <edge source="Malcolm" target="Lady Macduff" id="92" />
+      <edge source="Malcolm" target="Son" id="93" />
+      <edge source="Malcolm" target="Doctor" id="94" />
+      <edge source="Malcolm" target="Caithness" id="95" />
+      <edge source="Malcolm" target="Seyton" id="96" />
+      <edge source="Malcolm" target="Old Siward" id="97" />
+      <edge source="Malcolm" target="Young Siward" id="98" />
+      <edge source="Malcolm" target="Macduff" id="99" />
+      <edge source="Captain" target="Angus" id="100" />
+      <edge source="Captain" target="Lennox" id="101" />
+      <edge source="Captain" target="Lady Macbeth" id="102" />
+      <edge source="Captain" target="Fleance" id="103" />
+      <edge source="Captain" target="Porter" id="104" />
+      <edge source="Captain" target="Donalbain" id="105" />
+      <edge source="Captain" target="Old man" id="106" />
+      <edge source="Captain" target="Lady Macduff" id="107" />
+      <edge source="Captain" target="Son" id="108" />
+      <edge source="Captain" target="Doctor" id="109" />
+      <edge source="Captain" target="Caithness" id="110" />
+      <edge source="Captain" target="Seyton" id="111" />
+      <edge source="Captain" target="Old Siward" id="112" />
+      <edge source="Captain" target="Young Siward" id="113" />
+      <edge source="Captain" target="Macduff" id="114" />
+      <edge source="Angus" target="Lennox" id="115" />
+      <edge source="Angus" target="Lady Macbeth" id="116" />
+      <edge source="Angus" target="Fleance" id="117" />
+      <edge source="Angus" target="Porter" id="118" />
+      <edge source="Angus" target="Donalbain" id="119" />
+      <edge source="Angus" target="Old man" id="120" />
+      <edge source="Angus" target="Lady Macduff" id="121" />
+      <edge source="Angus" target="Son" id="122" />
+      <edge source="Angus" target="Doctor" id="123" />
+      <edge source="Angus" target="Caithness" id="124" />
+      <edge source="Angus" target="Seyton" id="125" />
+      <edge source="Angus" target="Old Siward" id="126" />
+      <edge source="Angus" target="Young Siward" id="127" />
+      <edge source="Angus" target="Macduff" id="128" />
+      <edge source="Lennox" target="Lady Macbeth" id="129" />
+      <edge source="Lennox" target="Fleance" id="130" />
+      <edge source="Lennox" target="Porter" id="131" />
+      <edge source="Lennox" target="Donalbain" id="132" />
+      <edge source="Lennox" target="Old man" id="133" />
+      <edge source="Lennox" target="Lady Macduff" id="134" />
+      <edge source="Lennox" target="Son" id="135" />
+      <edge source="Lennox" target="Doctor" id="136" />
+      <edge source="Lennox" target="Caithness" id="137" />
+      <edge source="Lennox" target="Seyton" id="138" />
+      <edge source="Lennox" target="Old Siward" id="139" />
+      <edge source="Lennox" target="Young Siward" id="140" />
+      <edge source="Lennox" target="Macduff" id="141" />
+      <edge source="Lady Macbeth" target="Fleance" id="142" />
+      <edge source="Lady Macbeth" target="Porter" id="143" />
+      <edge source="Lady Macbeth" target="Donalbain" id="144" />
+      <edge source="Lady Macbeth" target="Old man" id="145" />
+      <edge source="Lady Macbeth" target="Lady Macduff" id="146" />
+      <edge source="Lady Macbeth" target="Son" id="147" />
+      <edge source="Lady Macbeth" target="Doctor" id="148" />
+      <edge source="Lady Macbeth" target="Caithness" id="149" />
+      <edge source="Lady Macbeth" target="Seyton" id="150" />
+      <edge source="Lady Macbeth" target="Old Siward" id="151" />
+      <edge source="Lady Macbeth" target="Young Siward" id="152" />
+      <edge source="Lady Macbeth" target="Macduff" id="153" />
+      <edge source="Fleance" target="Porter" id="154" />
+      <edge source="Fleance" target="Donalbain" id="155" />
+      <edge source="Fleance" target="Old man" id="156" />
+      <edge source="Fleance" target="Lady Macduff" id="157" />
+      <edge source="Fleance" target="Son" id="158" />
+      <edge source="Fleance" target="Doctor" id="159" />
+      <edge source="Fleance" target="Caithness" id="160" />
+      <edge source="Fleance" target="Seyton" id="161" />
+      <edge source="Fleance" target="Old Siward" id="162" />
+      <edge source="Fleance" target="Young Siward" id="163" />
+      <edge source="Fleance" target="Macduff" id="164" />
+      <edge source="Porter" target="Donalbain" id="165" />
+      <edge source="Porter" target="Old man" id="166" />
+      <edge source="Porter" target="Lady Macduff" id="167" />
+      <edge source="Porter" target="Son" id="168" />
+      <edge source="Porter" target="Doctor" id="169" />
+      <edge source="Porter" target="Caithness" id="170" />
+      <edge source="Porter" target="Seyton" id="171" />
+      <edge source="Porter" target="Old Siward" id="172" />
+      <edge source="Porter" target="Young Siward" id="173" />
+      <edge source="Porter" target="Macduff" id="174" />
+      <edge source="Donalbain" target="Old man" id="175" />
+      <edge source="Donalbain" target="Lady Macduff" id="176" />
+      <edge source="Donalbain" target="Son" id="177" />
+      <edge source="Donalbain" target="Doctor" id="178" />
+      <edge source="Donalbain" target="Caithness" id="179" />
+      <edge source="Donalbain" target="Seyton" id="180" />
+      <edge source="Donalbain" target="Old Siward" id="181" />
+      <edge source="Donalbain" target="Young Siward" id="182" />
+      <edge source="Donalbain" target="Macduff" id="183" />
+      <edge source="Old man" target="Lady Macduff" id="184" />
+      <edge source="Old man" target="Son" id="185" />
+      <edge source="Old man" target="Doctor" id="186" />
+      <edge source="Old man" target="Caithness" id="187" />
+      <edge source="Old man" target="Seyton" id="188" />
+      <edge source="Old man" target="Old Siward" id="189" />
+      <edge source="Old man" target="Young Siward" id="190" />
+      <edge source="Old man" target="Macduff" id="191" />
+      <edge source="First murderer" target="Second murderer" id="192" />
+      <edge source="First murderer" target="Third murderer" id="193" />
+      <edge source="First murderer" target="Ghost of Banquo" id="194" />
+      <edge source="First murderer" target="Hecate" id="195" />
+      <edge source="First murderer" target="First Apparition" id="196" />
+      <edge source="First murderer" target="Second Apparition" id="197" />
+      <edge source="First murderer" target="Third Apparition" id="198" />
+      <edge source="First murderer" target="Menteith" id="199" />
+      <edge source="Second murderer" target="Third murderer" id="200" />
+      <edge source="Second murderer" target="Ghost of Banquo" id="201" />
+      <edge source="Second murderer" target="Hecate" id="202" />
+      <edge source="Second murderer" target="First Apparition" id="203" />
+      <edge source="Second murderer" target="Second Apparition" id="204" />
+      <edge source="Second murderer" target="Third Apparition" id="205" />
+      <edge source="Second murderer" target="Menteith" id="206" />
+      <edge source="Third murderer" target="Ghost of Banquo" id="207" />
+      <edge source="Third murderer" target="Hecate" id="208" />
+      <edge source="Third murderer" target="First Apparition" id="209" />
+      <edge source="Third murderer" target="Second Apparition" id="210" />
+      <edge source="Third murderer" target="Third Apparition" id="211" />
+      <edge source="Third murderer" target="Menteith" id="212" />
+      <edge source="Ghost of Banquo" target="Hecate" id="213" />
+      <edge source="Ghost of Banquo" target="First Apparition" id="214" />
+      <edge source="Ghost of Banquo" target="Second Apparition" id="215" />
+      <edge source="Ghost of Banquo" target="Third Apparition" id="216" />
+      <edge source="Ghost of Banquo" target="Menteith" id="217" />
+      <edge source="Hecate" target="First Apparition" id="218" />
+      <edge source="Hecate" target="Second Apparition" id="219" />
+      <edge source="Hecate" target="Third Apparition" id="220" />
+      <edge source="Hecate" target="Menteith" id="221" />
+      <edge source="Lady Macduff" target="Son" id="222" />
+      <edge source="Lady Macduff" target="Doctor" id="223" />
+      <edge source="Lady Macduff" target="Caithness" id="224" />
+      <edge source="Lady Macduff" target="Seyton" id="225" />
+      <edge source="Lady Macduff" target="Old Siward" id="226" />
+      <edge source="Lady Macduff" target="Young Siward" id="227" />
+      <edge source="Lady Macduff" target="Macduff" id="228" />
+      <edge source="Son" target="Doctor" id="229" />
+      <edge source="Son" target="Caithness" id="230" />
+      <edge source="Son" target="Seyton" id="231" />
+      <edge source="Son" target="Old Siward" id="232" />
+      <edge source="Son" target="Young Siward" id="233" />
+      <edge source="Son" target="Macduff" id="234" />
+      <edge source="Doctor" target="Caithness" id="235" />
+      <edge source="Doctor" target="Seyton" id="236" />
+      <edge source="Doctor" target="Old Siward" id="237" />
+      <edge source="Doctor" target="Young Siward" id="238" />
+      <edge source="Doctor" target="Macduff" id="239" />
+      <edge source="First Apparition" target="Second Apparition" id="240" />
+      <edge source="First Apparition" target="Third Apparition" id="241" />
+      <edge source="First Apparition" target="Menteith" id="242" />
+      <edge source="Second Apparition" target="Third Apparition" id="243" />
+      <edge source="Second Apparition" target="Menteith" id="244" />
+      <edge source="Third Apparition" target="Menteith" id="245" />
+      <edge source="Caithness" target="Seyton" id="246" />
+      <edge source="Caithness" target="Old Siward" id="247" />
+      <edge source="Caithness" target="Young Siward" id="248" />
+      <edge source="Caithness" target="Macduff" id="249" />
+      <edge source="Seyton" target="Old Siward" id="250" />
+      <edge source="Seyton" target="Young Siward" id="251" />
+      <edge source="Seyton" target="Macduff" id="252" />
+      <edge source="Old Siward" target="Young Siward" id="253" />
+      <edge source="Old Siward" target="Macduff" id="254" />
+      <edge source="Young Siward" target="Macduff" id="255" />
+    </edges>
+  </graph>
+</gexf>
