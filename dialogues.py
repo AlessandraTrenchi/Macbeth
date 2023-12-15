@@ -101,4 +101,6 @@ nx.draw(G, pos, with_labels=True, node_size=500, node_color="skyblue", font_size
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color="red", font_size=8)
 
 plt.title("Character Network - All Dialogues")
+# Export the graph to Gephi
+nx.write_gexf(G, 'dialogues.gexf')
 plt.show()

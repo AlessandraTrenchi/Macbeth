@@ -1,3 +1,8 @@
+import networkx as nx 
+
+# Create a directed graph
+G = nx.DiGraph()
+
 class SceneCharacterCooccurrences:
     def __init__(self):
         self.cooccurrences = {}
@@ -5,6 +10,7 @@ class SceneCharacterCooccurrences:
     def add_cooccurrence(self, character1, character2):
         pair = tuple(sorted([character1, character2]))
         self.cooccurrences[pair] = self.cooccurrences.get(pair, 0) + 1
+
 
     def display_cooccurrences(self):
         for pair, count in self.cooccurrences.items():
@@ -296,6 +302,9 @@ all_scenes_cooccurrences.add_cooccurrence('MALCOLM', 'SIWARD')
 all_scenes_cooccurrences.add_cooccurrence('MALCOLM', 'ROSS')
 all_scenes_cooccurrences.add_cooccurrence('SIWARD', 'ROSS')
 all_scenes_cooccurrences.add_cooccurrence('MALCOLM', 'MACDUFF')
+
+# Export the graph to Gephi
+nx.write_gexf(G, 'occurrences.gexf')
 
 # Displaying the updated results
 all_scenes_cooccurrences.display_cooccurrences()

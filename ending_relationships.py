@@ -4,6 +4,8 @@ from macbeth import param
 from matplotlib.colors import rgb2hex
 import plotly.express as px
 
+
+G = nx.DiGraph()
 # Events and changes data
 events = [
     {'time': 5, 'changes': [
@@ -166,6 +168,8 @@ fig_events.update_layout(
 
 fig_events.update_xaxes(showgrid=False, zeroline=False)
 fig_events.update_yaxes(showgrid=False, zeroline=False)
+
+nx.write_gexf(G, 'relationships2.gexf')
 
 # Show the graph for events
 fig_events.show()

@@ -1,6 +1,9 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
+# Create a directed graph
+G = nx.DiGraph()
+
 class MacbethPlacesGraph:
     def __init__(self):
         self.graph = nx.DiGraph()
@@ -14,6 +17,9 @@ class MacbethPlacesGraph:
                     self.graph.add_node(character1, scene=scene_name)
                     self.graph.add_node(character2, scene=scene_name)
                     self.graph.add_edge(character1, character2, scene=scene_name)
+
+    def export_to_gephi(self, filename='macbeth_graph.gexf'):
+        nx.write_gexf(self.graph, filename)
 
     def plot_graph(self):
         # Create node lists based on scene names
@@ -38,7 +44,6 @@ macbeth_graph = MacbethPlacesGraph()
 macbeth_graph.add_scene("A desert place", ["First Witch", "Second Witch", "Third Witch"])
 macbeth_graph.add_scene("A camp near Forres", ["DUNCAN", "MALCOLM", "DONALBAIN", "LENNOX", "Sergeant", "MACBETH", "BANQUO", "ROSS"])
 # Add the new scene to the existing MacbethPlacesGraph
-
 macbeth_graph.add_scene("A heath near Forres", ["First Witch", "Second Witch", "Third Witch", "MACBETH", "BANQUO", "ROSS", "ANGUS", "DUNCAN", "MALCOLM"])
 macbeth_graph.add_scene("Inverness. Macbeth's castle.", ["LADY MACBETH", "Messenger", "DUNCAN", "MALCOLM", "DONALBAIN", "BANQUO", "LENNOX", "MACDUFF", "ROSS", "ANGUS", "Sewer", "MACBETH"])
 macbeth_graph.add_scene("Before Macbeth's castle.", ["DUNCAN", "MALCOLM", "DONALBAIN", "BANQUO", "LENNOX", "MACDUFF", "ROSS", "ANGUS", "LADY MACBETH", "Sewer", "MACBETH"])
@@ -61,6 +66,6 @@ macbeth_graph.add_scene("Country near Birnam wood.", ["MALCOLM", "SIWARD", "YOUN
 macbeth_graph.add_scene("Dunsinane. Within the castle.", ["MACBETH", "SEYTON", "Soldiers", "Drum", "Colours"])
 macbeth_graph.add_scene("Another part of the field.", ["MACBETH", "MACDUFF", "YOUNG SIWARD", "Messenger"])
 
-# Plot the updated graph
+nx.write_gexf(G, 'occurr_places.gexf')
+# Plot the graph (optional)
 macbeth_graph.plot_graph()
-

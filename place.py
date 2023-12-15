@@ -43,4 +43,6 @@ pos = nx.spring_layout(G)
 nx.draw(G, pos, with_labels=True, node_size=500, node_color=node_colors, font_size=8, font_color="black", font_weight="bold", edge_color="green", linewidths=0.3, arrowsize=10)
 
 plt.title("Character Network - Macbeth")
+# Export the graph to Gephi
+nx.write_gexf(G, 'place.gexf')
 plt.show()

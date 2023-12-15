@@ -1,5 +1,5 @@
 import pandas as pd
-
+import networkx as nx 
 # Creating the dataset
 param = {
     'Character': ['GentleWoman','First Witch', 'Second Witch', 'Third Witch', 'Macbeth', 'Banquo', 'Ross', 'Duncan', 'Malcolm', 'Captain', 'Angus', 'Lennox', 'Lady Macbeth', 'Fleance', 'Porter', 'Donalbain', 'Old man', 'First murderer', 'Second murderer', 'Third murderer' , 'Ghost of Banquo', 'Hecate', 'Lady Macduff', 'Son', 'Doctor', 'First Apparition', 'Second Apparition', 'Third Apparition', 'Menteith', 'Caithness', 'Seyton', 'Old Siward', 'Young Siward', 'Macduff'],

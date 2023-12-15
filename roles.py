@@ -55,4 +55,6 @@ legend_handles = [plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=co
 plt.legend(handles=legend_handles, title="Relationship Types", loc='upper left')
 
 plt.title("Character Network - Macbeth")
+# Export the graph to Gephi-compatible GEXF file
+nx.write_gexf(G, 'roles.gexf')
 plt.show()

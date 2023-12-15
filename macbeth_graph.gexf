@@ -1,0 +1,2723 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-15">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="scene" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="scene" type="string" />
+    </attributes>
+    <nodes>
+      <node id="First Witch" label="First Witch">
+        <attvalues>
+          <attvalue for="0" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </node>
+      <node id="Second Witch" label="Second Witch">
+        <attvalues>
+          <attvalue for="0" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </node>
+      <node id="Third Witch" label="Third Witch">
+        <attvalues>
+          <attvalue for="0" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </node>
+      <node id="DUNCAN" label="DUNCAN">
+        <attvalues>
+          <attvalue for="0" value="Before Macbeth's castle." />
+        </attvalues>
+      </node>
+      <node id="MALCOLM" label="MALCOLM">
+        <attvalues>
+          <attvalue for="0" value="Country near Birnam wood." />
+        </attvalues>
+      </node>
+      <node id="DONALBAIN" label="DONALBAIN">
+        <attvalues>
+          <attvalue for="0" value="Before Macbeth's castle." />
+        </attvalues>
+      </node>
+      <node id="LENNOX" label="LENNOX">
+        <attvalues>
+          <attvalue for="0" value="Country near Birnam wood." />
+        </attvalues>
+      </node>
+      <node id="Sergeant" label="Sergeant">
+        <attvalues>
+          <attvalue for="0" value="A camp near Forres" />
+        </attvalues>
+      </node>
+      <node id="MACBETH" label="MACBETH">
+        <attvalues>
+          <attvalue for="0" value="Another part of the field." />
+        </attvalues>
+      </node>
+      <node id="BANQUO" label="BANQUO">
+        <attvalues>
+          <attvalue for="0" value="A park near the palace." />
+        </attvalues>
+      </node>
+      <node id="ROSS" label="ROSS">
+        <attvalues>
+          <attvalue for="0" value="Country near Birnam wood." />
+        </attvalues>
+      </node>
+      <node id="ANGUS" label="ANGUS">
+        <attvalues>
+          <attvalue for="0" value="Country near Birnam wood." />
+        </attvalues>
+      </node>
+      <node id="LADY MACBETH" label="LADY MACBETH">
+        <attvalues>
+          <attvalue for="0" value="Hall in the palace." />
+        </attvalues>
+      </node>
+      <node id="Messenger" label="Messenger">
+        <attvalues>
+          <attvalue for="0" value="Another part of the field." />
+        </attvalues>
+      </node>
+      <node id="MACDUFF" label="MACDUFF">
+        <attvalues>
+          <attvalue for="0" value="Another part of the field." />
+        </attvalues>
+      </node>
+      <node id="Sewer" label="Sewer">
+        <attvalues>
+          <attvalue for="0" value="Before Macbeth's castle." />
+        </attvalues>
+      </node>
+      <node id="Servant" label="Servant">
+        <attvalues>
+          <attvalue for="0" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </node>
+      <node id="FLEANCE" label="FLEANCE">
+        <attvalues>
+          <attvalue for="0" value="A park near the palace." />
+        </attvalues>
+      </node>
+      <node id="Old Man" label="Old Man">
+        <attvalues>
+          <attvalue for="0" value="Outside Macbeth's castle." />
+        </attvalues>
+      </node>
+      <node id="Lords" label="Lords">
+        <attvalues>
+          <attvalue for="0" value="Hall in the palace." />
+        </attvalues>
+      </node>
+      <node id="Ladies" label="Ladies">
+        <attvalues>
+          <attvalue for="0" value="Forres. The palace." />
+        </attvalues>
+      </node>
+      <node id="Attendants" label="Attendants">
+        <attvalues>
+          <attvalue for="0" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </node>
+      <node id="First Murderer" label="First Murderer">
+        <attvalues>
+          <attvalue for="0" value="Fife. Macduff's castle." />
+        </attvalues>
+      </node>
+      <node id="Second Murderer" label="Second Murderer">
+        <attvalues>
+          <attvalue for="0" value="Fife. Macduff's castle." />
+        </attvalues>
+      </node>
+      <node id="Third Murderer" label="Third Murderer">
+        <attvalues>
+          <attvalue for="0" value="Fife. Macduff's castle." />
+        </attvalues>
+      </node>
+      <node id="GHOST OF BANQUO" label="GHOST OF BANQUO">
+        <attvalues>
+          <attvalue for="0" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </node>
+      <node id="HECATE" label="HECATE">
+        <attvalues>
+          <attvalue for="0" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </node>
+      <node id="Lord" label="Lord">
+        <attvalues>
+          <attvalue for="0" value="Forres. The palace." />
+        </attvalues>
+      </node>
+      <node id="First Apparition" label="First Apparition">
+        <attvalues>
+          <attvalue for="0" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </node>
+      <node id="Second Apparition" label="Second Apparition">
+        <attvalues>
+          <attvalue for="0" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </node>
+      <node id="Third Apparition" label="Third Apparition">
+        <attvalues>
+          <attvalue for="0" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </node>
+      <node id="LADY MACDUFF" label="LADY MACDUFF">
+        <attvalues>
+          <attvalue for="0" value="Fife. Macduff's castle." />
+        </attvalues>
+      </node>
+      <node id="Son" label="Son">
+        <attvalues>
+          <attvalue for="0" value="Fife. Macduff's castle." />
+        </attvalues>
+      </node>
+      <node id="Doctor" label="Doctor">
+        <attvalues>
+          <attvalue for="0" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </node>
+      <node id="Waiting-Gentlewoman" label="Waiting-Gentlewoman">
+        <attvalues>
+          <attvalue for="0" value="England. Before the King's palace." />
+        </attvalues>
+      </node>
+      <node id="MENTEITH" label="MENTEITH">
+        <attvalues>
+          <attvalue for="0" value="Country near Birnam wood." />
+        </attvalues>
+      </node>
+      <node id="CAITHNESS" label="CAITHNESS">
+        <attvalues>
+          <attvalue for="0" value="Country near Birnam wood." />
+        </attvalues>
+      </node>
+      <node id="Soldiers" label="Soldiers">
+        <attvalues>
+          <attvalue for="0" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </node>
+      <node id="SEYTON" label="SEYTON">
+        <attvalues>
+          <attvalue for="0" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </node>
+      <node id="SIWARD" label="SIWARD">
+        <attvalues>
+          <attvalue for="0" value="Country near Birnam wood." />
+        </attvalues>
+      </node>
+      <node id="YOUNG SIWARD" label="YOUNG SIWARD">
+        <attvalues>
+          <attvalue for="0" value="Another part of the field." />
+        </attvalues>
+      </node>
+      <node id="Drum" label="Drum">
+        <attvalues>
+          <attvalue for="0" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </node>
+      <node id="Colours" label="Colours">
+        <attvalues>
+          <attvalue for="0" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="First Witch" target="Second Witch" id="0">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Third Witch" id="1">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="MACBETH" id="2">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="BANQUO" id="3">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="ROSS" id="4">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="ANGUS" id="5">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="DUNCAN" id="6">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="MALCOLM" id="7">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="HECATE" id="8">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="First Witch" id="9">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Third Witch" id="10">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="MACBETH" id="11">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="BANQUO" id="12">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="ROSS" id="13">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="ANGUS" id="14">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="DUNCAN" id="15">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="MALCOLM" id="16">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="HECATE" id="17">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="First Witch" id="18">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="Second Witch" id="19">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="MACBETH" id="20">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="BANQUO" id="21">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="ROSS" id="22">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="ANGUS" id="23">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="DUNCAN" id="24">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="MALCOLM" id="25">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="HECATE" id="26">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="MALCOLM" id="27">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="DONALBAIN" id="28">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="LENNOX" id="29">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="Sergeant" id="30">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="MACBETH" id="31">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="BANQUO" id="32">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="ROSS" id="33">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="First Witch" id="34">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="Second Witch" id="35">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="Third Witch" id="36">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="ANGUS" id="37">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="LADY MACBETH" id="38">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="Messenger" id="39">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="MACDUFF" id="40">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DUNCAN" target="Sewer" id="41">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="DUNCAN" id="42">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="DONALBAIN" id="43">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="LENNOX" id="44">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="Sergeant" id="45">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="MACBETH" id="46">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="BANQUO" id="47">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="ROSS" id="48">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="First Witch" id="49">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="Second Witch" id="50">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="Third Witch" id="51">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="ANGUS" id="52">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="LADY MACBETH" id="53">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="Messenger" id="54">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="MACDUFF" id="55">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="Sewer" id="56">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="Doctor" id="57">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="Waiting-Gentlewoman" id="58">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="SIWARD" id="59">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="YOUNG SIWARD" id="60">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="MENTEITH" id="61">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="CAITHNESS" id="62">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MALCOLM" target="Soldiers" id="63">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="DUNCAN" id="64">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="MALCOLM" id="65">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="LENNOX" id="66">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="Sergeant" id="67">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="MACBETH" id="68">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="BANQUO" id="69">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="ROSS" id="70">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="LADY MACBETH" id="71">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="Messenger" id="72">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="MACDUFF" id="73">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="ANGUS" id="74">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="DONALBAIN" target="Sewer" id="75">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="DUNCAN" id="76">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="MALCOLM" id="77">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="DONALBAIN" id="78">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Sergeant" id="79">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="MACBETH" id="80">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="BANQUO" id="81">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="ROSS" id="82">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="LADY MACBETH" id="83">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Messenger" id="84">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="MACDUFF" id="85">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="ANGUS" id="86">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Sewer" id="87">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Lords" id="88">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Ladies" id="89">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Attendants" id="90">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Servant" id="91">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="First Murderer" id="92">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Second Murderer" id="93">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="GHOST OF BANQUO" id="94">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Lord" id="95">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="First Apparition" id="96">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Second Apparition" id="97">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Third Apparition" id="98">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="MENTEITH" id="99">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="CAITHNESS" id="100">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="Soldiers" id="101">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="SIWARD" id="102">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LENNOX" target="YOUNG SIWARD" id="103">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Sergeant" target="DUNCAN" id="104">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Sergeant" target="MALCOLM" id="105">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Sergeant" target="DONALBAIN" id="106">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Sergeant" target="LENNOX" id="107">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Sergeant" target="MACBETH" id="108">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Sergeant" target="BANQUO" id="109">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="Sergeant" target="ROSS" id="110">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="DUNCAN" id="111">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="MALCOLM" id="112">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="DONALBAIN" id="113">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="LENNOX" id="114">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Sergeant" id="115">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="BANQUO" id="116">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="ROSS" id="117">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="First Witch" id="118">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Second Witch" id="119">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Third Witch" id="120">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="ANGUS" id="121">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="LADY MACBETH" id="122">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Messenger" id="123">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="MACDUFF" id="124">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Sewer" id="125">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Servant" id="126">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="FLEANCE" id="127">
+        <attvalues>
+          <attvalue for="1" value="Court of Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Lords" id="128">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Ladies" id="129">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Attendants" id="130">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="First Murderer" id="131">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Second Murderer" id="132">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="GHOST OF BANQUO" id="133">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="First Apparition" id="134">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Second Apparition" id="135">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Third Apparition" id="136">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Doctor" id="137">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="SEYTON" id="138">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Soldiers" id="139">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Drum" id="140">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="Colours" id="141">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACBETH" target="YOUNG SIWARD" id="142">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="DUNCAN" id="143">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="MALCOLM" id="144">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="DONALBAIN" id="145">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="LENNOX" id="146">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Sergeant" id="147">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="MACBETH" id="148">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="ROSS" id="149">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="First Witch" id="150">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Second Witch" id="151">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Third Witch" id="152">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="ANGUS" id="153">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="LADY MACBETH" id="154">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Messenger" id="155">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="MACDUFF" id="156">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Sewer" id="157">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Servant" id="158">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="FLEANCE" id="159">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Lords" id="160">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Ladies" id="161">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Attendants" id="162">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="First Murderer" id="163">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Second Murderer" id="164">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="BANQUO" target="Third Murderer" id="165">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="DUNCAN" id="166">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="MALCOLM" id="167">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="DONALBAIN" id="168">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="LENNOX" id="169">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Sergeant" id="170">
+        <attvalues>
+          <attvalue for="1" value="A camp near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="MACBETH" id="171">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="BANQUO" id="172">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="First Witch" id="173">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Second Witch" id="174">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Third Witch" id="175">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="ANGUS" id="176">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="LADY MACBETH" id="177">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Messenger" id="178">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="MACDUFF" id="179">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Sewer" id="180">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Old Man" id="181">
+        <attvalues>
+          <attvalue for="1" value="Outside Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Lords" id="182">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Ladies" id="183">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Attendants" id="184">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Servant" id="185">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="First Murderer" id="186">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Second Murderer" id="187">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="GHOST OF BANQUO" id="188">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="LADY MACDUFF" id="189">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Son" id="190">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Third Murderer" id="191">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Doctor" id="192">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Waiting-Gentlewoman" id="193">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="SIWARD" id="194">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="YOUNG SIWARD" id="195">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="MENTEITH" id="196">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="CAITHNESS" id="197">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ROSS" target="Soldiers" id="198">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="First Witch" id="199">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="Second Witch" id="200">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="Third Witch" id="201">
+        <attvalues>
+          <attvalue for="1" value="A heath near Forres" />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="MACBETH" id="202">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="BANQUO" id="203">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="ROSS" id="204">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="DUNCAN" id="205">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="MALCOLM" id="206">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="LADY MACBETH" id="207">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="Messenger" id="208">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="DONALBAIN" id="209">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="LENNOX" id="210">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="MACDUFF" id="211">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="Sewer" id="212">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="MENTEITH" id="213">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="CAITHNESS" id="214">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="Soldiers" id="215">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="SIWARD" id="216">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="ANGUS" target="YOUNG SIWARD" id="217">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="Messenger" id="218">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="DUNCAN" id="219">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="MALCOLM" id="220">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="DONALBAIN" id="221">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="BANQUO" id="222">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="LENNOX" id="223">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="MACDUFF" id="224">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="ROSS" id="225">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="ANGUS" id="226">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="Sewer" id="227">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="MACBETH" id="228">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="Servant" id="229">
+        <attvalues>
+          <attvalue for="1" value="The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="FLEANCE" id="230">
+        <attvalues>
+          <attvalue for="1" value="Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="Lords" id="231">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="Ladies" id="232">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="Attendants" id="233">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="First Murderer" id="234">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="Second Murderer" id="235">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACBETH" target="GHOST OF BANQUO" id="236">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="LADY MACBETH" id="237">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="DUNCAN" id="238">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="MALCOLM" id="239">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="DONALBAIN" id="240">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="BANQUO" id="241">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="LENNOX" id="242">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="MACDUFF" id="243">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="ROSS" id="244">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="ANGUS" id="245">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="Sewer" id="246">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="MACBETH" id="247">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="LADY MACDUFF" id="248">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="Son" id="249">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="First Murderer" id="250">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="Second Murderer" id="251">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="Third Murderer" id="252">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Messenger" target="YOUNG SIWARD" id="253">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="LADY MACBETH" id="254">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="Messenger" id="255">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="DUNCAN" id="256">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="MALCOLM" id="257">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="DONALBAIN" id="258">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="BANQUO" id="259">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="LENNOX" id="260">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="ROSS" id="261">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="ANGUS" id="262">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="Sewer" id="263">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="MACBETH" id="264">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="Old Man" id="265">
+        <attvalues>
+          <attvalue for="1" value="Outside Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="Doctor" id="266">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="Waiting-Gentlewoman" id="267">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="SIWARD" id="268">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="YOUNG SIWARD" id="269">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="MENTEITH" id="270">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="CAITHNESS" id="271">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MACDUFF" target="Soldiers" id="272">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="LADY MACBETH" id="273">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="Messenger" id="274">
+        <attvalues>
+          <attvalue for="1" value="Inverness. Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="DUNCAN" id="275">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="MALCOLM" id="276">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="DONALBAIN" id="277">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="BANQUO" id="278">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="LENNOX" id="279">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="MACDUFF" id="280">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="ROSS" id="281">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="ANGUS" id="282">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Sewer" target="MACBETH" id="283">
+        <attvalues>
+          <attvalue for="1" value="Before Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="LADY MACBETH" id="284">
+        <attvalues>
+          <attvalue for="1" value="The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="BANQUO" id="285">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="FLEANCE" id="286">
+        <attvalues>
+          <attvalue for="1" value="Court of Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="MACBETH" id="287">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="LENNOX" id="288">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="ROSS" id="289">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="Lords" id="290">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="Ladies" id="291">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="Attendants" id="292">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="First Murderer" id="293">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="Second Murderer" id="294">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="Doctor" id="295">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Servant" target="SEYTON" id="296">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="FLEANCE" target="LADY MACBETH" id="297">
+        <attvalues>
+          <attvalue for="1" value="Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="FLEANCE" target="Servant" id="298">
+        <attvalues>
+          <attvalue for="1" value="Court of Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="FLEANCE" target="BANQUO" id="299">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="FLEANCE" target="MACBETH" id="300">
+        <attvalues>
+          <attvalue for="1" value="Court of Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="FLEANCE" target="First Murderer" id="301">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="FLEANCE" target="Third Murderer" id="302">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="FLEANCE" target="Second Murderer" id="303">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Old Man" target="ROSS" id="304">
+        <attvalues>
+          <attvalue for="1" value="Outside Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Old Man" target="MACDUFF" id="305">
+        <attvalues>
+          <attvalue for="1" value="Outside Macbeth's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="BANQUO" id="306">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="MACBETH" id="307">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="LADY MACBETH" id="308">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="LENNOX" id="309">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="ROSS" id="310">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="Ladies" id="311">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="Attendants" id="312">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="Servant" id="313">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="First Murderer" id="314">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="Second Murderer" id="315">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Lords" target="GHOST OF BANQUO" id="316">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="BANQUO" id="317">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="MACBETH" id="318">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="LADY MACBETH" id="319">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="LENNOX" id="320">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="ROSS" id="321">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="Lords" id="322">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="Attendants" id="323">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="Servant" id="324">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="First Murderer" id="325">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Ladies" target="Second Murderer" id="326">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="BANQUO" id="327">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="MACBETH" id="328">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="LADY MACBETH" id="329">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="LENNOX" id="330">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="ROSS" id="331">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="Lords" id="332">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="Ladies" id="333">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="Servant" id="334">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="First Murderer" id="335">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="Second Murderer" id="336">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="GHOST OF BANQUO" id="337">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="Doctor" id="338">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Attendants" target="SEYTON" id="339">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="BANQUO" id="340">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="MACBETH" id="341">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="LADY MACBETH" id="342">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="LENNOX" id="343">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="ROSS" id="344">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="Lords" id="345">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="Ladies" id="346">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="Attendants" id="347">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="Servant" id="348">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="Second Murderer" id="349">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="Third Murderer" id="350">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="FLEANCE" id="351">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="GHOST OF BANQUO" id="352">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="LADY MACDUFF" id="353">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="Son" id="354">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="First Murderer" target="Messenger" id="355">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="BANQUO" id="356">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="MACBETH" id="357">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="LADY MACBETH" id="358">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="LENNOX" id="359">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="ROSS" id="360">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="Lords" id="361">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="Ladies" id="362">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="Attendants" id="363">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="Servant" id="364">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="First Murderer" id="365">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="Third Murderer" id="366">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="FLEANCE" id="367">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="LADY MACDUFF" id="368">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="Son" id="369">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Second Murderer" target="Messenger" id="370">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Third Murderer" target="First Murderer" id="371">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Third Murderer" target="Second Murderer" id="372">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Third Murderer" target="BANQUO" id="373">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Third Murderer" target="FLEANCE" id="374">
+        <attvalues>
+          <attvalue for="1" value="A park near the palace." />
+        </attvalues>
+      </edge>
+      <edge source="Third Murderer" target="LADY MACDUFF" id="375">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Third Murderer" target="Son" id="376">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Third Murderer" target="ROSS" id="377">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Third Murderer" target="Messenger" id="378">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="MACBETH" id="379">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="LADY MACBETH" id="380">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="ROSS" id="381">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="LENNOX" id="382">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="Lords" id="383">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="Attendants" id="384">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="First Murderer" id="385">
+        <attvalues>
+          <attvalue for="1" value="Hall in the palace." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="First Apparition" id="386">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="Second Apparition" id="387">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="GHOST OF BANQUO" target="Third Apparition" id="388">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="HECATE" target="First Witch" id="389">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="HECATE" target="Second Witch" id="390">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="HECATE" target="Third Witch" id="391">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Lord" target="LENNOX" id="392">
+        <attvalues>
+          <attvalue for="1" value="Forres. The palace." />
+        </attvalues>
+      </edge>
+      <edge source="First Apparition" target="MACBETH" id="393">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="First Apparition" target="Second Apparition" id="394">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="First Apparition" target="Third Apparition" id="395">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="First Apparition" target="GHOST OF BANQUO" id="396">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="First Apparition" target="LENNOX" id="397">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Second Apparition" target="MACBETH" id="398">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Second Apparition" target="First Apparition" id="399">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Second Apparition" target="Third Apparition" id="400">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Second Apparition" target="GHOST OF BANQUO" id="401">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Second Apparition" target="LENNOX" id="402">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Third Apparition" target="MACBETH" id="403">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Third Apparition" target="First Apparition" id="404">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Third Apparition" target="Second Apparition" id="405">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Third Apparition" target="GHOST OF BANQUO" id="406">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="Third Apparition" target="LENNOX" id="407">
+        <attvalues>
+          <attvalue for="1" value="A cavern. In the middle, a boiling cauldron." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACDUFF" target="Son" id="408">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACDUFF" target="ROSS" id="409">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACDUFF" target="Messenger" id="410">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACDUFF" target="First Murderer" id="411">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACDUFF" target="Second Murderer" id="412">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="LADY MACDUFF" target="Third Murderer" id="413">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Son" target="LADY MACDUFF" id="414">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Son" target="ROSS" id="415">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Son" target="Messenger" id="416">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Son" target="First Murderer" id="417">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Son" target="Second Murderer" id="418">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Son" target="Third Murderer" id="419">
+        <attvalues>
+          <attvalue for="1" value="Fife. Macduff's castle." />
+        </attvalues>
+      </edge>
+      <edge source="Doctor" target="MALCOLM" id="420">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="Doctor" target="MACDUFF" id="421">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="Doctor" target="Waiting-Gentlewoman" id="422">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="Doctor" target="ROSS" id="423">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="Doctor" target="MACBETH" id="424">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Doctor" target="Attendants" id="425">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Doctor" target="Servant" id="426">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Doctor" target="SEYTON" id="427">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Waiting-Gentlewoman" target="MALCOLM" id="428">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="Waiting-Gentlewoman" target="MACDUFF" id="429">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="Waiting-Gentlewoman" target="Doctor" id="430">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="Waiting-Gentlewoman" target="ROSS" id="431">
+        <attvalues>
+          <attvalue for="1" value="England. Before the King's palace." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="CAITHNESS" id="432">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="ANGUS" id="433">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="LENNOX" id="434">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="Soldiers" id="435">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="MALCOLM" id="436">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="SIWARD" id="437">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="YOUNG SIWARD" id="438">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="MACDUFF" id="439">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="MENTEITH" target="ROSS" id="440">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="MENTEITH" id="441">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="ANGUS" id="442">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="LENNOX" id="443">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="Soldiers" id="444">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="MALCOLM" id="445">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="SIWARD" id="446">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="YOUNG SIWARD" id="447">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="MACDUFF" id="448">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="CAITHNESS" target="ROSS" id="449">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="MENTEITH" id="450">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="CAITHNESS" id="451">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="ANGUS" id="452">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="LENNOX" id="453">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="MALCOLM" id="454">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="SIWARD" id="455">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="YOUNG SIWARD" id="456">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="MACDUFF" id="457">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="ROSS" id="458">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="MACBETH" id="459">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="SEYTON" id="460">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="Drum" id="461">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Soldiers" target="Colours" id="462">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="SEYTON" target="MACBETH" id="463">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="SEYTON" target="Doctor" id="464">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="SEYTON" target="Attendants" id="465">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="SEYTON" target="Servant" id="466">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. A room in the castle." />
+        </attvalues>
+      </edge>
+      <edge source="SEYTON" target="Soldiers" id="467">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="SEYTON" target="Drum" id="468">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="SEYTON" target="Colours" id="469">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="MALCOLM" id="470">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="YOUNG SIWARD" id="471">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="MACDUFF" id="472">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="MENTEITH" id="473">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="CAITHNESS" id="474">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="ANGUS" id="475">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="LENNOX" id="476">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="ROSS" id="477">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="SIWARD" target="Soldiers" id="478">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="MALCOLM" id="479">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="SIWARD" id="480">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="MACDUFF" id="481">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="MENTEITH" id="482">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="CAITHNESS" id="483">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="ANGUS" id="484">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="LENNOX" id="485">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="ROSS" id="486">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="Soldiers" id="487">
+        <attvalues>
+          <attvalue for="1" value="Country near Birnam wood." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="MACBETH" id="488">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="YOUNG SIWARD" target="Messenger" id="489">
+        <attvalues>
+          <attvalue for="1" value="Another part of the field." />
+        </attvalues>
+      </edge>
+      <edge source="Drum" target="MACBETH" id="490">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Drum" target="SEYTON" id="491">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Drum" target="Soldiers" id="492">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Drum" target="Colours" id="493">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Colours" target="MACBETH" id="494">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Colours" target="SEYTON" id="495">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Colours" target="Soldiers" id="496">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+      <edge source="Colours" target="Drum" id="497">
+        <attvalues>
+          <attvalue for="1" value="Dunsinane. Within the castle." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

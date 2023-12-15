@@ -40,4 +40,5 @@ pos = nx.spring_layout(G)
 nx.draw(G, pos, with_labels=True, node_size=500, node_color=node_colors, font_size=8, font_color="black", font_weight="bold", edge_color="green", linewidths=0.3, arrowsize=10)
 
 plt.title("Character Network - Macbeth")
+nx.write_gexf(G, 'visual.gexf')
 plt.show()

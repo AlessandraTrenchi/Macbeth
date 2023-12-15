@@ -106,5 +106,6 @@ fig.update_layout(
 
 fig.update_xaxes(showgrid=False, zeroline=False)
 fig.update_yaxes(showgrid=False, zeroline=False)
+nx.write_gexf(G, 'relationships1.gexf')
 
 fig.show()
