@@ -23,13 +23,13 @@
         <attvalues>
           <attvalue for="0" value="Female" />
           <attvalue for="1" value="Uknown" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Foil" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="0" />
-          <attvalue for="8" value="32" />
+          <attvalue for="8" value="26" />
         </attvalues>
       </node>
       <node id="First Witch" label="First Witch">
@@ -40,9 +40,9 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="0" />
+          <attvalue for="8" value="12" />
         </attvalues>
       </node>
       <node id="Second Witch" label="Second Witch">
@@ -53,9 +53,9 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="13" />
+          <attvalue for="8" value="22" />
         </attvalues>
       </node>
       <node id="Third Witch" label="Third Witch">
@@ -66,7 +66,7 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
           <attvalue for="8" value="15" />
         </attvalues>
@@ -76,12 +76,12 @@
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Glamis" />
           <attvalue for="2" value="Protagonist" />
-          <attvalue for="3" value="0.6363636363636364" />
-          <attvalue for="4" value="0.0928030303030303" />
-          <attvalue for="5" value="0.42424242424242425" />
-          <attvalue for="6" value="0.004938302535276187" />
+          <attvalue for="3" value="0.48484848484848486" />
+          <attvalue for="4" value="0.052083333333333336" />
+          <attvalue for="5" value="0.3333333333333333" />
+          <attvalue for="6" value="0.005352810395840399" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="20" />
+          <attvalue for="8" value="23" />
         </attvalues>
       </node>
       <node id="Banquo" label="Banquo">
@@ -91,88 +91,88 @@
           <attvalue for="2" value="Confidant" />
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.23510971786833856" />
-          <attvalue for="6" value="0.37795986427733513" />
+          <attvalue for="5" value="0.18972332015810275" />
+          <attvalue for="6" value="0.44720718849012286" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="11" />
+          <attvalue for="8" value="18" />
         </attvalues>
       </node>
       <node id="Ross" label="Ross">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="6" />
-          <attvalue for="8" value="27" />
+          <attvalue for="8" value="29" />
         </attvalues>
       </node>
       <node id="Duncan" label="Duncan">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Henchman" />
-          <attvalue for="3" value="0.030303030303030304" />
+          <attvalue for="2" value="Guide" />
+          <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.23510971786833856" />
-          <attvalue for="6" value="0.37795986427733513" />
-          <attvalue for="7" value="4" />
-          <attvalue for="8" value="4" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="7" />
+          <attvalue for="8" value="28" />
         </attvalues>
       </node>
       <node id="Malcolm" label="Malcolm">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Antagonist" />
-          <attvalue for="3" value="0.030303030303030304" />
+          <attvalue for="2" value="Supporting Character" />
+          <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="4" />
-          <attvalue for="8" value="20" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="8" />
+          <attvalue for="8" value="7" />
         </attvalues>
       </node>
       <node id="Captain" label="Captain">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="9" />
-          <attvalue for="8" value="23" />
+          <attvalue for="8" value="5" />
         </attvalues>
       </node>
       <node id="Angus" label="Angus">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="10" />
-          <attvalue for="8" value="26" />
+          <attvalue for="8" value="2" />
         </attvalues>
       </node>
       <node id="Lennox" label="Lennox">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="11" />
-          <attvalue for="8" value="29" />
+          <attvalue for="8" value="3" />
         </attvalues>
       </node>
       <node id="Lady Macbeth" label="Lady Macbeth">
@@ -182,10 +182,10 @@
           <attvalue for="2" value="Confidant" />
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.23510971786833856" />
-          <attvalue for="6" value="0.37795986427733513" />
+          <attvalue for="5" value="0.18972332015810275" />
+          <attvalue for="6" value="0.44720718849012286" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="16" />
+          <attvalue for="8" value="21" />
         </attvalues>
       </node>
       <node id="Fleance" label="Fleance">
@@ -196,7 +196,7 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
           <attvalue for="8" value="9" />
         </attvalues>
@@ -205,52 +205,52 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="1" />
-          <attvalue for="8" value="24" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="14" />
+          <attvalue for="8" value="30" />
         </attvalues>
       </node>
       <node id="Donalbain" label="Donalbain">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Antagonist" />
-          <attvalue for="3" value="0.030303030303030304" />
+          <attvalue for="2" value="Supporting Character" />
+          <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="4" />
-          <attvalue for="8" value="10" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="15" />
+          <attvalue for="8" value="4" />
         </attvalues>
       </node>
       <node id="Old man" label="Old man">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="2" />
-          <attvalue for="8" value="28" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="16" />
+          <attvalue for="8" value="27" />
         </attvalues>
       </node>
       <node id="First murderer" label="First murderer">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="Henchman" />
-          <attvalue for="3" value="0.030303030303030304" />
+          <attvalue for="2" value="Foil" />
+          <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.23510971786833856" />
-          <attvalue for="6" value="0.37795986427733513" />
-          <attvalue for="7" value="4" />
-          <attvalue for="8" value="6" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="31" />
         </attvalues>
       </node>
       <node id="Second murderer" label="Second murderer">
@@ -260,10 +260,10 @@
           <attvalue for="2" value="Henchman" />
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.23510971786833856" />
-          <attvalue for="6" value="0.37795986427733513" />
+          <attvalue for="5" value="0.18972332015810275" />
+          <attvalue for="6" value="0.44720718849012286" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="14" />
+          <attvalue for="8" value="19" />
         </attvalues>
       </node>
       <node id="Third murderer" label="Third murderer">
@@ -273,10 +273,10 @@
           <attvalue for="2" value="Henchman" />
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.23510971786833856" />
-          <attvalue for="6" value="0.37795986427733513" />
+          <attvalue for="5" value="0.18972332015810275" />
+          <attvalue for="6" value="0.44720718849012286" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="2" />
+          <attvalue for="8" value="13" />
         </attvalues>
       </node>
       <node id="Ghost of Banquo" label="Ghost of Banquo">
@@ -287,9 +287,9 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="1" />
+          <attvalue for="8" value="14" />
         </attvalues>
       </node>
       <node id="Hecate" label="Hecate">
@@ -300,7 +300,7 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
           <attvalue for="8" value="17" />
         </attvalues>
@@ -309,39 +309,39 @@
         <attvalues>
           <attvalue for="0" value="Female" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor character" />
+          <attvalue for="2" value="Love Interest" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="3" />
-          <attvalue for="8" value="21" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="1" />
         </attvalues>
       </node>
       <node id="Son" label="Son">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="5" />
-          <attvalue for="8" value="30" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="24" />
         </attvalues>
       </node>
       <node id="Doctor" label="Doctor">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Foil" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="7" />
-          <attvalue for="8" value="22" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="0" />
         </attvalues>
       </node>
       <node id="First Apparition" label="First Apparition">
@@ -352,9 +352,9 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="8" />
+          <attvalue for="8" value="11" />
         </attvalues>
       </node>
       <node id="Second Apparition" label="Second Apparition">
@@ -365,9 +365,9 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="18" />
+          <attvalue for="8" value="16" />
         </attvalues>
       </node>
       <node id="Third Apparition" label="Third Apparition">
@@ -378,35 +378,35 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="19" />
+          <attvalue for="8" value="8" />
         </attvalues>
       </node>
       <node id="Menteith" label="Menteith">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="8" />
-          <attvalue for="8" value="25" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="12" />
+          <attvalue for="8" value="6" />
         </attvalues>
       </node>
       <node id="Caithness" label="Caithness">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Minor Character" />
+          <attvalue for="2" value="Supporting Character" />
           <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="12" />
-          <attvalue for="8" value="31" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="13" />
+          <attvalue for="8" value="25" />
         </attvalues>
       </node>
       <node id="Seyton" label="Seyton">
@@ -416,10 +416,10 @@
           <attvalue for="2" value="Henchman" />
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.23510971786833856" />
-          <attvalue for="6" value="0.37795986427733513" />
+          <attvalue for="5" value="0.18972332015810275" />
+          <attvalue for="6" value="0.44720718849012286" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="12" />
+          <attvalue for="8" value="23" />
         </attvalues>
       </node>
       <node id="Old Siward" label="Old Siward">
@@ -430,9 +430,9 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="3" />
+          <attvalue for="8" value="10" />
         </attvalues>
       </node>
       <node id="Young Siward" label="Young Siward">
@@ -443,22 +443,22 @@
           <attvalue for="3" value="0.030303030303030304" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
           <attvalue for="7" value="4" />
-          <attvalue for="8" value="5" />
+          <attvalue for="8" value="20" />
         </attvalues>
       </node>
       <node id="Macduff" label="Macduff">
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Scotland" />
-          <attvalue for="2" value="Antagonist" />
-          <attvalue for="3" value="0.030303030303030304" />
+          <attvalue for="2" value="Deuteragonist" />
+          <attvalue for="3" value="0.0" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="2.2894309389319402e-06" />
-          <attvalue for="7" value="4" />
-          <attvalue for="8" value="7" />
+          <attvalue for="6" value="2.8949758766037744e-06" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="32" />
         </attvalues>
       </node>
     </nodes>
@@ -483,87 +483,62 @@
           <attvalue for="9" value="Confidant" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Duncan" id="4">
-        <attvalues>
-          <attvalue for="9" value="Henchman" />
-        </attvalues>
-      </edge>
-      <edge source="Macbeth" target="Lady Macbeth" id="5">
+      <edge source="Macbeth" target="Lady Macbeth" id="4">
         <attvalues>
           <attvalue for="9" value="Confidant" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="First murderer" id="6">
+      <edge source="Macbeth" target="Second murderer" id="5">
         <attvalues>
           <attvalue for="9" value="Henchman" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Second murderer" id="7">
+      <edge source="Macbeth" target="Third murderer" id="6">
         <attvalues>
           <attvalue for="9" value="Henchman" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Third murderer" id="8">
+      <edge source="Macbeth" target="Seyton" id="7">
         <attvalues>
           <attvalue for="9" value="Henchman" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Seyton" id="9">
-        <attvalues>
-          <attvalue for="9" value="Henchman" />
-        </attvalues>
-      </edge>
-      <edge source="Malcolm" target="Macbeth" id="10">
+      <edge source="Fleance" target="Macbeth" id="8">
         <attvalues>
           <attvalue for="9" value="Antagonist" />
         </attvalues>
       </edge>
-      <edge source="Fleance" target="Macbeth" id="11">
+      <edge source="Ghost of Banquo" target="Macbeth" id="9">
         <attvalues>
           <attvalue for="9" value="Antagonist" />
         </attvalues>
       </edge>
-      <edge source="Donalbain" target="Macbeth" id="12">
+      <edge source="Hecate" target="Macbeth" id="10">
         <attvalues>
           <attvalue for="9" value="Antagonist" />
         </attvalues>
       </edge>
-      <edge source="Ghost of Banquo" target="Macbeth" id="13">
+      <edge source="First Apparition" target="Macbeth" id="11">
         <attvalues>
           <attvalue for="9" value="Antagonist" />
         </attvalues>
       </edge>
-      <edge source="Hecate" target="Macbeth" id="14">
+      <edge source="Second Apparition" target="Macbeth" id="12">
         <attvalues>
           <attvalue for="9" value="Antagonist" />
         </attvalues>
       </edge>
-      <edge source="First Apparition" target="Macbeth" id="15">
+      <edge source="Third Apparition" target="Macbeth" id="13">
         <attvalues>
           <attvalue for="9" value="Antagonist" />
         </attvalues>
       </edge>
-      <edge source="Second Apparition" target="Macbeth" id="16">
+      <edge source="Old Siward" target="Macbeth" id="14">
         <attvalues>
           <attvalue for="9" value="Antagonist" />
         </attvalues>
       </edge>
-      <edge source="Third Apparition" target="Macbeth" id="17">
-        <attvalues>
-          <attvalue for="9" value="Antagonist" />
-        </attvalues>
-      </edge>
-      <edge source="Old Siward" target="Macbeth" id="18">
-        <attvalues>
-          <attvalue for="9" value="Antagonist" />
-        </attvalues>
-      </edge>
-      <edge source="Young Siward" target="Macbeth" id="19">
-        <attvalues>
-          <attvalue for="9" value="Antagonist" />
-        </attvalues>
-      </edge>
-      <edge source="Macduff" target="Macbeth" id="20">
+      <edge source="Young Siward" target="Macbeth" id="15">
         <attvalues>
           <attvalue for="9" value="Antagonist" />
         </attvalues>
