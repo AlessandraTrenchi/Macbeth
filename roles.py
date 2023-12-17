@@ -25,15 +25,15 @@ for _, row in df.iterrows():
     role = row['Role']
 
     # Add edges based on the role attribute
-    if role == 'Antagonist':
+    if role == 'Antagonist' or role == 'Confidant' or role == 'Henchman' or role == 'Guide':
         G.add_edge(character, 'Macbeth', role=role)
-    elif role == 'Confidant':
-        G.add_edge('Macbeth', character, role=role)
-    elif role == 'Henchman':
-        G.add_edge('Macbeth', character, role=role)
+    elif role == 'Supporting Character' or role == 'Love Interest':
+        G.add_edge(character, 'Macduff', role=role)
+    elif role == 'Foil':
+        G.add_edge(character, 'Lady Macbeth', role=role)
 
 # Create a color mapping based on the role attribute for edges
-edge_color_mapping = {'Antagonist': 'red', 'Confidant': 'green', 'Henchman': 'blue'}
+edge_color_mapping = {'Antagonist': 'red', 'Confidant': 'green', 'Henchman': 'blue', 'Guide': 'purple', 'Supporting Character': 'orange', 'Love Interest': 'pink', 'Foil': 'brown'}
 edge_colors = [edge_color_mapping.get(G[ed[0]][ed[1]]['role'], 'gray') for ed in G.edges()]
 
 # Draw the graph
@@ -67,7 +67,6 @@ G_undirected = G.to_undirected()
 
 # Apply Louvain community detection algorithm
 partition = community.best_partition(G_undirected)
-
 
 # Add community information as node attribute
 nx.set_node_attributes(G, partition, 'community')
