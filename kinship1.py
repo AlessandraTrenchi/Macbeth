@@ -24,6 +24,7 @@ kinship_relations = [
     ("Duncan", "Donalbain", "paternal bond", 3),
     ("Donalbain", "Malcolm", "sibilings", 3),
     ("Lady Macbeth", "Macbeth", "marriage", 3),
+    ("Lady Macduff", "Macduff", "marriage", 3),
     ("Duncan", "Lady Macbeth", "asymmetric relationship", 1),
     ("Old Siward", "Seyton", "paternal bond", 3),
     ("Banquo", "Fleance", "paternal bond", 3),
