@@ -25,7 +25,7 @@ act_2_data = {
 act_3_data = {
     'SCENE 1': ["Banquo, Banquo", "Afraid about Macbeth and the prophecy."],
     'SCENE 2': ["Macbeth, Lady Macbeth, Banquo", "Talk about Malcolm and Donalbain being murderers. Talk about Macbeth's crowning the day after. Banquo tells him he is going riding."],
-    'SCENE 3': ["Macbeth, Old Syward", "Macbeth tells him to get the murderers."],
+    'SCENE 3': ["Macbeth, Old Siward", "Macbeth tells him to get the murderers."],
     'SCENE 4': ["Macbeth, First murderer, Second murderer", "They talk about Banquo and Fleance's murder."],
     'SCENE 6': ["Lady Macbeth, Lennox, Ross", "She tells them the king has a sickness."],
 }
@@ -39,9 +39,9 @@ act_5_data = {
     'SCENE 1': ["Doctor, GentleWoman", "Talk about Lady Macbeth's craziness"],
     'SCENE 2': ["Menteith, Angus, Caithness, Lennox", "Organize to meet near Birnam Wood."],
     'SCENE 3': ["Macbeth, Doctor", "Macbeth asks about Malcolm's origin"],
-    'SCENE 4': ["Old Seyward, Macbeth", "Tells him there are ten thousand men at his castle's gate."],
+    'SCENE 4': ["Old Siward, Macbeth", "Tells him there are ten thousand men at his castle's gate."],
     'SCENE 5': ["Malcolm , Old Siward , Macduff, Menteith", "Malcolm advises that everyone should hide behind a wood bough so the enemy will not know how many soldiers there are."],
-    'SCENE 6': ["Old Seyton, Macbeth", "He tells him Lady Macbeth is dead."],
+    'SCENE 6': ["Seyton, Macbeth", "He tells him Lady Macbeth is dead."],
     'SCENE 8': ["Malcolm, Old Siward, Macduff", "Malcolm promises to fight with Siward for Macduff until they cannot anymore."],
 }
 
