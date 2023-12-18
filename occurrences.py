@@ -1,6 +1,7 @@
-import networkx as nx 
+import networkx as nx
 import matplotlib.pyplot as plt
 from macbeth import param
+
 # Create a directed graph
 G = nx.Graph()
 
@@ -13,7 +14,7 @@ class SceneCharacterCooccurrences:
         self.cooccurrences[pair] = self.cooccurrences.get(pair, 0) + 1
         # Ensure that nodes and edges are added to the graph
         G.add_nodes_from(pair)
-        
+
         # Add +1 to the weight of the edge
         if G.has_edge(*pair):
             G[character1][character2]['weight'] += 1
@@ -268,8 +269,11 @@ centrality_measures = {
 for measure, values in centrality_measures.items():
     nx.set_node_attributes(G, values, measure)
 
+# Map gender to numerical values
+gender_mapping = {'Male': 0, 'Female': 1}
+node_colors = [gender_mapping[param['Gender'][param['Character'].index(node)]] for node in G.nodes]
+
 # Draw the graph with different colors for male and female nodes
-node_colors = [param['Gender'][param['Character'].index(node)] for node in G.nodes]
 pos = nx.spring_layout(G)  # You can choose a different layout if needed
 
 # Plot the graph
