@@ -3,6 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import community
 import igraph
+from macbeth import param
 # Define the data
 act_1_data = {
     'SCENE 1': ["First Witch, Second Witch, Third Witch", "Discussing the place and time of the event."],
@@ -89,9 +90,19 @@ for _, row in combined_df.iterrows():
             else:
                 G.add_edge(source, target, weight=1)  # Add a new edge with weight 1
 
+# Add gender information to nodes
+param_dict = dict(zip(param['Character'], param['Gender']))
+
+for node in G.nodes:
+    gender = param_dict.get(node, 'Unknown')
+    G.nodes[node]['gender'] = gender
+
+# Map gender to numerical values
+gender_mapping = {'Male': 0, 'Female': 1, 'Unknown': 2}
+node_colors = [gender_mapping[G.nodes[node]['gender']] for node in G.nodes]
+
 # Specify the layout using spring_layout and adjust the k parameter for distance
 pos = nx.spring_layout(G, k=4.0)
-
 # Draw the graph with edge weights
 edge_labels = {(source, target): f"{G[source][target]['weight']}" for source, target in G.edges()}
 # Calculate centrality measures
