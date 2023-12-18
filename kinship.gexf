@@ -288,242 +288,242 @@
       </node>
     </nodes>
     <edges>
-      <edge source="Macduff" target="Malcolm" id="0">
+      <edge source="Macduff" target="Malcolm" id="0" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Lennox" id="1">
+      <edge source="Macduff" target="Lennox" id="1" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Ross" id="2">
+      <edge source="Macduff" target="Ross" id="2" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Menteith" id="3">
+      <edge source="Macduff" target="Menteith" id="3" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Angus" id="4">
+      <edge source="Macduff" target="Angus" id="4" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Caithness" id="5">
+      <edge source="Macduff" target="Caithness" id="5" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Lady Macduff" id="6">
+      <edge source="Macduff" target="Lady Macduff" id="6" weight="3">
         <attvalues>
           <attvalue for="4" value="marriage, 3" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Porter" id="7">
+      <edge source="Macduff" target="Porter" id="7" weight="1">
         <attvalues>
           <attvalue for="4" value="work bond, 1" />
         </attvalues>
       </edge>
-      <edge source="Malcolm" target="Macduff" id="8">
+      <edge source="Malcolm" target="Macduff" id="8" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Malcolm" target="Old Siward" id="9">
+      <edge source="Malcolm" target="Old Siward" id="9" weight="1">
         <attvalues>
           <attvalue for="4" value="second degree relatives, 1" />
         </attvalues>
       </edge>
-      <edge source="Malcolm" target="Young Siward" id="10">
+      <edge source="Malcolm" target="Young Siward" id="10" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Malcolm" target="Donalbain" id="11">
+      <edge source="Malcolm" target="Donalbain" id="11" weight="3">
         <attvalues>
           <attvalue for="4" value="sibilings, 3" />
         </attvalues>
       </edge>
-      <edge source="Lennox" target="Macduff" id="12">
+      <edge source="Lennox" target="Macduff" id="12" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Lennox" target="Angus" id="13">
+      <edge source="Lennox" target="Angus" id="13" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Lennox" target="Ross" id="14">
+      <edge source="Lennox" target="Ross" id="14" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Ross" target="Macduff" id="15">
+      <edge source="Ross" target="Macduff" id="15" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Ross" target="Lennox" id="16">
+      <edge source="Ross" target="Lennox" id="16" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Menteith" target="Macduff" id="17">
+      <edge source="Menteith" target="Macduff" id="17" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Menteith" target="Caithness" id="18">
+      <edge source="Menteith" target="Caithness" id="18" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Menteith" target="Angus" id="19">
+      <edge source="Menteith" target="Angus" id="19" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Angus" target="Macduff" id="20">
+      <edge source="Angus" target="Macduff" id="20" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Angus" target="Menteith" id="21">
+      <edge source="Angus" target="Menteith" id="21" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Angus" target="Lennox" id="22">
+      <edge source="Angus" target="Lennox" id="22" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Caithness" target="Macduff" id="23">
+      <edge source="Caithness" target="Macduff" id="23" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Caithness" target="Menteith" id="24">
+      <edge source="Caithness" target="Menteith" id="24" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Old Siward" target="Malcolm" id="25">
+      <edge source="Old Siward" target="Malcolm" id="25" weight="1">
         <attvalues>
           <attvalue for="4" value="second degree relatives, 1" />
         </attvalues>
       </edge>
-      <edge source="Old Siward" target="Seyton" id="26">
+      <edge source="Old Siward" target="Seyton" id="26" weight="3">
         <attvalues>
           <attvalue for="4" value="paternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Old Siward" target="Young Siward" id="27">
+      <edge source="Old Siward" target="Young Siward" id="27" weight="3">
         <attvalues>
           <attvalue for="4" value="paternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Old Siward" target="Duncan" id="28">
+      <edge source="Old Siward" target="Duncan" id="28" weight="3">
         <attvalues>
           <attvalue for="4" value="sibilings, 3" />
         </attvalues>
       </edge>
-      <edge source="Young Siward" target="Malcolm" id="29">
+      <edge source="Young Siward" target="Malcolm" id="29" weight="2">
         <attvalues>
           <attvalue for="4" value="cousins, 2" />
         </attvalues>
       </edge>
-      <edge source="Young Siward" target="Old Siward" id="30">
+      <edge source="Young Siward" target="Old Siward" id="30" weight="3">
         <attvalues>
           <attvalue for="4" value="paternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Lady Macbeth" target="Duncan" id="31">
+      <edge source="Lady Macbeth" target="Duncan" id="31" weight="1">
         <attvalues>
           <attvalue for="4" value="asymmetric relationship, 1" />
         </attvalues>
       </edge>
-      <edge source="Lady Macbeth" target="Macbeth" id="32">
+      <edge source="Lady Macbeth" target="Macbeth" id="32" weight="3">
         <attvalues>
           <attvalue for="4" value="marriage, 3" />
         </attvalues>
       </edge>
-      <edge source="Duncan" target="Lady Macbeth" id="33">
+      <edge source="Duncan" target="Lady Macbeth" id="33" weight="1">
         <attvalues>
           <attvalue for="4" value="asymmetric relationship, 1" />
         </attvalues>
       </edge>
-      <edge source="Duncan" target="Donalbain" id="34">
+      <edge source="Duncan" target="Donalbain" id="34" weight="3">
         <attvalues>
           <attvalue for="4" value="paternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Duncan" target="Old Siward" id="35">
+      <edge source="Duncan" target="Old Siward" id="35" weight="3">
         <attvalues>
           <attvalue for="4" value="sibilings, 3" />
         </attvalues>
       </edge>
-      <edge source="Donalbain" target="Duncan" id="36">
+      <edge source="Donalbain" target="Duncan" id="36" weight="3">
         <attvalues>
           <attvalue for="4" value="paternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Donalbain" target="Malcolm" id="37">
+      <edge source="Donalbain" target="Malcolm" id="37" weight="3">
         <attvalues>
           <attvalue for="4" value="sibilings, 3" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Lady Macbeth" id="38">
+      <edge source="Macbeth" target="Lady Macbeth" id="38" weight="3">
         <attvalues>
           <attvalue for="4" value="marriage, 3" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Seyton" id="39">
+      <edge source="Macbeth" target="Seyton" id="39" weight="1">
         <attvalues>
           <attvalue for="4" value="work bond, 1" />
         </attvalues>
       </edge>
-      <edge source="Lady Macduff" target="Macduff" id="40">
+      <edge source="Lady Macduff" target="Macduff" id="40" weight="3">
         <attvalues>
           <attvalue for="4" value="marriage, 3" />
         </attvalues>
       </edge>
-      <edge source="Lady Macduff" target="Son" id="41">
+      <edge source="Lady Macduff" target="Son" id="41" weight="3">
         <attvalues>
           <attvalue for="4" value="maternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Seyton" target="Old Siward" id="42">
+      <edge source="Seyton" target="Old Siward" id="42" weight="3">
         <attvalues>
           <attvalue for="4" value="paternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Seyton" target="Macbeth" id="43">
+      <edge source="Seyton" target="Macbeth" id="43" weight="1">
         <attvalues>
           <attvalue for="4" value="work bond, 1" />
         </attvalues>
       </edge>
-      <edge source="Banquo" target="Fleance" id="44">
+      <edge source="Banquo" target="Fleance" id="44" weight="3">
         <attvalues>
           <attvalue for="4" value="paternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Fleance" target="Banquo" id="45">
+      <edge source="Fleance" target="Banquo" id="45" weight="3">
         <attvalues>
           <attvalue for="4" value="paternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Son" target="Lady Macduff" id="46">
+      <edge source="Son" target="Lady Macduff" id="46" weight="3">
         <attvalues>
           <attvalue for="4" value="maternal bond, 3" />
         </attvalues>
       </edge>
-      <edge source="Porter" target="Macduff" id="47">
+      <edge source="Porter" target="Macduff" id="47" weight="1">
         <attvalues>
           <attvalue for="4" value="work bond, 1" />
         </attvalues>

@@ -40,12 +40,13 @@ kinship_relations = [
 G = nx.DiGraph()  # Use an undirected graph for bidirectional edges
 for relation in kinship_relations:
     if len(relation) == 4:
-        rel_attr = f"{relation[2]}, {relation[3]}"
-        G.add_edge(relation[0], relation[1], relationship=rel_attr)
-        G.add_edge(relation[1], relation[0], relationship=rel_attr)  # Bidirectional edge
+        rel_attr = {"relationship": f"{relation[2]}, {relation[3]}", "weight": relation[3]}
+        G.add_edge(relation[0], relation[1], **rel_attr)
+        G.add_edge(relation[1], relation[0], **rel_attr)  # Bidirectional edge
     else:
-        G.add_edge(relation[0], relation[1], relationship=relation[2])
-        G.add_edge(relation[1], relation[0], relationship=relation[2])  # Bidirectional edge
+        rel_attr = {"relationship": relation[2], "weight": 1}
+        G.add_edge(relation[0], relation[1], **rel_attr)
+        G.add_edge(relation[1], relation[0], **rel_attr)  # Bidirectional edge
 
 # Add nodes with attributes
 for idx, character in enumerate(param['Character']):
@@ -135,6 +136,6 @@ fig.update_layout(
 
 fig.update_xaxes(showgrid=False, zeroline=False)
 fig.update_yaxes(showgrid=False, zeroline=False)
-nx.write_gexf(G, 'kinship.gexf')
+nx.write_gexf(G, 'kinship.gexf', version="1.2draft")
 
 fig.show()
