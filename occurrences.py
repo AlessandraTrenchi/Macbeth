@@ -263,7 +263,11 @@ centrality_measures = {
     'degree_centrality': nx.degree_centrality(G),
     'betweenness_centrality': nx.betweenness_centrality(G),
     'closeness_centrality': nx.closeness_centrality(G),
-    'eigenvector_centrality': nx.eigenvector_centrality(G, max_iter=1000)
+    'eigenvector_centrality': nx.eigenvector_centrality(G, max_iter=1000),
+    'degree': dict(G.degree()),
+    'closeness': dict(nx.closeness_centrality(G)),
+    'betweenness': dict(nx.betweenness_centrality(G)),
+    'eigenvector': dict(nx.eigenvector_centrality(G, max_iter=1000)),
 }
 
 for measure, values in centrality_measures.items():
