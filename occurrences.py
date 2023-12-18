@@ -1,32 +1,33 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from macbeth import param
+from macbeth import param  # Assuming param is defined in macbeth.py
 
 # Create a directed graph
 G = nx.Graph()
 
 class SceneCharacterCooccurrences:
-    def __init__(self):
+    def __init__(self, gender_mapping):
         self.cooccurrences = {}
+        self.gender_mapping = gender_mapping
 
     def add_cooccurrence(self, character1, character2):
+        gender1 = self.gender_mapping.get(character1, 'Unknown')
+        gender2 = self.gender_mapping.get(character2, 'Unknown')
+
         pair = tuple(sorted([character1, character2]))
         self.cooccurrences[pair] = self.cooccurrences.get(pair, 0) + 1
-        # Ensure that nodes and edges are added to the graph
-        G.add_nodes_from(pair)
-
-        # Add +1 to the weight of the edge
+        G.add_nodes_from(pair, gender=gender1)  # Add 'gender' attribute to nodes
+        G.add_nodes_from(pair, gender=gender2)
+        
         if G.has_edge(*pair):
             G[character1][character2]['weight'] += 1
         else:
             G.add_edge(*pair, weight=1)
 
-    def display_cooccurrences(self):
-        for pair, count in self.cooccurrences.items():
-            print(f"{pair[0]} and {pair[1]}: {count} times")
-
 # Example usage
-all_scenes_cooccurrences = SceneCharacterCooccurrences()
+gender_mapping = dict(zip(param['Character'], param['Gender']))
+all_scenes_cooccurrences = SceneCharacterCooccurrences(gender_mapping)
+
 # Adding co-occurrences based on the provided information
 all_scenes_cooccurrences.add_cooccurrence("First Witch", "Second Witch")
 all_scenes_cooccurrences.add_cooccurrence("First Witch", "Third Witch")
@@ -258,7 +259,6 @@ all_scenes_cooccurrences.add_cooccurrence('Malcolm', 'Macduff')
 # Export the graph to Gephi
 nx.write_gexf(G, 'occurrences.gexf')
 
-# Calculate and add centrality measures
 centrality_measures = {
     'degree_centrality': nx.degree_centrality(G),
     'betweenness_centrality': nx.betweenness_centrality(G),
@@ -275,7 +275,7 @@ for measure, values in centrality_measures.items():
 
 # Map gender to numerical values
 gender_mapping = {'Male': 0, 'Female': 1}
-node_colors = [gender_mapping[param['Gender'][param['Character'].index(node)]] for node in G.nodes]
+node_colors = [gender_mapping[G.nodes[node]['gender']] for node in G.nodes]
 
 # Draw the graph with different colors for male and female nodes
 pos = nx.spring_layout(G)  # You can choose a different layout if needed

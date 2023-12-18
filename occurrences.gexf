@@ -4,37 +4,160 @@
     <creator>NetworkX 3.2.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+    </attributes>
     <nodes>
-      <node id="First Witch" label="First Witch" />
-      <node id="Second Witch" label="Second Witch" />
-      <node id="Third Witch" label="Third Witch" />
-      <node id="Duncan" label="Duncan" />
-      <node id="Malcolm" label="Malcolm" />
-      <node id="Donalbain" label="Donalbain" />
-      <node id="Lennox" label="Lennox" />
-      <node id="Ross" label="Ross" />
-      <node id="Banquo" label="Banquo" />
-      <node id="Macbeth" label="Macbeth" />
-      <node id="Angus" label="Angus" />
-      <node id="Lady Macbeth" label="Lady Macbeth" />
-      <node id="Macduff" label="Macduff" />
-      <node id="Fleance" label="Fleance" />
-      <node id="Porter" label="Porter" />
-      <node id="Old man" label="Old man" />
-      <node id="First murderer" label="First murderer" />
-      <node id="Second murderer" label="Second murderer" />
-      <node id="Third murderer" label="Third murderer" />
-      <node id="Ghost of Banquo" label="Ghost of Banquo" />
-      <node id="Hecate" label="Hecate" />
-      <node id="Old Siward" label="Old Siward" />
-      <node id="Lady Macduff" label="Lady Macduff" />
-      <node id="Son" label="Son" />
-      <node id="Doctor" label="Doctor" />
-      <node id="GentleWoman" label="GentleWoman" />
-      <node id="Caithness" label="Caithness" />
-      <node id="Menteith" label="Menteith" />
-      <node id="Seyton" label="Seyton" />
-      <node id="Young Siward" label="Young Siward" />
+      <node id="First Witch" label="First Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+        </attvalues>
+      </node>
+      <node id="Second Witch" label="Second Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+        </attvalues>
+      </node>
+      <node id="Third Witch" label="Third Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+        </attvalues>
+      </node>
+      <node id="Duncan" label="Duncan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Malcolm" label="Malcolm">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Donalbain" label="Donalbain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Lennox" label="Lennox">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Ross" label="Ross">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Banquo" label="Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Macbeth" label="Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Angus" label="Angus">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Lady Macbeth" label="Lady Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Macduff" label="Macduff">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Fleance" label="Fleance">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Porter" label="Porter">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Old man" label="Old man">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="First murderer" label="First murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Second murderer" label="Second murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Third murderer" label="Third murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Ghost of Banquo" label="Ghost of Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Hecate" label="Hecate">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+        </attvalues>
+      </node>
+      <node id="Old Siward" label="Old Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Lady Macduff" label="Lady Macduff">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Son" label="Son">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Doctor" label="Doctor">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="GentleWoman" label="GentleWoman">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Caithness" label="Caithness">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Menteith" label="Menteith">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Seyton" label="Seyton">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Young Siward" label="Young Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
       <edge source="First Witch" target="Second Witch" id="0" weight="3" />
