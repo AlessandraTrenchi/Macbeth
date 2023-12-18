@@ -6,46 +6,42 @@ import igraph
 # Define the data
 act_1_data = {
     'SCENE 1': ["First Witch, Second Witch, Third Witch", "Discussing the place and time of the event."],
-    'SCENE 2': ["Duncan, Malcolm, Donalbain, Lennox, Attendants, Sergeant", "Inquiring about the bleeding sergeant's report"],
+    'SCENE 2': ["Duncan, Malcolm, Donalbain, Lennox, Sergeant", "Inquiring about the bleeding sergeant's report"],
     'SCENE 3': ["First Witch, Second Witch, Third Witch", "Conspiring"],
-    'SCENE 4': ["DUNCAN, MALCOLM, DONALBAIN, LENNOX, and Attendants", "Talk about the execution of the previous thane of Cawdor."],
-    'SCENE 5': ["LADY MACBETH, SERVANT", "News that the king is coming."],
-    'SCENE 6': ["DUNCAN, LADY MACBETH", "He thanks her for the hospitality."],
-    'SCENE 7': ["MACBETH, MACBETH", "Reflects on the possibility of murder."],
+    'SCENE 4': ["Duncan, Malcolm, Donalbain, Lennox" , "Talk about the execution of the previous thane of Cawdor."],
+    'SCENE 5': ["Lady Macbeth", "News that the king is coming."],
+    'SCENE 6': ["Duncan, Lady Macbeth", "He thanks her for the hospitality."],
+    'SCENE 7': ["Macbeth, Macbeth", "Reflects on the possibility of murder."],
 }
 
 act_2_data = {
-    'SCENE 1': ["BANQUO, FLEANCE", "Talk about the time."],
-    'SCENE 2': ["LADY MACBETH, LADY MACBETH", "Give him the daggers."],
-    'SCENE 3': ["PORTER, MACDUFF", "Talk about getting drunk."],
-    'SCENE 4': ["MACBETH, LORDS", "Tells them to sit according to their rank."],
-    'SCENE 5': ["HECATE, FIRST WITCH, SECOND WITCH, THIRD WITCH", "Hecate scolds them because they did not involve her."],
-    'SCENE 6': ["LENNOX, LORD", "They talk about the fate of Macduff."],
+    'SCENE 1': ["Banquo, Fleance", "Talk about the time."],
+    'SCENE 2': ["Lady Macbeth, Lady Macbeth", "Give him the daggers."],
+    'SCENE 3': ["Porter, Macduff", "Talk about getting drunk."],
+    'SCENE 5': ["Hecate, First Witch, Second Witch, Third Witch", "Hecate scolds them because they did not involve her."],
 }
 
 act_3_data = {
-    'SCENE 1': ["BANQUO, BANQUO", "Afraid about Macbeth and the prophecy."],
-    'SCENE 2': ["MACBETH, LADY MACBETH, BANQUO", "Talk about Malcolm and Donalbain being murderers. Talk about Macbeth's crowning the day after. Banquo tells him he is going riding."],
-    'SCENE 3': ["MACBETH, SERVANT", "Macbeth tells him to get the murderers."],
-    'SCENE 4': ["MACBETH, FIRST MURDERER, SECOND MURDERER", "They talk about Banquo and Fleance's murder."],
-    'SCENE 5': ["MACBETH, LORDS", "Tells them to sit according to their rank."],
-    'SCENE 6': ["LADY MACBETH, LENNOX, ROSS, LORDS", "She tells them the king has a sickness."],
+    'SCENE 1': ["Banquo, Banquo", "Afraid about Macbeth and the prophecy."],
+    'SCENE 2': ["Macbeth, Lady Macbeth, Banquo", "Talk about Malcolm and Donalbain being murderers. Talk about Macbeth's crowning the day after. Banquo tells him he is going riding."],
+    'SCENE 3': ["Macbeth, Old Syward", "Macbeth tells him to get the murderers."],
+    'SCENE 4': ["Macbeth, First murderer, Second murderer", "They talk about Banquo and Fleance's murder."],
+    'SCENE 6': ["Lady Macbeth, Lennox, Ross", "She tells them the king has a sickness."],
 }
 
 act_4_data = {
-    'SCENE 1': ["FIRST WITCH, SECOND WITCH, THIRD WITCH", "Talk about the coming of Macbeth"],
-    'SCENE 2': ["LENNOX, MACBETH", "Talk about Macduff's disappearance."],
+    'SCENE 1': ["First Witch, Second Witch, Third Witch", "Talk about the coming of Macbeth"],
+    'SCENE 2': ["Lennox, Macbeth", "Talk about Macduff's disappearance."],
 }
 
 act_5_data = {
-    'SCENE 1': ["DOCTOR, GENTLEWOMAN", "Talk about Lady Macbeth's craziness"],
-    'SCENE 2': ["MENTEITH, ANGUS, CAITHNESS, LENNOX", "Organize to meet near Birnam Wood."],
-    'SCENE 3': ["MACBETH, DOCTOR", "Macbeth asks about Malcolm's origin"],
-    'SCENE 4': ["SERVANT, MACBETH", "Tells him there are ten thousand men at his castle's gate."],
-    'SCENE 5': ["MALCOLM , OLD SIWARD , MACDUFF, MENTEITH", "Malcolm advises that everyone should hide behind a wood bough so the enemy will not know how many soldiers there are."],
-    'SCENE 6': ["OLD SEYTON, MACBETH", "He tells him Lady Macbeth is dead."],
-    'SCENE 7': ["MESSANGER, MACBETH", "He tells him the wood began moving."],
-    'SCENE 8': ["MALCOLM, SIWARD, MACDUFF", "Malcolm promises to fight with Siward for Macduff until they cannot anymore."],
+    'SCENE 1': ["Doctor, GentleWoman", "Talk about Lady Macbeth's craziness"],
+    'SCENE 2': ["Menteith, Angus, Caithness, Lennox", "Organize to meet near Birnam Wood."],
+    'SCENE 3': ["Macbeth, Doctor", "Macbeth asks about Malcolm's origin"],
+    'SCENE 4': ["Old Seyward, Macbeth", "Tells him there are ten thousand men at his castle's gate."],
+    'SCENE 5': ["Malcolm , Old Siward , Macduff, Menteith", "Malcolm advises that everyone should hide behind a wood bough so the enemy will not know how many soldiers there are."],
+    'SCENE 6': ["Old Seyton, Macbeth", "He tells him Lady Macbeth is dead."],
+    'SCENE 8': ["Malcolm, Old Siward, Macduff", "Malcolm promises to fight with Siward for Macduff until they cannot anymore."],
 }
 
 # Create DataFrames
