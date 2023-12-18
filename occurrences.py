@@ -12,7 +12,12 @@ class SceneCharacterCooccurrences:
         self.cooccurrences[pair] = self.cooccurrences.get(pair, 0) + 1
         # Ensure that nodes and edges are added to the graph
         G.add_nodes_from(pair)
-        G.add_edge(*pair)
+        
+        # Add +1 to the weight of the edge
+        if G.has_edge(*pair):
+            G[character1][character2]['weight'] += 1
+        else:
+            G.add_edge(*pair, weight=1)
 
     def display_cooccurrences(self):
         for pair, count in self.cooccurrences.items():
@@ -320,7 +325,7 @@ for measure, values in centrality_measures.items():
     nx.set_node_attributes(G, values, measure)
 
 # Export the graph to Gephi
-nx.write_gexf(G, 'occurrences.gexf')
+nx.write_gexf(G, 'weighted_occurrences.gexf')
 
 # Calculate and add clique measures
 cliques = list(nx.find_cliques(G))
