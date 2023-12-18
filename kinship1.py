@@ -14,35 +14,37 @@ kinship_relations = [
     ("Macduff", "Menteith", "cousins", 2),
     ("Macduff", "Angus", "cousins", 2),
     ("Macduff", "Caithness", "cousins", 2),
-    ("Malcolm", "Old Siward", "nephew", "uncle", 2),
+    ("Malcolm", "Old Siward", "second degree relatives", 1),
     ("Malcolm", "Young Siward", "cousins", 2),
     ("Menteith", "Caithness", "cousins", 2),
     ("Menteith", "Angus", "cousins", 2),
     ("Angus", "Lennox", "cousins", 2),
     ("Lennox", "Ross", "cousins", 2),
-    ("Lady Macbeth", "Duncan", "host", "subject", 1),
-    ("Duncan", "Donalbain", "father", "son", 3),
-    ("Donalbain", "Malcolm", "brothers", 3),
-    ("Lady Macbeth", "Macbeth", "wife", "husband", 3),
-    ("Duncan", "Lady Macbeth", "lost father", "lost child", 2),
-    ("Old Siward", "Seyton", "son", "father", 3),
-    ("Banquo", "Fleance", "father", "son", 3),
-    ("Young Siward", "Old Siward", "son", "father", 2),
-    ("Macduff", "Porter", "master", "servant", 1),
-    ("Old Siward", "Malcolm", "uncle", "nephew", 2),
-    ("Old Siward", "Duncan", "brothers", 3)
+    ("Lady Macbeth", "Duncan", "hospitality bond", 1),
+    ("Duncan", "Donalbain", "paternal bond", 3),
+    ("Donalbain", "Malcolm", "sibilings", 3),
+    ("Lady Macbeth", "Macbeth", "marriage", 3),
+    ("Duncan", "Lady Macbeth", "asymmetric relationship", 1),
+    ("Old Siward", "Seyton", "paternal bond", 3),
+    ("Banquo", "Fleance", "paternal bond", 3),
+    ("Young Siward", "Old Siward", "paternal bond", 3),
+    ("Old Siward", "Malcolm", "second degree relatives", 1),
+    ("Old Siward", "Duncan", "sibilings", 3),
+    ("Lady Macduff", "Son", "maternal bond", 3),
+    ("Macduff", "Porter", "work bond", 1),
+    ("Macbeth", "Seyton", "work bond", 1)
 ]
 
-
 # Add edges with attributes
-# Add edges with attributes
-G = nx.DiGraph()
+G = nx.DiGraph()  # Use an undirected graph for bidirectional edges
 for relation in kinship_relations:
     if len(relation) == 4:
         rel_attr = f"{relation[2]}, {relation[3]}"
         G.add_edge(relation[0], relation[1], relationship=rel_attr)
+        G.add_edge(relation[1], relation[0], relationship=rel_attr)  # Bidirectional edge
     else:
         G.add_edge(relation[0], relation[1], relationship=relation[2])
+        G.add_edge(relation[1], relation[0], relationship=relation[2])  # Bidirectional edge
 
 # Add nodes with attributes
 for idx, character in enumerate(param['Character']):
