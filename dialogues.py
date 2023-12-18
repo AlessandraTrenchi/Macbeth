@@ -7,7 +7,7 @@ from macbeth import param
 # Define the data
 act_1_data = {
     'SCENE 1': ["First Witch, Second Witch, Third Witch", "Discussing the place and time of the event."],
-    'SCENE 2': ["Duncan, Malcolm, Donalbain, Lennox, Sergeant", "Inquiring about the bleeding sergeant's report"],
+    'SCENE 2': ["Duncan, Malcolm, Donalbain, Lennox", "Inquiring about the bleeding sergeant's report"],
     'SCENE 3': ["First Witch, Second Witch, Third Witch", "Conspiring"],
     'SCENE 4': ["Duncan, Malcolm, Donalbain, Lennox" , "Talk about the execution of the previous thane of Cawdor."],
     'SCENE 5': ["Lady Macbeth", "News that the king is coming."],

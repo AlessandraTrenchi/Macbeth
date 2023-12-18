@@ -17,10 +17,10 @@
       <node id="First Witch" label="First Witch">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.125" />
-          <attvalue for="2" value="0.041666666666666664" />
+          <attvalue for="1" value="0.13043478260869565" />
+          <attvalue for="2" value="0.043478260869565216" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="297" />
+          <attvalue for="4" value="273" />
           <attvalue for="5" value="2" />
           <attvalue for="6" value="0" />
         </attvalues>
@@ -28,10 +28,10 @@
       <node id="Second Witch" label="Second Witch">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.125" />
-          <attvalue for="2" value="0.08333333333333333" />
+          <attvalue for="1" value="0.13043478260869565" />
+          <attvalue for="2" value="0.08695652173913043" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="298" />
+          <attvalue for="4" value="274" />
           <attvalue for="5" value="2" />
           <attvalue for="6" value="0" />
         </attvalues>
@@ -39,10 +39,10 @@
       <node id="Third Witch" label="Third Witch">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.125" />
-          <attvalue for="2" value="0.125" />
+          <attvalue for="1" value="0.13043478260869565" />
+          <attvalue for="2" value="0.13043478260869565" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="299" />
+          <attvalue for="4" value="275" />
           <attvalue for="5" value="2" />
           <attvalue for="6" value="0" />
         </attvalues>
@@ -50,129 +50,118 @@
       <node id="Duncan" label="Duncan">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.20833333333333331" />
+          <attvalue for="1" value="0.17391304347826086" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="300" />
-          <attvalue for="5" value="1" />
+          <attvalue for="4" value="276" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Malcolm" label="Malcolm">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.29166666666666663" />
-          <attvalue for="2" value="0.041666666666666664" />
-          <attvalue for="3" value="0.009057971014492754" />
-          <attvalue for="4" value="301" />
-          <attvalue for="5" value="1" />
+          <attvalue for="1" value="0.2608695652173913" />
+          <attvalue for="2" value="0.043478260869565216" />
+          <attvalue for="3" value="0.009881422924901184" />
+          <attvalue for="4" value="277" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Donalbain" label="Donalbain">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.16666666666666666" />
-          <attvalue for="2" value="0.08333333333333333" />
+          <attvalue for="1" value="0.13043478260869565" />
+          <attvalue for="2" value="0.08695652173913043" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="302" />
-          <attvalue for="5" value="1" />
+          <attvalue for="4" value="278" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Lennox" label="Lennox">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.41666666666666663" />
-          <attvalue for="2" value="0.3157894736842105" />
-          <attvalue for="3" value="0.18115942028985507" />
-          <attvalue for="4" value="303" />
-          <attvalue for="5" value="1" />
-          <attvalue for="6" value="1" />
-        </attvalues>
-      </node>
-      <node id="Sergeant" label="Sergeant">
-        <attvalues>
-          <attvalue for="0" value="Unknown" />
-          <attvalue for="1" value="0.16666666666666666" />
-          <attvalue for="2" value="0.24281609195402298" />
-          <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="304" />
-          <attvalue for="5" value="1" />
+          <attvalue for="1" value="0.3913043478260869" />
+          <attvalue for="2" value="0.3295194508009153" />
+          <attvalue for="3" value="0.17984189723320157" />
+          <attvalue for="4" value="279" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Lady Macbeth" label="Lady Macbeth">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.29166666666666663" />
-          <attvalue for="2" value="0.1875" />
-          <attvalue for="3" value="0.016304347826086956" />
-          <attvalue for="4" value="305" />
-          <attvalue for="5" value="1" />
-          <attvalue for="6" value="1" />
+          <attvalue for="1" value="0.30434782608695654" />
+          <attvalue for="2" value="0.19565217391304346" />
+          <attvalue for="3" value="0.01383399209486166" />
+          <attvalue for="4" value="280" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
         </attvalues>
       </node>
       <node id="Macbeth" label="Macbeth">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.4583333333333333" />
-          <attvalue for="2" value="0.25" />
-          <attvalue for="3" value="0.20380434782608695" />
-          <attvalue for="4" value="306" />
+          <attvalue for="1" value="0.4782608695652174" />
+          <attvalue for="2" value="0.2608695652173913" />
+          <attvalue for="3" value="0.22035573122529642" />
+          <attvalue for="4" value="281" />
           <attvalue for="5" value="1" />
-          <attvalue for="6" value="1" />
+          <attvalue for="6" value="3" />
         </attvalues>
       </node>
       <node id="Banquo" label="Banquo">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.20833333333333331" />
-          <attvalue for="2" value="0.20710784313725486" />
-          <attvalue for="3" value="0.02355072463768116" />
-          <attvalue for="4" value="307" />
-          <attvalue for="5" value="1" />
-          <attvalue for="6" value="2" />
+          <attvalue for="1" value="0.21739130434782608" />
+          <attvalue for="2" value="0.21611253196930943" />
+          <attvalue for="3" value="0.02569169960474308" />
+          <attvalue for="4" value="282" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="4" />
         </attvalues>
       </node>
       <node id="Fleance" label="Fleance">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.041666666666666664" />
-          <attvalue for="2" value="0.17013888888888892" />
+          <attvalue for="1" value="0.043478260869565216" />
+          <attvalue for="2" value="0.17753623188405798" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="308" />
-          <attvalue for="6" value="2" />
+          <attvalue for="4" value="283" />
+          <attvalue for="6" value="4" />
         </attvalues>
       </node>
       <node id="Porter" label="Porter">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.041666666666666664" />
+          <attvalue for="1" value="0.043478260869565216" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="309" />
+          <attvalue for="4" value="284" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Macduff" label="Macduff">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.16666666666666666" />
-          <attvalue for="2" value="0.18181818181818182" />
-          <attvalue for="3" value="0.02717391304347826" />
-          <attvalue for="4" value="310" />
-          <attvalue for="5" value="1" />
+          <attvalue for="1" value="0.17391304347826086" />
+          <attvalue for="2" value="0.18972332015810275" />
+          <attvalue for="3" value="0.02766798418972332" />
+          <attvalue for="4" value="285" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Hecate" label="Hecate">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.125" />
+          <attvalue for="1" value="0.13043478260869565" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="311" />
+          <attvalue for="4" value="286" />
           <attvalue for="5" value="2" />
           <attvalue for="6" value="0" />
         </attvalues>
@@ -180,108 +169,108 @@
       <node id="Old Siward" label="Old Siward">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.20833333333333331" />
-          <attvalue for="2" value="0.1875" />
-          <attvalue for="3" value="0.05434782608695652" />
-          <attvalue for="4" value="312" />
-          <attvalue for="5" value="1" />
+          <attvalue for="1" value="0.21739130434782608" />
+          <attvalue for="2" value="0.19565217391304346" />
+          <attvalue for="3" value="0.05928853754940711" />
+          <attvalue for="4" value="287" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="First murderer" label="First murderer">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.08333333333333333" />
-          <attvalue for="2" value="0.19031531531531531" />
+          <attvalue for="1" value="0.08695652173913043" />
+          <attvalue for="2" value="0.19858989424206816" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="313" />
-          <attvalue for="5" value="0" />
-          <attvalue for="6" value="3" />
+          <attvalue for="4" value="288" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="5" />
         </attvalues>
       </node>
       <node id="Second murderer" label="Second murderer">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.08333333333333333" />
-          <attvalue for="2" value="0.2149122807017544" />
+          <attvalue for="1" value="0.08695652173913043" />
+          <attvalue for="2" value="0.2242562929061785" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="314" />
-          <attvalue for="5" value="0" />
-          <attvalue for="6" value="3" />
+          <attvalue for="4" value="289" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="5" />
         </attvalues>
       </node>
       <node id="Ross" label="Ross">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.08333333333333333" />
-          <attvalue for="2" value="0.24281609195402298" />
+          <attvalue for="1" value="0.08695652173913043" />
+          <attvalue for="2" value="0.2533733133433283" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="315" />
-          <attvalue for="5" value="1" />
-          <attvalue for="6" value="1" />
+          <attvalue for="4" value="290" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
         </attvalues>
       </node>
       <node id="Doctor" label="Doctor">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.08333333333333333" />
-          <attvalue for="2" value="0.19031531531531531" />
-          <attvalue for="3" value="0.02355072463768116" />
-          <attvalue for="4" value="316" />
-          <attvalue for="6" value="4" />
+          <attvalue for="1" value="0.08695652173913043" />
+          <attvalue for="2" value="0.19858989424206816" />
+          <attvalue for="3" value="0.02569169960474308" />
+          <attvalue for="4" value="291" />
+          <attvalue for="6" value="6" />
         </attvalues>
       </node>
       <node id="GentleWoman" label="GentleWoman">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.041666666666666664" />
-          <attvalue for="2" value="0.16013071895424838" />
+          <attvalue for="1" value="0.043478260869565216" />
+          <attvalue for="2" value="0.16709292412617224" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="317" />
-          <attvalue for="6" value="4" />
+          <attvalue for="4" value="292" />
+          <attvalue for="6" value="6" />
         </attvalues>
       </node>
       <node id="Menteith" label="Menteith">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.25" />
-          <attvalue for="2" value="0.1935483870967742" />
-          <attvalue for="3" value="0.08605072463768117" />
-          <attvalue for="4" value="318" />
-          <attvalue for="5" value="1" />
+          <attvalue for="1" value="0.2608695652173913" />
+          <attvalue for="2" value="0.20196353436185133" />
+          <attvalue for="3" value="0.08794466403162055" />
+          <attvalue for="4" value="293" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Angus" label="Angus">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.125" />
-          <attvalue for="2" value="0.15384615384615385" />
+          <attvalue for="1" value="0.13043478260869565" />
+          <attvalue for="2" value="0.1605351170568562" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="319" />
-          <attvalue for="5" value="1" />
+          <attvalue for="4" value="294" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Caithness" label="Caithness">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.125" />
-          <attvalue for="2" value="0.17142857142857143" />
+          <attvalue for="1" value="0.13043478260869565" />
+          <attvalue for="2" value="0.17888198757763976" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="320" />
-          <attvalue for="5" value="1" />
+          <attvalue for="4" value="295" />
+          <attvalue for="5" value="0" />
           <attvalue for="6" value="1" />
         </attvalues>
       </node>
       <node id="Seyton" label="Seyton">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.041666666666666664" />
+          <attvalue for="1" value="0.043478260869565216" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.0" />
-          <attvalue for="4" value="321" />
-          <attvalue for="6" value="1" />
+          <attvalue for="4" value="296" />
+          <attvalue for="6" value="3" />
         </attvalues>
       </node>
     </nodes>
@@ -292,49 +281,45 @@
       <edge source="Duncan" target="Malcolm" id="3" weight="2" />
       <edge source="Duncan" target="Donalbain" id="4" weight="2" />
       <edge source="Duncan" target="Lennox" id="5" weight="2" />
-      <edge source="Duncan" target="Sergeant" id="6" weight="1" />
-      <edge source="Duncan" target="Lady Macbeth" id="7" weight="1" />
-      <edge source="Malcolm" target="Donalbain" id="8" weight="2" />
-      <edge source="Malcolm" target="Lennox" id="9" weight="2" />
-      <edge source="Malcolm" target="Sergeant" id="10" weight="1" />
-      <edge source="Malcolm" target="Old Siward" id="11" weight="2" />
-      <edge source="Malcolm" target="Macduff" id="12" weight="2" />
-      <edge source="Malcolm" target="Menteith" id="13" weight="1" />
-      <edge source="Donalbain" target="Lennox" id="14" weight="2" />
-      <edge source="Donalbain" target="Sergeant" id="15" weight="1" />
-      <edge source="Lennox" target="Sergeant" id="16" weight="1" />
-      <edge source="Lennox" target="Ross" id="17" weight="1" />
-      <edge source="Lennox" target="Macbeth" id="18" weight="1" />
-      <edge source="Lady Macbeth" target="Lady Macbeth" id="19" weight="1" />
-      <edge source="Lady Macbeth" target="Banquo" id="20" weight="1" />
-      <edge source="Lady Macbeth" target="Lennox" id="21" weight="1" />
-      <edge source="Lady Macbeth" target="Ross" id="22" weight="1" />
-      <edge source="Macbeth" target="Macbeth" id="23" weight="1" />
-      <edge source="Macbeth" target="Lady Macbeth" id="24" weight="1" />
-      <edge source="Macbeth" target="Banquo" id="25" weight="1" />
-      <edge source="Macbeth" target="Old Siward" id="26" weight="1" />
-      <edge source="Macbeth" target="First murderer" id="27" weight="1" />
-      <edge source="Macbeth" target="Second murderer" id="28" weight="1" />
-      <edge source="Macbeth" target="Doctor" id="29" weight="1" />
-      <edge source="Banquo" target="Fleance" id="30" weight="1" />
-      <edge source="Banquo" target="Banquo" id="31" weight="1" />
-      <edge source="Porter" target="Macduff" id="32" weight="1" />
-      <edge source="Macduff" target="Menteith" id="33" weight="1" />
-      <edge source="Hecate" target="First Witch" id="34" weight="1" />
-      <edge source="Hecate" target="Second Witch" id="35" weight="1" />
-      <edge source="Hecate" target="Third Witch" id="36" weight="1" />
-      <edge source="Old Siward" target="Macbeth" id="37" weight="1" />
-      <edge source="Old Siward" target="Macduff" id="38" weight="2" />
-      <edge source="Old Siward" target="Menteith" id="39" weight="1" />
-      <edge source="First murderer" target="Second murderer" id="40" weight="1" />
-      <edge source="Doctor" target="GentleWoman" id="41" weight="1" />
-      <edge source="Menteith" target="Angus" id="42" weight="1" />
-      <edge source="Menteith" target="Caithness" id="43" weight="1" />
-      <edge source="Menteith" target="Lennox" id="44" weight="1" />
-      <edge source="Angus" target="Caithness" id="45" weight="1" />
-      <edge source="Angus" target="Lennox" id="46" weight="1" />
-      <edge source="Caithness" target="Lennox" id="47" weight="1" />
-      <edge source="Seyton" target="Macbeth" id="48" weight="1" />
+      <edge source="Duncan" target="Lady Macbeth" id="6" weight="1" />
+      <edge source="Malcolm" target="Donalbain" id="7" weight="2" />
+      <edge source="Malcolm" target="Lennox" id="8" weight="2" />
+      <edge source="Malcolm" target="Old Siward" id="9" weight="2" />
+      <edge source="Malcolm" target="Macduff" id="10" weight="2" />
+      <edge source="Malcolm" target="Menteith" id="11" weight="1" />
+      <edge source="Donalbain" target="Lennox" id="12" weight="2" />
+      <edge source="Lennox" target="Ross" id="13" weight="1" />
+      <edge source="Lennox" target="Macbeth" id="14" weight="1" />
+      <edge source="Lady Macbeth" target="Lady Macbeth" id="15" weight="1" />
+      <edge source="Lady Macbeth" target="Banquo" id="16" weight="1" />
+      <edge source="Lady Macbeth" target="Lennox" id="17" weight="1" />
+      <edge source="Lady Macbeth" target="Ross" id="18" weight="1" />
+      <edge source="Macbeth" target="Macbeth" id="19" weight="1" />
+      <edge source="Macbeth" target="Lady Macbeth" id="20" weight="1" />
+      <edge source="Macbeth" target="Banquo" id="21" weight="1" />
+      <edge source="Macbeth" target="Old Siward" id="22" weight="1" />
+      <edge source="Macbeth" target="First murderer" id="23" weight="1" />
+      <edge source="Macbeth" target="Second murderer" id="24" weight="1" />
+      <edge source="Macbeth" target="Doctor" id="25" weight="1" />
+      <edge source="Banquo" target="Fleance" id="26" weight="1" />
+      <edge source="Banquo" target="Banquo" id="27" weight="1" />
+      <edge source="Porter" target="Macduff" id="28" weight="1" />
+      <edge source="Macduff" target="Menteith" id="29" weight="1" />
+      <edge source="Hecate" target="First Witch" id="30" weight="1" />
+      <edge source="Hecate" target="Second Witch" id="31" weight="1" />
+      <edge source="Hecate" target="Third Witch" id="32" weight="1" />
+      <edge source="Old Siward" target="Macbeth" id="33" weight="1" />
+      <edge source="Old Siward" target="Macduff" id="34" weight="2" />
+      <edge source="Old Siward" target="Menteith" id="35" weight="1" />
+      <edge source="First murderer" target="Second murderer" id="36" weight="1" />
+      <edge source="Doctor" target="GentleWoman" id="37" weight="1" />
+      <edge source="Menteith" target="Angus" id="38" weight="1" />
+      <edge source="Menteith" target="Caithness" id="39" weight="1" />
+      <edge source="Menteith" target="Lennox" id="40" weight="1" />
+      <edge source="Angus" target="Caithness" id="41" weight="1" />
+      <edge source="Angus" target="Lennox" id="42" weight="1" />
+      <edge source="Caithness" target="Lennox" id="43" weight="1" />
+      <edge source="Seyton" target="Macbeth" id="44" weight="1" />
     </edges>
   </graph>
 </gexf>
