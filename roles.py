@@ -26,7 +26,7 @@ for _, row in df.iterrows():
 
     # Add edges based on the role attribute
     if role == 'Antagonist' or role == 'Confidant' or role == 'Henchman' or role == 'Guide':
-        G.add_edge(character, 'Macbeth', role=role)
+        G.add_edge(character, 'Macbeth', role=role)  # Keep the direction as it is
     elif role == 'Supporting Character' or role == 'Love Interest':
         G.add_edge(character, 'Macduff', role=role)
     elif role == 'Foil':
