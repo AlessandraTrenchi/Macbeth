@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2023-12-18">
+  <meta lastmodifieddate="2023-12-19">
     <creator>NetworkX 3.2.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -65,7 +65,7 @@
       </node>
       <node id="Lady Macbeth" label="Lady Macbeth">
         <attvalues>
-          <attvalue for="0" value="Male" />
+          <attvalue for="0" value="Female" />
         </attvalues>
       </node>
       <node id="Macduff" label="Macduff">
@@ -120,7 +120,7 @@
       </node>
       <node id="Lady Macduff" label="Lady Macduff">
         <attvalues>
-          <attvalue for="0" value="Male" />
+          <attvalue for="0" value="Female" />
         </attvalues>
       </node>
       <node id="Son" label="Son">
@@ -135,7 +135,7 @@
       </node>
       <node id="GentleWoman" label="GentleWoman">
         <attvalues>
-          <attvalue for="0" value="Male" />
+          <attvalue for="0" value="Female" />
         </attvalues>
       </node>
       <node id="Caithness" label="Caithness">
@@ -154,6 +154,26 @@
         </attvalues>
       </node>
       <node id="Young Siward" label="Young Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Captain" label="Captain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="First Apparition" label="First Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Second Apparition" label="Second Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+        </attvalues>
+      </node>
+      <node id="Third Apparition" label="Third Apparition">
         <attvalues>
           <attvalue for="0" value="Male" />
         </attvalues>

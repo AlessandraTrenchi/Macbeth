@@ -6,9 +6,10 @@ from macbeth import param  # Assuming param is defined in macbeth.py
 G = nx.Graph()
 
 class SceneCharacterCooccurrences:
-    def __init__(self, gender_mapping):
+    def __init__(self, gender_mapping, all_characters):
         self.cooccurrences = {}
         self.gender_mapping = gender_mapping
+        self.all_characters = all_characters
 
     def add_cooccurrence(self, character1, character2):
         gender1 = self.gender_mapping.get(character1, 'Unknown')
@@ -18,15 +19,22 @@ class SceneCharacterCooccurrences:
         self.cooccurrences[pair] = self.cooccurrences.get(pair, 0) + 1
         G.add_nodes_from(pair, gender=gender1)  # Add 'gender' attribute to nodes
         G.add_nodes_from(pair, gender=gender2)
-        
+
         if G.has_edge(*pair):
             G[character1][character2]['weight'] += 1
         else:
             G.add_edge(*pair, weight=1)
 
+    def add_all_nodes(self):
+        # Add all nodes to the graph, even those without occurrences
+        for character in self.all_characters:
+            G.add_node(character, gender=self.gender_mapping.get(character, 'Unknown'))
+
 # Example usage
 gender_mapping = dict(zip(param['Character'], param['Gender']))
-all_scenes_cooccurrences = SceneCharacterCooccurrences(gender_mapping)
+all_characters = param['Character']
+
+all_scenes_cooccurrences = SceneCharacterCooccurrences(gender_mapping, all_characters)
 
 # Adding co-occurrences based on the provided information
 all_scenes_cooccurrences.add_cooccurrence("First Witch", "Second Witch")
@@ -255,6 +263,9 @@ all_scenes_cooccurrences.add_cooccurrence('Malcolm', 'Ross')
 all_scenes_cooccurrences.add_cooccurrence('Old Siward', 'Ross')
 all_scenes_cooccurrences.add_cooccurrence('Malcolm', 'Macduff')
 
+
+# Add all nodes to the graph
+all_scenes_cooccurrences.add_all_nodes()
 
 # Export the graph to Gephi
 nx.write_gexf(G, 'occurrences.gexf')

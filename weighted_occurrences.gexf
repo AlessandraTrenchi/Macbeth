@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2023-12-18">
+  <meta lastmodifieddate="2023-12-19">
     <creator>NetworkX 3.2.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -19,207 +19,207 @@
       <node id="First Witch" label="First Witch">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.13793103448275862" />
+          <attvalue for="1" value="0.12121212121212122" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.46774193548387094" />
-          <attvalue for="4" value="0.045906932436388916" />
+          <attvalue for="3" value="0.4110459433040078" />
+          <attvalue for="4" value="0.04590693243638891" />
           <attvalue for="5" value="4" />
-          <attvalue for="6" value="0.46774193548387094" />
+          <attvalue for="6" value="0.4110459433040078" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.045906932436388916" />
+          <attvalue for="8" value="0.04590693243638891" />
         </attvalues>
       </node>
       <node id="Second Witch" label="Second Witch">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.13793103448275862" />
+          <attvalue for="1" value="0.12121212121212122" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.46774193548387094" />
-          <attvalue for="4" value="0.045906932436388916" />
+          <attvalue for="3" value="0.4110459433040078" />
+          <attvalue for="4" value="0.04590693243638891" />
           <attvalue for="5" value="4" />
-          <attvalue for="6" value="0.46774193548387094" />
+          <attvalue for="6" value="0.4110459433040078" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.045906932436388916" />
+          <attvalue for="8" value="0.04590693243638891" />
         </attvalues>
       </node>
       <node id="Third Witch" label="Third Witch">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.13793103448275862" />
+          <attvalue for="1" value="0.12121212121212122" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.46774193548387094" />
-          <attvalue for="4" value="0.045906932436388916" />
+          <attvalue for="3" value="0.4110459433040078" />
+          <attvalue for="4" value="0.04590693243638891" />
           <attvalue for="5" value="4" />
-          <attvalue for="6" value="0.46774193548387094" />
+          <attvalue for="6" value="0.4110459433040078" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.045906932436388916" />
+          <attvalue for="8" value="0.04590693243638891" />
         </attvalues>
       </node>
       <node id="Duncan" label="Duncan">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.27586206896551724" />
-          <attvalue for="2" value="0.0061597679824280825" />
-          <attvalue for="3" value="0.58" />
+          <attvalue for="1" value="0.24242424242424243" />
+          <attvalue for="2" value="0.004736488259215533" />
+          <attvalue for="3" value="0.5096969696969696" />
           <attvalue for="4" value="0.21874825422309882" />
           <attvalue for="5" value="8" />
-          <attvalue for="6" value="0.58" />
-          <attvalue for="7" value="0.0061597679824280825" />
+          <attvalue for="6" value="0.5096969696969696" />
+          <attvalue for="7" value="0.004736488259215533" />
           <attvalue for="8" value="0.21874825422309882" />
         </attvalues>
       </node>
       <node id="Malcolm" label="Malcolm">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.41379310344827586" />
-          <attvalue for="2" value="0.049907502185827304" />
-          <attvalue for="3" value="0.6304347826086957" />
-          <attvalue for="4" value="0.2759675240734757" />
+          <attvalue for="1" value="0.36363636363636365" />
+          <attvalue for="2" value="0.03837584448379903" />
+          <attvalue for="3" value="0.5540184453227932" />
+          <attvalue for="4" value="0.2759675240734758" />
           <attvalue for="5" value="12" />
-          <attvalue for="6" value="0.6304347826086957" />
-          <attvalue for="7" value="0.049907502185827304" />
-          <attvalue for="8" value="0.2759675240734757" />
+          <attvalue for="6" value="0.5540184453227932" />
+          <attvalue for="7" value="0.03837584448379903" />
+          <attvalue for="8" value="0.2759675240734758" />
         </attvalues>
       </node>
       <node id="Donalbain" label="Donalbain">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.1724137931034483" />
-          <attvalue for="2" value="0.0003078817733990148" />
-          <attvalue for="3" value="0.5272727272727272" />
-          <attvalue for="4" value="0.14620030836707867" />
+          <attvalue for="1" value="0.15151515151515152" />
+          <attvalue for="2" value="0.00023674242424242425" />
+          <attvalue for="3" value="0.46336088154269967" />
+          <attvalue for="4" value="0.14620030836707865" />
           <attvalue for="5" value="5" />
-          <attvalue for="6" value="0.5272727272727272" />
-          <attvalue for="7" value="0.0003078817733990148" />
-          <attvalue for="8" value="0.14620030836707867" />
+          <attvalue for="6" value="0.46336088154269967" />
+          <attvalue for="7" value="0.00023674242424242425" />
+          <attvalue for="8" value="0.14620030836707865" />
         </attvalues>
       </node>
       <node id="Lennox" label="Lennox">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.48275862068965514" />
-          <attvalue for="2" value="0.06013930650630159" />
-          <attvalue for="3" value="0.6590909090909091" />
-          <attvalue for="4" value="0.3176087724530152" />
+          <attvalue for="1" value="0.42424242424242425" />
+          <attvalue for="2" value="0.046243481896890995" />
+          <attvalue for="3" value="0.5792011019283746" />
+          <attvalue for="4" value="0.3176087724530154" />
           <attvalue for="5" value="14" />
-          <attvalue for="6" value="0.6590909090909091" />
-          <attvalue for="7" value="0.06013930650630159" />
-          <attvalue for="8" value="0.3176087724530152" />
+          <attvalue for="6" value="0.5792011019283746" />
+          <attvalue for="7" value="0.046243481896890995" />
+          <attvalue for="8" value="0.3176087724530154" />
         </attvalues>
       </node>
       <node id="Ross" label="Ross">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.5517241379310345" />
-          <attvalue for="2" value="0.14156190689441922" />
-          <attvalue for="3" value="0.6904761904761905" />
-          <attvalue for="4" value="0.33754282508849953" />
+          <attvalue for="1" value="0.48484848484848486" />
+          <attvalue for="2" value="0.10885252689229961" />
+          <attvalue for="3" value="0.6067821067821068" />
+          <attvalue for="4" value="0.3375428250884996" />
           <attvalue for="5" value="16" />
-          <attvalue for="6" value="0.6904761904761905" />
-          <attvalue for="7" value="0.14156190689441922" />
-          <attvalue for="8" value="0.33754282508849953" />
+          <attvalue for="6" value="0.6067821067821068" />
+          <attvalue for="7" value="0.10885252689229961" />
+          <attvalue for="8" value="0.3375428250884996" />
         </attvalues>
       </node>
       <node id="Banquo" label="Banquo">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.4482758620689655" />
-          <attvalue for="2" value="0.07289414198281192" />
-          <attvalue for="3" value="0.6444444444444445" />
+          <attvalue for="1" value="0.3939393939393939" />
+          <attvalue for="2" value="0.05605117735799553" />
+          <attvalue for="3" value="0.5663299663299664" />
           <attvalue for="4" value="0.27063817909142684" />
           <attvalue for="5" value="13" />
-          <attvalue for="6" value="0.6444444444444445" />
-          <attvalue for="7" value="0.07289414198281192" />
+          <attvalue for="6" value="0.5663299663299664" />
+          <attvalue for="7" value="0.05605117735799553" />
           <attvalue for="8" value="0.27063817909142684" />
         </attvalues>
       </node>
       <node id="Macbeth" label="Macbeth">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.7241379310344828" />
-          <attvalue for="2" value="0.44848138314887076" />
-          <attvalue for="3" value="0.7837837837837838" />
-          <attvalue for="4" value="0.3178655261027366" />
+          <attvalue for="1" value="0.6363636363636364" />
+          <attvalue for="2" value="0.3448550029515938" />
+          <attvalue for="3" value="0.6887796887796888" />
+          <attvalue for="4" value="0.3178655261027365" />
           <attvalue for="5" value="21" />
-          <attvalue for="6" value="0.7837837837837838" />
-          <attvalue for="7" value="0.44848138314887076" />
-          <attvalue for="8" value="0.3178655261027366" />
+          <attvalue for="6" value="0.6887796887796888" />
+          <attvalue for="7" value="0.3448550029515938" />
+          <attvalue for="8" value="0.3178655261027365" />
         </attvalues>
       </node>
       <node id="Angus" label="Angus">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.3448275862068966" />
-          <attvalue for="2" value="0.009539003689249995" />
-          <attvalue for="3" value="0.5370370370370371" />
-          <attvalue for="4" value="0.25795049333316866" />
+          <attvalue for="1" value="0.30303030303030304" />
+          <attvalue for="2" value="0.0073349157155975335" />
+          <attvalue for="3" value="0.47194163860830535" />
+          <attvalue for="4" value="0.2579504933331688" />
           <attvalue for="5" value="10" />
-          <attvalue for="6" value="0.5370370370370371" />
-          <attvalue for="7" value="0.009539003689249995" />
-          <attvalue for="8" value="0.25795049333316866" />
+          <attvalue for="6" value="0.47194163860830535" />
+          <attvalue for="7" value="0.0073349157155975335" />
+          <attvalue for="8" value="0.2579504933331688" />
         </attvalues>
       </node>
       <node id="Lady Macbeth" label="Lady Macbeth">
         <attvalues>
-          <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.3448275862068966" />
-          <attvalue for="2" value="0.026732401424519648" />
-          <attvalue for="3" value="0.6041666666666666" />
-          <attvalue for="4" value="0.24714007205995253" />
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="0.30303030303030304" />
+          <attvalue for="2" value="0.02055559654991473" />
+          <attvalue for="3" value="0.5309343434343434" />
+          <attvalue for="4" value="0.24714007205995248" />
           <attvalue for="5" value="10" />
-          <attvalue for="6" value="0.6041666666666666" />
-          <attvalue for="7" value="0.026732401424519648" />
-          <attvalue for="8" value="0.24714007205995253" />
+          <attvalue for="6" value="0.5309343434343434" />
+          <attvalue for="7" value="0.02055559654991473" />
+          <attvalue for="8" value="0.24714007205995248" />
         </attvalues>
       </node>
       <node id="Macduff" label="Macduff">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.5172413793103449" />
-          <attvalue for="2" value="0.10341122342353871" />
-          <attvalue for="3" value="0.6744186046511628" />
+          <attvalue for="1" value="0.4545454545454546" />
+          <attvalue for="2" value="0.07951696346582712" />
+          <attvalue for="3" value="0.5926708949964764" />
           <attvalue for="4" value="0.32073957868633723" />
           <attvalue for="5" value="15" />
-          <attvalue for="6" value="0.6744186046511628" />
-          <attvalue for="7" value="0.10341122342353871" />
+          <attvalue for="6" value="0.5926708949964764" />
+          <attvalue for="7" value="0.07951696346582712" />
           <attvalue for="8" value="0.32073957868633723" />
         </attvalues>
       </node>
       <node id="Fleance" label="Fleance">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.10344827586206896" />
+          <attvalue for="1" value="0.09090909090909091" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.5" />
-          <attvalue for="4" value="0.09130304242250815" />
+          <attvalue for="3" value="0.4393939393939394" />
+          <attvalue for="4" value="0.09130304242250813" />
           <attvalue for="5" value="3" />
-          <attvalue for="6" value="0.5" />
+          <attvalue for="6" value="0.4393939393939394" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.09130304242250815" />
+          <attvalue for="8" value="0.09130304242250813" />
         </attvalues>
       </node>
       <node id="Porter" label="Porter">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.10344827586206896" />
+          <attvalue for="1" value="0.09090909090909091" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.5087719298245614" />
-          <attvalue for="4" value="0.09635124547676843" />
+          <attvalue for="3" value="0.44710260499734183" />
+          <attvalue for="4" value="0.0963512454767684" />
           <attvalue for="5" value="3" />
-          <attvalue for="6" value="0.5087719298245614" />
+          <attvalue for="6" value="0.44710260499734183" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.09635124547676843" />
+          <attvalue for="8" value="0.0963512454767684" />
         </attvalues>
       </node>
       <node id="Old man" label="Old man">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="1" value="0.06060606060606061" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.43283582089552236" />
+          <attvalue for="3" value="0.38037087290818633" />
           <attvalue for="4" value="0.0663305200540028" />
           <attvalue for="5" value="2" />
-          <attvalue for="6" value="0.43283582089552236" />
+          <attvalue for="6" value="0.38037087290818633" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.0663305200540028" />
         </attvalues>
@@ -227,103 +227,103 @@
       <node id="First murderer" label="First murderer">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.27586206896551724" />
-          <attvalue for="2" value="0.038857612010321375" />
-          <attvalue for="3" value="0.58" />
-          <attvalue for="4" value="0.14950003232733924" />
+          <attvalue for="1" value="0.24242424242424243" />
+          <attvalue for="2" value="0.02987914862914863" />
+          <attvalue for="3" value="0.5096969696969696" />
+          <attvalue for="4" value="0.1495000323273392" />
           <attvalue for="5" value="8" />
-          <attvalue for="6" value="0.58" />
-          <attvalue for="7" value="0.038857612010321375" />
-          <attvalue for="8" value="0.14950003232733924" />
+          <attvalue for="6" value="0.5096969696969696" />
+          <attvalue for="7" value="0.02987914862914863" />
+          <attvalue for="8" value="0.1495000323273392" />
         </attvalues>
       </node>
       <node id="Second murderer" label="Second murderer">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.13793103448275862" />
+          <attvalue for="1" value="0.12121212121212122" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.5" />
-          <attvalue for="4" value="0.08269698735829169" />
+          <attvalue for="3" value="0.4393939393939394" />
+          <attvalue for="4" value="0.08269698735829166" />
           <attvalue for="5" value="4" />
-          <attvalue for="6" value="0.5" />
+          <attvalue for="6" value="0.4393939393939394" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.08269698735829169" />
+          <attvalue for="8" value="0.08269698735829166" />
         </attvalues>
       </node>
       <node id="Third murderer" label="Third murderer">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.13793103448275862" />
+          <attvalue for="1" value="0.12121212121212122" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.5" />
-          <attvalue for="4" value="0.08269698735829169" />
+          <attvalue for="3" value="0.4393939393939394" />
+          <attvalue for="4" value="0.08269698735829166" />
           <attvalue for="5" value="4" />
-          <attvalue for="6" value="0.5" />
+          <attvalue for="6" value="0.4393939393939394" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.08269698735829169" />
+          <attvalue for="8" value="0.08269698735829166" />
         </attvalues>
       </node>
       <node id="Ghost of Banquo" label="Ghost of Banquo">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="1" value="0.030303030303030304" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4461538461538462" />
-          <attvalue for="4" value="0.032029361831926645" />
+          <attvalue for="3" value="0.3920745920745921" />
+          <attvalue for="4" value="0.03202936183192664" />
           <attvalue for="5" value="1" />
-          <attvalue for="6" value="0.4461538461538462" />
+          <attvalue for="6" value="0.3920745920745921" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.032029361831926645" />
+          <attvalue for="8" value="0.03202936183192664" />
         </attvalues>
       </node>
       <node id="Hecate" label="Hecate">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="0.13793103448275862" />
+          <attvalue for="1" value="0.12121212121212122" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.46774193548387094" />
-          <attvalue for="4" value="0.045906932436388916" />
+          <attvalue for="3" value="0.4110459433040078" />
+          <attvalue for="4" value="0.04590693243638891" />
           <attvalue for="5" value="4" />
-          <attvalue for="6" value="0.46774193548387094" />
+          <attvalue for="6" value="0.4110459433040078" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.045906932436388916" />
+          <attvalue for="8" value="0.04590693243638891" />
         </attvalues>
       </node>
       <node id="Old Siward" label="Old Siward">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.24137931034482757" />
+          <attvalue for="1" value="0.21212121212121213" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.48333333333333334" />
+          <attvalue for="3" value="0.42474747474747476" />
           <attvalue for="4" value="0.19052917849643936" />
           <attvalue for="5" value="7" />
-          <attvalue for="6" value="0.48333333333333334" />
+          <attvalue for="6" value="0.42474747474747476" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.19052917849643936" />
         </attvalues>
       </node>
       <node id="Lady Macduff" label="Lady Macduff">
         <attvalues>
-          <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.13793103448275862" />
-          <attvalue for="2" value="0.0025686136523574944" />
-          <attvalue for="3" value="0.4603174603174603" />
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="0.12121212121212122" />
+          <attvalue for="2" value="0.0019751082251082248" />
+          <attvalue for="3" value="0.4045214045214045" />
           <attvalue for="4" value="0.0872254408047391" />
           <attvalue for="5" value="4" />
-          <attvalue for="6" value="0.4603174603174603" />
-          <attvalue for="7" value="0.0025686136523574944" />
+          <attvalue for="6" value="0.4045214045214045" />
+          <attvalue for="7" value="0.0019751082251082248" />
           <attvalue for="8" value="0.0872254408047391" />
         </attvalues>
       </node>
       <node id="Son" label="Son">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.10344827586206896" />
+          <attvalue for="1" value="0.09090909090909091" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4393939393939394" />
+          <attvalue for="3" value="0.38613406795224975" />
           <attvalue for="4" value="0.057865187193059414" />
           <attvalue for="5" value="3" />
-          <attvalue for="6" value="0.4393939393939394" />
+          <attvalue for="6" value="0.38613406795224975" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.057865187193059414" />
         </attvalues>
@@ -331,25 +331,25 @@
       <node id="Doctor" label="Doctor">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.27586206896551724" />
-          <attvalue for="2" value="0.03205009276437847" />
-          <attvalue for="3" value="0.58" />
-          <attvalue for="4" value="0.19069731945727073" />
+          <attvalue for="1" value="0.24242424242424243" />
+          <attvalue for="2" value="0.02464457890594254" />
+          <attvalue for="3" value="0.5096969696969696" />
+          <attvalue for="4" value="0.19069731945727067" />
           <attvalue for="5" value="8" />
-          <attvalue for="6" value="0.58" />
-          <attvalue for="7" value="0.03205009276437847" />
-          <attvalue for="8" value="0.19069731945727073" />
+          <attvalue for="6" value="0.5096969696969696" />
+          <attvalue for="7" value="0.02464457890594254" />
+          <attvalue for="8" value="0.19069731945727067" />
         </attvalues>
       </node>
       <node id="GentleWoman" label="GentleWoman">
         <attvalues>
-          <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.10344827586206896" />
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="0.09090909090909091" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.42028985507246375" />
+          <attvalue for="3" value="0.3693456302151954" />
           <attvalue for="4" value="0.07138847393451611" />
           <attvalue for="5" value="3" />
-          <attvalue for="6" value="0.42028985507246375" />
+          <attvalue for="6" value="0.3693456302151954" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.07138847393451611" />
         </attvalues>
@@ -357,12 +357,12 @@
       <node id="Caithness" label="Caithness">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.24137931034482757" />
+          <attvalue for="1" value="0.21212121212121213" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.48333333333333334" />
+          <attvalue for="3" value="0.42474747474747476" />
           <attvalue for="4" value="0.19052917849643936" />
           <attvalue for="5" value="7" />
-          <attvalue for="6" value="0.48333333333333334" />
+          <attvalue for="6" value="0.42474747474747476" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.19052917849643936" />
         </attvalues>
@@ -370,12 +370,12 @@
       <node id="Menteith" label="Menteith">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.24137931034482757" />
+          <attvalue for="1" value="0.21212121212121213" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.48333333333333334" />
+          <attvalue for="3" value="0.42474747474747476" />
           <attvalue for="4" value="0.19052917849643936" />
           <attvalue for="5" value="7" />
-          <attvalue for="6" value="0.48333333333333334" />
+          <attvalue for="6" value="0.42474747474747476" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.19052917849643936" />
         </attvalues>
@@ -383,27 +383,79 @@
       <node id="Seyton" label="Seyton">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="1" value="0.06060606060606061" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4603174603174603" />
-          <attvalue for="4" value="0.051244688630559976" />
+          <attvalue for="3" value="0.4045214045214045" />
+          <attvalue for="4" value="0.05124468863055997" />
           <attvalue for="5" value="2" />
-          <attvalue for="6" value="0.4603174603174603" />
+          <attvalue for="6" value="0.4045214045214045" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.051244688630559976" />
+          <attvalue for="8" value="0.05124468863055997" />
         </attvalues>
       </node>
       <node id="Young Siward" label="Young Siward">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="1" value="0.06060606060606061" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.48333333333333334" />
-          <attvalue for="4" value="0.05983664103452678" />
+          <attvalue for="3" value="0.42474747474747476" />
+          <attvalue for="4" value="0.05983664103452676" />
           <attvalue for="5" value="2" />
-          <attvalue for="6" value="0.48333333333333334" />
+          <attvalue for="6" value="0.42474747474747476" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.05983664103452678" />
+          <attvalue for="8" value="0.05983664103452676" />
+        </attvalues>
+      </node>
+      <node id="Captain" label="Captain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="4.853092080834351e-19" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="4.853092080834351e-19" />
+        </attvalues>
+      </node>
+      <node id="First Apparition" label="First Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="4.853092080834351e-19" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="4.853092080834351e-19" />
+        </attvalues>
+      </node>
+      <node id="Second Apparition" label="Second Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="4.853092080834351e-19" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="4.853092080834351e-19" />
+        </attvalues>
+      </node>
+      <node id="Third Apparition" label="Third Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="4.853092080834351e-19" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="4.853092080834351e-19" />
         </attvalues>
       </node>
     </nodes>
