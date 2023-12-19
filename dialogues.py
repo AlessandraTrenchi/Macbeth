@@ -72,6 +72,14 @@ combined_df = pd.concat([act_1_df, act_2_df, act_3_df, act_4_df, act_5_df])
 # Create a directed graph
 G = nx.DiGraph()
 
+# Add nodes from param
+all_characters = param['Character']
+gender_mapping = dict(zip(param['Character'], param['Gender']))
+
+for character in all_characters:
+    G.add_node(character)
+    G.nodes[character]['gender'] = gender_mapping.get(character, 'Unknown')
+
 # Add nodes and edges to the graph based on the combined DataFrame
 for _, row in combined_df.iterrows():
     characters = [char.strip() for char in row['Characters'].split(',')]
@@ -89,7 +97,6 @@ for _, row in combined_df.iterrows():
                 G[source][target]['weight'] += 1  # Increment the weight if the edge already exists
             else:
                 G.add_edge(source, target, weight=1)  # Add a new edge with weight 1
-
 # Add gender information to nodes
 param_dict = dict(zip(param['Character'], param['Gender']))
 
