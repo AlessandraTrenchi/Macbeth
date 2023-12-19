@@ -65,7 +65,7 @@ starting_relationships = [
     
 ]
 
-# Create a directed graph
+ #Create a directed graph
 G = nx.DiGraph()
 
 # Extract unique nodes from relationships
@@ -91,15 +91,29 @@ for source, target, rel_type in starting_relationships:
                    place='Scotland', role='Character', description='Description')
         unique_nodes.add(target)
 
-# Create layout of the graph
-pos = nx.spring_layout(G, k=400, scale=50, seed=42)
-
-# Add degree centrality as node attribute
+# Calculate centrality measures
+closeness_centrality = nx.closeness_centrality(G)
 degree_centrality = nx.degree_centrality(G)
-nx.set_node_attributes(G, degree_centrality, 'degree_centrality')
+eigenvector_centrality = nx.eigenvector_centrality(G)
+katz_centrality = nx.katz_centrality(G)
+betweenness_centrality = nx.betweenness_centrality(G)
+average_clustering = nx.average_clustering(G)
+density = nx.density(G)
+modularity = nx.algorithms.community.modularity_max.greedy_modularity_communities(G)
+components = nx.number_weakly_connected_components(G)
 
 # Extract unique relationships from edges
 unique_relationships = list(set(nx.get_edge_attributes(G, 'relationship_type').values()))
+
+# Update node attributes with centrality measures
+nx.set_node_attributes(G, closeness_centrality, 'closeness_centrality')
+nx.set_node_attributes(G, degree_centrality, 'degree_centrality')
+nx.set_node_attributes(G, eigenvector_centrality, 'eigenvector_centrality')
+nx.set_node_attributes(G, katz_centrality, 'katz_centrality')
+nx.set_node_attributes(G, betweenness_centrality, 'betweenness_centrality')
+
+# Create layout of the graph
+pos = nx.spring_layout(G, k=400, scale=50, seed=42)
 
 # Create edge trace with hover information
 edge_trace = []
@@ -136,7 +150,13 @@ node_trace = go.Scatter(
         color=['red' if G.nodes[node]['gender'] == 'Female' else 'blue' for node in G.nodes()],
         size=[300 * G.nodes[node]['degree_centrality'] for node in G.nodes()],
     ),
-    text=[f"Character: {node}<br>Gender: {G.nodes[node]['gender']}<br>Place: {G.nodes[node]['place']}<br>Role: {G.nodes[node]['role']}<br>Description: {param['Description'][param['Character'].index(node)]}" for node in G.nodes()],
+    text=[f"Character: {node}<br>Gender: {G.nodes[node]['gender']}<br>Place: {G.nodes[node]['place']}<br>Role: {G.nodes[node]['role']}<br>Description: {param['Description'][param['Character'].index(node)]}"
+          f"<br>Closeness Centrality: {G.nodes[node].get('closeness_centrality', 'N/A')}"
+          f"<br>Degree Centrality: {G.nodes[node].get('degree_centrality', 'N/A')}"
+          f"<br>Eigenvector Centrality: {G.nodes[node].get('eigenvector_centrality', 'N/A')}"
+          f"<br>Katz Centrality: {G.nodes[node].get('katz_centrality', 'N/A')}"
+          f"<br>Betweenness Centrality: {G.nodes[node].get('betweenness_centrality', 'N/A')}"
+          for node in G.nodes()],
 )
 
 # Create Plotly graph
@@ -151,6 +171,11 @@ fig.update_layout(
 
 fig.update_xaxes(showgrid=False, zeroline=False)
 fig.update_yaxes(showgrid=False, zeroline=False)
+
+# Calculate the diameter for the largest strongly connected component
+largest_scc = max(nx.strongly_connected_components(G), key=len)
+diameter_scc = nx.diameter(G.subgraph(largest_scc))
+print(f"Diameter of the largest strongly connected component: {diameter_scc}")
 
 nx.write_gexf(G, 'relations.gexf')
 
