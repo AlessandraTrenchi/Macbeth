@@ -6,27 +6,28 @@ import plotly.express as px
 
 # Sample data for starting relationships
 starting_relationships = [
-    ('First Witch', 'Second Witch', 'Friendship'),
-    ('Second Witch', 'Third Witch', 'Friendship'),
-    ('Third Witch', 'First Witch', 'Friendship'),
-    ('Hecate', 'Third Witch', 'Friendship'),
-    ('Hecate', 'Second Witch', 'Friendship'),
-    ('First Witch', 'Hecate', 'Friendship'),
-    ('First Witch', 'First Apparition', 'Friendship'),
-    ('First Witch', 'Second Apparition', 'Friendship'),
-    ('First Witch', 'Third Apparition', 'Friendship'),
-    ('Second Witch', 'Third Apparition', 'Friendship'),
-    ('Second Witch', 'Second Apparition', 'Friendship'),
-    ('Second Witch', 'Third Apparition', 'Friendship'),
-    ('Third Witch', 'First Apparition', 'Friendship'),
-    ('Third Witch', 'Second Apparition', 'Friendship'),
-    ('Third Witch', 'Third Apparition', 'Friendship'),
+    ('First Witch', 'Second Witch', 'Professional Bond'),
+    ('Second Witch', 'Third Witch', 'Professional Bond'),
+    ('Third Witch', 'First Witch', 'Professional Bond'),
+    ('Hecate', 'Third Witch', 'Professional Bond'),
+    ('Hecate', 'Second Witch', 'Professional Bond'),
+    ('First Witch', 'Hecate', 'Professional Bond'),
+    ('First Witch', 'First Apparition', 'Professional Bond'),
+    ('First Witch', 'Second Apparition', 'Professional Bond'),
+    ('First Witch', 'Third Apparition', 'Professional Bond'),
+    ('Second Witch', 'Third Apparition', 'Professional Bond'),
+    ('Second Witch', 'Second Apparition', 'Professional Bond'),
+    ('Second Witch', 'Third Apparition', 'Professional Bond'),
+    ('Third Witch', 'First Apparition', 'Professional Bond'),
+    ('Third Witch', 'Second Apparition', 'Professional Bond'),
+    ('Third Witch', 'Third Apparition', 'Professional Bond'),
     ('Malcolm', 'Captain', 'Friendship'),
-    ('Banquo', 'Macbeth', 'Best Friends'),
+    ('Banquo', 'Macbeth', 'Friendship'),
     ('Duncan', 'Macbeth', 'Friendship'),
     ('Macduff', 'Macbeth', 'Friendship'),
-    ('Lady Macbeth', 'Macbeth', 'Love'),
-    ('Lady Macduff', 'Macduff', 'Love')
+    ('Lady Macbeth', 'Macbeth', 'Marriage'),
+    ('Lady Macduff', 'Macduff', 'Marriage'),
+    
 ]
 
 # Create a directed graph

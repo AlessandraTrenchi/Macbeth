@@ -9,31 +9,29 @@ G = nx.DiGraph()
 # Events and changes data
 events = [
     {'time': 5, 'changes': [
-        ('First Witch', 'Macbeth', 'Tricked', 'Enemies'),
-        ('Second Witch', 'Macbeth', 'Tricked', 'Enemies'),
-        ('Third Witch', 'Macbeth', 'Tricked', 'Enemies')
+        ('First Witch', 'Macbeth', 'Competitors'),
+        ('Second Witch', 'Macbeth', 'Competitors'),
+        ('Third Witch', 'Macbeth', 'Competitors')
     ]},
     {'time': 10, 'changes': [
-        ('Lady Macbeth', 'Macbeth', 'Despise', 'Enemies'),
+        ('Lady Macbeth', 'Macbeth', 'Competitors'),
         ('Macbeth', 'Macbeth', 'Evil', None)  # Self-loop for Macbeth
     ]},
     {'time': 15, 'changes': [
-        ('Macbeth', 'Duncan', 'Murdered', 'Enemies')
+        ('Macbeth', 'Duncan', 'Competitors')
     ]},
     {'time': 20, 'changes': [
-        ('Macbeth', 'Banquo', 'Murdered', 'Enemies')
+        ('Macbeth', 'Banquo', 'Competitors')
     ]},
     {'time': 25, 'changes': [
-        ('Hecate', 'Macbeth', 'Tricked', 'Enemies'),
-        ('Macbeth', 'Hecate', 'Tricked', 'Enemies')
+        ('Hecate', 'Macbeth', 'Competitors'),
+       
     ]},
     {'time': 30, 'changes': [
-        ('Macbeth', 'Banquo', 'Murdered', 'Enemies'),
-        ('Lady Macbeth', 'Lady Macbeth', 'Insane', None)  # Self-loop for Lady Macbeth
+        ('Macbeth', 'Banquo', 'Competitors'), # Self-loop for Lady Macbeth
     ]},
     {'time': 35, 'changes': [
-        ('Macduff', 'Macbeth', 'Murdered', 'Enemies'),
-        ('Lady Macbeth', 'Lady Macbeth', 'Insane', 'Dies')
+        ('Macduff', 'Macbeth', 'Competitors'),
     ]}
 ]
 
