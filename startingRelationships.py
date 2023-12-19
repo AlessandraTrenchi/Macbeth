@@ -7,6 +7,7 @@ import plotly.express as px
 # Sample data for starting relationships
 starting_relationships = [
     ('First Witch', 'Second Witch', 'Professional Bond'),
+    ('Second Witch', 'First Apparition', 'Professional Bond'),
     ('Second Witch', 'Third Witch', 'Professional Bond'),
     ('Third Witch', 'First Witch', 'Professional Bond'),
     ('Hecate', 'Third Witch', 'Professional Bond'),
@@ -61,7 +62,11 @@ starting_relationships = [
     ("Old Siward", "Duncan", "Kinship"),
     ("Lady Macduff", "Son", "Maternal Bond"),
     ("Macduff", "Porter", "Professional Bond"),
-    ("Macbeth", "Seyton", "Professional Bond")
+    ("Macbeth", "Seyton", "Professional Bond"),
+    ("Macbeth", "First murderer", "Professional Bond"),
+    ("Macbeth", "Second murderer", "Professional Bond"),
+    ("Macbeth", "Third murderer", "Professional Bond"),
+
     
 ]
 

@@ -27,8 +27,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="6.434491745018136e-19" />
-          <attvalue for="7" value="0.1398720776914036" />
+          <attvalue for="6" value="5.896513135430906e-19" />
+          <attvalue for="7" value="0.1374921672614694" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -40,8 +40,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.05454545454545454" />
           <attvalue for="5" value="0.21212121212121213" />
-          <attvalue for="6" value="8.463750476590039e-07" />
-          <attvalue for="7" value="0.15712656482048085" />
+          <attvalue for="6" value="7.756108460137922e-07" />
+          <attvalue for="7" value="0.15445307089225715" />
           <attvalue for="8" value="0.002840909090909091" />
         </attvalues>
       </node>
@@ -52,10 +52,10 @@
           <attvalue for="2" value="Character" />
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.06818181818181818" />
-          <attvalue for="5" value="0.18181818181818182" />
-          <attvalue for="6" value="1.0412889394386727e-06" />
-          <attvalue for="7" value="0.17114320752142032" />
-          <attvalue for="8" value="0.0014204545454545455" />
+          <attvalue for="5" value="0.21212121212121213" />
+          <attvalue for="6" value="9.542282673581622e-07" />
+          <attvalue for="7" value="0.16823122171756852" />
+          <attvalue for="8" value="0.001893939393939394" />
         </attvalues>
       </node>
       <node id="Third Witch" label="Third Witch">
@@ -66,9 +66,9 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.06818181818181818" />
           <attvalue for="5" value="0.21212121212121213" />
-          <attvalue for="6" value="1.1809784148055292e-06" />
-          <attvalue for="7" value="0.1725448717803245" />
-          <attvalue for="8" value="0.005681818181818182" />
+          <attvalue for="6" value="1.0822385063983866e-06" />
+          <attvalue for="7" value="0.16960903678910028" />
+          <attvalue for="8" value="0.004261363636363636" />
         </attvalues>
       </node>
       <node id="Macbeth" label="Macbeth">
@@ -78,10 +78,10 @@
           <attvalue for="2" value="Character" />
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.24326599326599324" />
-          <attvalue for="5" value="0.4545454545454546" />
-          <attvalue for="6" value="0.626815199201982" />
-          <attvalue for="7" value="0.3081493178803735" />
-          <attvalue for="8" value="0.10369318181818182" />
+          <attvalue for="5" value="0.5454545454545454" />
+          <attvalue for="6" value="0.5744080810180313" />
+          <attvalue for="7" value="0.3029061858149542" />
+          <attvalue for="8" value="0.15198863636363638" />
         </attvalues>
       </node>
       <node id="Banquo" label="Banquo">
@@ -92,8 +92,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.1684149184149184" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="0.2521888267447852" />
-          <attvalue for="7" value="0.17068695509857587" />
+          <attvalue for="6" value="0.23110368129089034" />
+          <attvalue for="7" value="0.16778273238738511" />
           <attvalue for="8" value="0.016098484848484848" />
         </attvalues>
       </node>
@@ -105,9 +105,9 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.08417508417508418" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="8.800174457024109e-06" />
-          <attvalue for="7" value="0.17442955701245522" />
-          <attvalue for="8" value="0.04166666666666667" />
+          <attvalue for="6" value="8.064404514948984e-06" />
+          <attvalue for="7" value="0.17146165427679533" />
+          <attvalue for="8" value="0.05018939393939394" />
         </attvalues>
       </node>
       <node id="Duncan" label="Duncan">
@@ -118,9 +118,9 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.2036645525017618" />
           <attvalue for="5" value="0.15151515151515152" />
-          <attvalue for="6" value="0.4267450912855195" />
-          <attvalue for="7" value="0.20554890731493458" />
-          <attvalue for="8" value="0.03787878787878788" />
+          <attvalue for="6" value="0.3910655473595042" />
+          <attvalue for="7" value="0.20205151171994185" />
+          <attvalue for="8" value="0.04924242424242424" />
         </attvalues>
       </node>
       <node id="Malcolm" label="Malcolm">
@@ -131,9 +131,9 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.17872603586889302" />
           <attvalue for="5" value="0.18181818181818182" />
-          <attvalue for="6" value="0.1421724261947181" />
-          <attvalue for="7" value="0.19083825865455697" />
-          <attvalue for="8" value="0.03361742424242424" />
+          <attvalue for="6" value="0.13028559391692468" />
+          <attvalue for="7" value="0.1875911633822289" />
+          <attvalue for="8" value="0.036458333333333336" />
         </attvalues>
       </node>
       <node id="Captain" label="Captain">
@@ -144,8 +144,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.14654002713704206" />
           <attvalue for="5" value="0.030303030303030304" />
-          <attvalue for="6" value="0.057199449776733705" />
-          <attvalue for="7" value="0.15895589135581797" />
+          <attvalue for="6" value="0.05241708596627942" />
+          <attvalue for="7" value="0.15625127160625055" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -157,9 +157,9 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.08417508417508418" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="6.176107932564381e-06" />
-          <attvalue for="7" value="0.17270253178177772" />
-          <attvalue for="8" value="0.014204545454545456" />
+          <attvalue for="6" value="5.659732422285088e-06" />
+          <attvalue for="7" value="0.16976401422025045" />
+          <attvalue for="8" value="0.017045454545454544" />
         </attvalues>
       </node>
       <node id="Lennox" label="Lennox">
@@ -170,9 +170,9 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.0946969696969697" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="7.764695698969972e-06" />
-          <attvalue for="7" value="0.1742725547454601" />
-          <attvalue for="8" value="0.02840909090909091" />
+          <attvalue for="6" value="7.115500648057987e-06" />
+          <attvalue for="7" value="0.1713073233888125" />
+          <attvalue for="8" value="0.03409090909090909" />
         </attvalues>
       </node>
       <node id="Lady Macbeth" label="Lady Macbeth">
@@ -183,8 +183,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.1684149184149184" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="0.2521888267447852" />
-          <attvalue for="7" value="0.17068695509857587" />
+          <attvalue for="6" value="0.23110368129089034" />
+          <attvalue for="7" value="0.16778273238738511" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -196,8 +196,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.14025974025974022" />
           <attvalue for="5" value="0.030303030303030304" />
-          <attvalue for="6" value="0.1014638819312154" />
-          <attvalue for="7" value="0.15694075132526825" />
+          <attvalue for="6" value="0.09298063254839661" />
+          <attvalue for="7" value="0.15427041899643296" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -209,8 +209,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.06417112299465241" />
           <attvalue for="5" value="0.030303030303030304" />
-          <attvalue for="6" value="3.7389636976932842e-06" />
-          <attvalue for="7" value="0.15700230168337614" />
+          <attvalue for="6" value="3.426354315151216e-06" />
+          <attvalue for="7" value="0.15433092208090593" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -222,8 +222,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.1536416799574694" />
           <attvalue for="5" value="0.06060606060606061" />
-          <attvalue for="6" value="0.17169223570367406" />
-          <attvalue for="7" value="0.16042693154981993" />
+          <attvalue for="6" value="0.15733729456752307" />
+          <attvalue for="7" value="0.15769728218777845" />
           <attvalue for="8" value="0.009943181818181818" />
         </attvalues>
       </node>
@@ -235,8 +235,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="6.434491745018136e-19" />
-          <attvalue for="7" value="0.1398720776914036" />
+          <attvalue for="6" value="5.896513135430906e-19" />
+          <attvalue for="7" value="0.1374921672614694" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -246,10 +246,10 @@
           <attvalue for="1" value="Scotland" />
           <attvalue for="2" value="Character" />
           <attvalue for="3" value="Description" />
-          <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="6.434491745018136e-19" />
-          <attvalue for="7" value="0.1398720776914036" />
+          <attvalue for="4" value="0.1818181818181818" />
+          <attvalue for="5" value="0.030303030303030304" />
+          <attvalue for="6" value="0.23110368129089034" />
+          <attvalue for="7" value="0.16778273238738511" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -259,10 +259,10 @@
           <attvalue for="1" value="Scotland" />
           <attvalue for="2" value="Character" />
           <attvalue for="3" value="Description" />
-          <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="6.434491745018136e-19" />
-          <attvalue for="7" value="0.1398720776914036" />
+          <attvalue for="4" value="0.1818181818181818" />
+          <attvalue for="5" value="0.030303030303030304" />
+          <attvalue for="6" value="0.23110368129089034" />
+          <attvalue for="7" value="0.16778273238738511" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -272,10 +272,10 @@
           <attvalue for="1" value="Scotland" />
           <attvalue for="2" value="Character" />
           <attvalue for="3" value="Description" />
-          <attvalue for="4" value="0.0" />
-          <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="6.434491745018136e-19" />
-          <attvalue for="7" value="0.1398720776914036" />
+          <attvalue for="4" value="0.1818181818181818" />
+          <attvalue for="5" value="0.030303030303030304" />
+          <attvalue for="6" value="0.23110368129089034" />
+          <attvalue for="7" value="0.16778273238738511" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -287,8 +287,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="6.434491745018136e-19" />
-          <attvalue for="7" value="0.1398720776914036" />
+          <attvalue for="6" value="5.896513135430906e-19" />
+          <attvalue for="7" value="0.1374921672614694" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -300,8 +300,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.045454545454545456" />
           <attvalue for="5" value="0.12121212121212122" />
-          <attvalue for="6" value="6.065739319384469e-07" />
-          <attvalue for="7" value="0.15558473413708496" />
+          <attvalue for="6" value="5.558591570273195e-07" />
+          <attvalue for="7" value="0.15293747431494714" />
           <attvalue for="8" value="0.0004734848484848485" />
         </attvalues>
       </node>
@@ -313,8 +313,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.06060606060606061" />
-          <attvalue for="6" value="6.434491745018136e-19" />
-          <attvalue for="7" value="0.1398720776914036" />
+          <attvalue for="6" value="5.896513135430906e-19" />
+          <attvalue for="7" value="0.1374921672614694" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -326,8 +326,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.030303030303030304" />
           <attvalue for="5" value="0.030303030303030304" />
-          <attvalue for="6" value="2.123382275855985e-17" />
-          <attvalue for="7" value="0.15385928546054398" />
+          <attvalue for="6" value="1.9458493346921992e-17" />
+          <attvalue for="7" value="0.15124138398761636" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -339,8 +339,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.0" />
           <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="6.434491745018136e-19" />
-          <attvalue for="7" value="0.1398720776914036" />
+          <attvalue for="6" value="5.896513135430906e-19" />
+          <attvalue for="7" value="0.1374921672614694" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -350,10 +350,10 @@
           <attvalue for="1" value="Scotland" />
           <attvalue for="2" value="Character" />
           <attvalue for="3" value="Description" />
-          <attvalue for="4" value="0.0808080808080808" />
-          <attvalue for="5" value="0.06060606060606061" />
-          <attvalue for="6" value="1.4529489795968071e-06" />
-          <attvalue for="7" value="0.17283922126616216" />
+          <attvalue for="4" value="0.09696969696969698" />
+          <attvalue for="5" value="0.09090909090909091" />
+          <attvalue for="6" value="2.0153393991074757e-06" />
+          <attvalue for="7" value="0.18672150007074442" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -365,8 +365,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.09696969696969698" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="2.199212386901467e-06" />
-          <attvalue for="7" value="0.1899535419707477" />
+          <attvalue for="6" value="2.0153393991074757e-06" />
+          <attvalue for="7" value="0.18672150007074442" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -378,8 +378,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.09696969696969698" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="2.199212386901467e-06" />
-          <attvalue for="7" value="0.1899535419707477" />
+          <attvalue for="6" value="2.0153393991074757e-06" />
+          <attvalue for="7" value="0.18672150007074442" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -391,8 +391,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.06313131313131314" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="3.7389636976932842e-06" />
-          <attvalue for="7" value="0.15700230168337614" />
+          <attvalue for="6" value="3.426354315151216e-06" />
+          <attvalue for="7" value="0.15433092208090593" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -404,8 +404,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.08391608391608392" />
           <attvalue for="5" value="0.06060606060606061" />
-          <attvalue for="6" value="6.176107932564381e-06" />
-          <attvalue for="7" value="0.17270253178177772" />
+          <attvalue for="6" value="5.659732422285088e-06" />
+          <attvalue for="7" value="0.16976401422025045" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -417,8 +417,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.2134387351778656" />
           <attvalue for="5" value="0.06060606060606061" />
-          <attvalue for="6" value="0.3252812093543041" />
-          <attvalue for="7" value="0.18848023368106992" />
+          <attvalue for="6" value="0.2980849148111076" />
+          <attvalue for="7" value="0.1852732599849783" />
           <attvalue for="8" value="0.0" />
         </attvalues>
       </node>
@@ -430,9 +430,9 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.17515151515151517" />
           <attvalue for="5" value="0.15151515151515152" />
-          <attvalue for="6" value="0.18167562957852132" />
-          <attvalue for="7" value="0.17793294150256295" />
-          <attvalue for="8" value="0.026515151515151516" />
+          <attvalue for="6" value="0.1664859912248457" />
+          <attvalue for="7" value="0.174905429004714" />
+          <attvalue for="8" value="0.03503787878787879" />
         </attvalues>
       </node>
       <node id="Young Siward" label="Young Siward">
@@ -443,8 +443,8 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.2036645525017618" />
           <attvalue for="5" value="0.09090909090909091" />
-          <attvalue for="6" value="0.30938827652151896" />
-          <attvalue for="7" value="0.18977076876299026" />
+          <attvalue for="6" value="0.2835207672571698" />
+          <attvalue for="7" value="0.18654183673216626" />
           <attvalue for="8" value="0.01278409090909091" />
         </attvalues>
       </node>
@@ -456,9 +456,9 @@
           <attvalue for="3" value="Description" />
           <attvalue for="4" value="0.06887052341597796" />
           <attvalue for="5" value="0.30303030303030304" />
-          <attvalue for="6" value="5.736160106960101e-06" />
-          <attvalue for="7" value="0.17130224099674043" />
-          <attvalue for="8" value="0.07007575757575758" />
+          <attvalue for="6" value="5.256568002253248e-06" />
+          <attvalue for="7" value="0.16838754925305513" />
+          <attvalue for="8" value="0.08428030303030304" />
         </attvalues>
       </node>
     </nodes>
@@ -493,237 +493,257 @@
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Second Witch" target="Third Witch" id="6">
+      <edge source="Second Witch" target="First Apparition" id="6">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Second Witch" target="Third Apparition" id="7">
+      <edge source="Second Witch" target="Third Witch" id="7">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Second Witch" target="Second Apparition" id="8">
+      <edge source="Second Witch" target="Third Apparition" id="8">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Second Witch" target="Macbeth" id="9">
+      <edge source="Second Witch" target="Second Apparition" id="9">
+        <attvalues>
+          <attvalue for="9" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Macbeth" id="10">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Third Witch" target="First Witch" id="10">
+      <edge source="Third Witch" target="First Witch" id="11">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Third Witch" target="First Apparition" id="11">
+      <edge source="Third Witch" target="First Apparition" id="12">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Third Witch" target="Second Apparition" id="12">
+      <edge source="Third Witch" target="Second Apparition" id="13">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Third Witch" target="Third Apparition" id="13">
+      <edge source="Third Witch" target="Third Apparition" id="14">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Third Witch" target="Macbeth" id="14">
+      <edge source="Third Witch" target="Macbeth" id="15">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Macbeth" id="15">
+      <edge source="Macbeth" target="Macbeth" id="16">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Duncan" id="16">
+      <edge source="Macbeth" target="Duncan" id="17">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Banquo" id="17">
+      <edge source="Macbeth" target="Banquo" id="18">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Lady Macbeth" id="18">
+      <edge source="Macbeth" target="Lady Macbeth" id="19">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Young Siward" id="19">
+      <edge source="Macbeth" target="Young Siward" id="20">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Macbeth" target="Seyton" id="20">
+      <edge source="Macbeth" target="Seyton" id="21">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Banquo" target="Macbeth" id="21">
+      <edge source="Macbeth" target="First murderer" id="22">
+        <attvalues>
+          <attvalue for="9" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Second murderer" id="23">
+        <attvalues>
+          <attvalue for="9" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Third murderer" id="24">
+        <attvalues>
+          <attvalue for="9" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Banquo" target="Macbeth" id="25">
         <attvalues>
           <attvalue for="9" value="Friendship" />
         </attvalues>
       </edge>
-      <edge source="Banquo" target="Fleance" id="22">
+      <edge source="Banquo" target="Fleance" id="26">
         <attvalues>
           <attvalue for="9" value="Paternal Bond" />
         </attvalues>
       </edge>
-      <edge source="Ross" target="Macduff" id="23">
+      <edge source="Ross" target="Macduff" id="27">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Duncan" target="Macbeth" id="24">
+      <edge source="Duncan" target="Macbeth" id="28">
         <attvalues>
           <attvalue for="9" value="Friendship" />
         </attvalues>
       </edge>
-      <edge source="Duncan" target="Donalbain" id="25">
+      <edge source="Duncan" target="Donalbain" id="29">
         <attvalues>
           <attvalue for="9" value="Paternal Bond" />
         </attvalues>
       </edge>
-      <edge source="Malcolm" target="Captain" id="26">
+      <edge source="Malcolm" target="Captain" id="30">
         <attvalues>
           <attvalue for="9" value="Friendship" />
         </attvalues>
       </edge>
-      <edge source="Malcolm" target="Old Siward" id="27">
+      <edge source="Malcolm" target="Old Siward" id="31">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Malcolm" target="Young Siward" id="28">
+      <edge source="Malcolm" target="Young Siward" id="32">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Angus" target="Lennox" id="29">
+      <edge source="Angus" target="Lennox" id="33">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Lennox" target="Ross" id="30">
+      <edge source="Lennox" target="Ross" id="34">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Lady Macbeth" target="Macbeth" id="31">
+      <edge source="Lady Macbeth" target="Macbeth" id="35">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Lady Macbeth" target="Duncan" id="32">
+      <edge source="Lady Macbeth" target="Duncan" id="36">
         <attvalues>
           <attvalue for="9" value="Hospitality Bond" />
         </attvalues>
       </edge>
-      <edge source="Donalbain" target="Malcolm" id="33">
+      <edge source="Donalbain" target="Malcolm" id="37">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Hecate" target="Third Witch" id="34">
+      <edge source="Hecate" target="Third Witch" id="38">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Hecate" target="Second Witch" id="35">
+      <edge source="Hecate" target="Second Witch" id="39">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
       </edge>
-      <edge source="Hecate" target="Macbeth" id="36">
+      <edge source="Hecate" target="Macbeth" id="40">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Lady Macduff" target="Macduff" id="37">
+      <edge source="Lady Macduff" target="Macduff" id="41">
         <attvalues>
           <attvalue for="9" value="Marriage" />
         </attvalues>
       </edge>
-      <edge source="Lady Macduff" target="Son" id="38">
+      <edge source="Lady Macduff" target="Son" id="42">
         <attvalues>
           <attvalue for="9" value="Maternal Bond" />
         </attvalues>
       </edge>
-      <edge source="Menteith" target="Caithness" id="39">
+      <edge source="Menteith" target="Caithness" id="43">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Menteith" target="Angus" id="40">
+      <edge source="Menteith" target="Angus" id="44">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Old Siward" target="Seyton" id="41">
+      <edge source="Old Siward" target="Seyton" id="45">
         <attvalues>
           <attvalue for="9" value="Paternal Bond" />
         </attvalues>
       </edge>
-      <edge source="Old Siward" target="Malcolm" id="42">
+      <edge source="Old Siward" target="Malcolm" id="46">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Old Siward" target="Duncan" id="43">
+      <edge source="Old Siward" target="Duncan" id="47">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Young Siward" target="Old Siward" id="44">
+      <edge source="Young Siward" target="Old Siward" id="48">
         <attvalues>
           <attvalue for="9" value="Paternal Bond" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Macbeth" id="45">
+      <edge source="Macduff" target="Macbeth" id="49">
         <attvalues>
           <attvalue for="9" value="Competitors" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Malcolm" id="46">
+      <edge source="Macduff" target="Malcolm" id="50">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Lennox" id="47">
+      <edge source="Macduff" target="Lennox" id="51">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Ross" id="48">
+      <edge source="Macduff" target="Ross" id="52">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Menteith" id="49">
+      <edge source="Macduff" target="Menteith" id="53">
         <attvalues>
           <attvalue for="9" value="cousins" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Angus" id="50">
+      <edge source="Macduff" target="Angus" id="54">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Caithness" id="51">
+      <edge source="Macduff" target="Caithness" id="55">
         <attvalues>
           <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
-      <edge source="Macduff" target="Porter" id="52">
+      <edge source="Macduff" target="Porter" id="56">
         <attvalues>
           <attvalue for="9" value="Professional Bond" />
         </attvalues>
