@@ -15,7 +15,7 @@ events = [
     ]},
     {'time': 10, 'changes': [
         ('Lady Macbeth', 'Macbeth', 'Competitors'),
-        ('Macbeth', 'Macbeth', 'Evil', None)  # Self-loop for Macbeth
+        ('Macbeth', 'Macbeth', 'Competitors')  
     ]},
     {'time': 15, 'changes': [
         ('Macbeth', 'Duncan', 'Competitors')

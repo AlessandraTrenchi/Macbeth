@@ -27,6 +27,41 @@ starting_relationships = [
     ('Macduff', 'Macbeth', 'Friendship'),
     ('Lady Macbeth', 'Macbeth', 'Marriage'),
     ('Lady Macduff', 'Macduff', 'Marriage'),
+    ('First Witch', 'Macbeth', 'Competitors'),
+    ('Second Witch', 'Macbeth', 'Competitors'),
+    ('Third Witch', 'Macbeth', 'Competitors'),
+    ('Lady Macbeth', 'Macbeth', 'Competitors'),
+    ('Macbeth', 'Macbeth', 'Competitors'),
+    ('Macbeth', 'Duncan', 'Competitors'),
+    ('Macbeth', 'Banquo', 'Competitors'),
+    ('Macbeth', "Lady Macbeth", "Competitors"),
+    ('Hecate', 'Macbeth', 'Competitors'),
+    ('Macbeth', 'Young Siward', 'Competitors'),
+    ('Macduff', 'Macbeth', 'Competitors'),
+     ("Macduff", "Malcolm", "Kinship"),
+    ("Macduff", "Lennox", "Kinship"),
+    ("Ross", "Macduff", "Kinship"),
+    ("Macduff", "Ross", "Kinship"),
+    ("Macduff", "Menteith", "cousins"),
+    ("Macduff", "Angus", "Kinship"),
+    ("Macduff", "Caithness", "Kinship"),
+    ("Malcolm", "Old Siward", "Kinship"),
+    ("Malcolm", "Young Siward", "Kinship"),
+    ("Menteith", "Caithness", "Kinship"),
+    ("Menteith", "Angus", "Kinship"),
+    ("Angus", "Lennox", "Kinship"),
+    ("Lennox", "Ross", "Kinship"),
+    ("Lady Macbeth", "Duncan", "Hospitality Bond"),
+    ("Duncan", "Donalbain", "Paternal Bond"),
+    ("Donalbain", "Malcolm", "Kinship"),
+    ("Old Siward", "Seyton", "Paternal Bond"),
+    ("Banquo", "Fleance", "Paternal Bond"),
+    ("Young Siward", "Old Siward", "Paternal Bond"),
+    ("Old Siward", "Malcolm", "Kinship"),
+    ("Old Siward", "Duncan", "Kinship"),
+    ("Lady Macduff", "Son", "Maternal Bond"),
+    ("Macduff", "Porter", "Professional Bond"),
+    ("Macbeth", "Seyton", "Professional Bond")
     
 ]
 
@@ -35,36 +70,26 @@ G = nx.DiGraph()
 
 # Extract unique nodes from relationships
 unique_nodes = set()
-# Add edges to the graph with initial relationships and assign weights based on relationship type
-for source, target, rel_type in starting_relationships:
-    weight = 1  # default weight
-    if rel_type == 'Best Friends':
-        weight = 2
-    elif rel_type == 'Love':
-        weight = 3
-
-    G.add_edge(source, target, relationship_type=rel_type, weight=weight)
 
 # Add nodes to the graph with additional attributes
-for node in unique_nodes:
+for node in param['Character']:
     G.add_node(node, gender='Female' if param['Gender'][param['Character'].index(node)] == 'Female' else 'Male',
                place='Scotland', role='Character', description='Description')
 
-## Add edges to the graph with initial relationships and assign weights based on relationship type
+# Add edges to the graph with initial relationships
 for source, target, rel_type in starting_relationships:
-    weight = 1  # default weight
-    if rel_type == 'Best Friends':
-        weight = 2
-    elif rel_type == 'Love':
-        weight = 3
+    G.add_edge(source, target, relationship_type=rel_type)
 
-    G.add_edge(source, target, relationship_type=rel_type, weight=weight)
+    # Add nodes to the graph with additional attributes (if not already added)
+    if source not in unique_nodes:
+        G.add_node(source, gender='Female' if param['Gender'][param['Character'].index(source)] == 'Female' else 'Male',
+                   place='Scotland', role='Character', description='Description')
+        unique_nodes.add(source)
 
-    # Add nodes to the graph with additional attributes
-    G.add_node(source, gender='Female' if param['Gender'][param['Character'].index(source)] == 'Female' else 'Male',
-               place='Scotland', role='Character', description='Description')
-    G.add_node(target, gender='Female' if param['Gender'][param['Character'].index(target)] == 'Female' else 'Male',
-               place='Scotland', role='Character', description='Description')
+    if target not in unique_nodes:
+        G.add_node(target, gender='Female' if param['Gender'][param['Character'].index(target)] == 'Female' else 'Male',
+                   place='Scotland', role='Character', description='Description')
+        unique_nodes.add(target)
 
 # Create layout of the graph
 pos = nx.spring_layout(G, k=400, scale=50, seed=42)
@@ -81,7 +106,7 @@ edge_trace = []
 color_dict = {rel: rgb2hex(px.colors.qualitative.Plotly[i % len(px.colors.qualitative.Plotly)]) for i, rel in enumerate(unique_relationships)}
 
 for rel_type in unique_relationships:
-    edges = [(source, target, data) for source, target, data in G.edges(data=True) if data['relationship_type'] == rel_type]
+    edges = [(source, target, data) for source, target, data in G.edges(data=True) if data.get('relationship_type') == rel_type]
     x_coords = []
     y_coords = []
     hover_texts = []
@@ -89,12 +114,12 @@ for rel_type in unique_relationships:
     for source, target, data in edges:
         x_coords.extend([pos[source][0], pos[target][0], None])
         y_coords.extend([pos[source][1], pos[target][1], None])
-        hover_texts.append(f"Type: {data['relationship_type']}<br>Weight: {data['weight']}")
+        hover_texts.append(f"Type: {data.get('relationship_type', 'Unknown')}")
 
     edge_trace.append(go.Scatter(
         x=x_coords,
         y=y_coords,
-        line=dict(width=data['weight'], color=color_dict[rel_type]),
+        line=dict(width=1, color=color_dict.get(rel_type, 'black')),
         hoverinfo='text',
         text=hover_texts,
         mode='lines',
@@ -126,6 +151,7 @@ fig.update_layout(
 
 fig.update_xaxes(showgrid=False, zeroline=False)
 fig.update_yaxes(showgrid=False, zeroline=False)
-nx.write_gexf(G, 'relationships1.gexf')
+
+nx.write_gexf(G, 'relations.gexf')
 
 fig.show()

@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-19">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="5" title="relationship_type" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="place" type="string" />
+      <attribute id="2" title="role" type="string" />
+      <attribute id="3" title="description" type="string" />
+      <attribute id="4" title="degree_centrality" type="double" />
+    </attributes>
+    <nodes>
+      <node id="GentleWoman" label="GentleWoman">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="First Witch" label="First Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.21212121212121213" />
+        </attvalues>
+      </node>
+      <node id="Second Witch" label="Second Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.18181818181818182" />
+        </attvalues>
+      </node>
+      <node id="Third Witch" label="Third Witch">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.21212121212121213" />
+        </attvalues>
+      </node>
+      <node id="Macbeth" label="Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.4545454545454546" />
+        </attvalues>
+      </node>
+      <node id="Banquo" label="Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Ross" label="Ross">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Duncan" label="Duncan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.15151515151515152" />
+        </attvalues>
+      </node>
+      <node id="Malcolm" label="Malcolm">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.18181818181818182" />
+        </attvalues>
+      </node>
+      <node id="Captain" label="Captain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.030303030303030304" />
+        </attvalues>
+      </node>
+      <node id="Angus" label="Angus">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Lennox" label="Lennox">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Lady Macbeth" label="Lady Macbeth">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Fleance" label="Fleance">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.030303030303030304" />
+        </attvalues>
+      </node>
+      <node id="Porter" label="Porter">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.030303030303030304" />
+        </attvalues>
+      </node>
+      <node id="Donalbain" label="Donalbain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.06060606060606061" />
+        </attvalues>
+      </node>
+      <node id="Old man" label="Old man">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="First murderer" label="First murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Second murderer" label="Second murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Third murderer" label="Third murderer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Ghost of Banquo" label="Ghost of Banquo">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Hecate" label="Hecate">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.12121212121212122" />
+        </attvalues>
+      </node>
+      <node id="Lady Macduff" label="Lady Macduff">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.06060606060606061" />
+        </attvalues>
+      </node>
+      <node id="Son" label="Son">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.030303030303030304" />
+        </attvalues>
+      </node>
+      <node id="Doctor" label="Doctor">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="First Apparition" label="First Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.06060606060606061" />
+        </attvalues>
+      </node>
+      <node id="Second Apparition" label="Second Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Third Apparition" label="Third Apparition">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Menteith" label="Menteith">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Caithness" label="Caithness">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.06060606060606061" />
+        </attvalues>
+      </node>
+      <node id="Seyton" label="Seyton">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.06060606060606061" />
+        </attvalues>
+      </node>
+      <node id="Old Siward" label="Old Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.15151515151515152" />
+        </attvalues>
+      </node>
+      <node id="Young Siward" label="Young Siward">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.09090909090909091" />
+        </attvalues>
+      </node>
+      <node id="Macduff" label="Macduff">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Scotland" />
+          <attvalue for="2" value="Character" />
+          <attvalue for="3" value="Description" />
+          <attvalue for="4" value="0.30303030303030304" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="First Witch" target="Second Witch" id="0">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Hecate" id="1">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="First Apparition" id="2">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Second Apparition" id="3">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Third Apparition" id="4">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="First Witch" target="Macbeth" id="5">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Third Witch" id="6">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Third Apparition" id="7">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Second Apparition" id="8">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Second Witch" target="Macbeth" id="9">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="First Witch" id="10">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="First Apparition" id="11">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="Second Apparition" id="12">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="Third Apparition" id="13">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Third Witch" target="Macbeth" id="14">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Macbeth" id="15">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Duncan" id="16">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Banquo" id="17">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Lady Macbeth" id="18">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Young Siward" id="19">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Macbeth" target="Seyton" id="20">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Banquo" target="Macbeth" id="21">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Banquo" target="Fleance" id="22">
+        <attvalues>
+          <attvalue for="5" value="Paternal Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Ross" target="Macduff" id="23">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Duncan" target="Macbeth" id="24">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Duncan" target="Donalbain" id="25">
+        <attvalues>
+          <attvalue for="5" value="Paternal Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Malcolm" target="Captain" id="26">
+        <attvalues>
+          <attvalue for="5" value="Friendship" />
+        </attvalues>
+      </edge>
+      <edge source="Malcolm" target="Old Siward" id="27">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Malcolm" target="Young Siward" id="28">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Angus" target="Lennox" id="29">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Lennox" target="Ross" id="30">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Lady Macbeth" target="Macbeth" id="31">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Lady Macbeth" target="Duncan" id="32">
+        <attvalues>
+          <attvalue for="5" value="Hospitality Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Donalbain" target="Malcolm" id="33">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Hecate" target="Third Witch" id="34">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Hecate" target="Second Witch" id="35">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Hecate" target="Macbeth" id="36">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Lady Macduff" target="Macduff" id="37">
+        <attvalues>
+          <attvalue for="5" value="Marriage" />
+        </attvalues>
+      </edge>
+      <edge source="Lady Macduff" target="Son" id="38">
+        <attvalues>
+          <attvalue for="5" value="Maternal Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Menteith" target="Caithness" id="39">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Menteith" target="Angus" id="40">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Old Siward" target="Seyton" id="41">
+        <attvalues>
+          <attvalue for="5" value="Paternal Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Old Siward" target="Malcolm" id="42">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Old Siward" target="Duncan" id="43">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Young Siward" target="Old Siward" id="44">
+        <attvalues>
+          <attvalue for="5" value="Paternal Bond" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Macbeth" id="45">
+        <attvalues>
+          <attvalue for="5" value="Competitors" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Malcolm" id="46">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Lennox" id="47">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Ross" id="48">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Menteith" id="49">
+        <attvalues>
+          <attvalue for="5" value="cousins" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Angus" id="50">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Caithness" id="51">
+        <attvalues>
+          <attvalue for="5" value="Kinship" />
+        </attvalues>
+      </edge>
+      <edge source="Macduff" target="Porter" id="52">
+        <attvalues>
+          <attvalue for="5" value="Professional Bond" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
