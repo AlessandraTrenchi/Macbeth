@@ -25,7 +25,8 @@ starting_relationships = [
     ('Banquo', 'Macbeth', 'Best Friends'),
     ('Duncan', 'Macbeth', 'Friendship'),
     ('Macduff', 'Macbeth', 'Friendship'),
-    ('Lady Macbeth', 'Macbeth', 'Love')
+    ('Lady Macbeth', 'Macbeth', 'Love'),
+    ('Lady Macduff', 'Macduff', 'Love')
 ]
 
 # Create a directed graph
@@ -33,18 +34,36 @@ G = nx.DiGraph()
 
 # Extract unique nodes from relationships
 unique_nodes = set()
-for source, target, _ in starting_relationships:
-    unique_nodes.add(source)
-    unique_nodes.add(target)
+# Add edges to the graph with initial relationships and assign weights based on relationship type
+for source, target, rel_type in starting_relationships:
+    weight = 1  # default weight
+    if rel_type == 'Best Friends':
+        weight = 2
+    elif rel_type == 'Love':
+        weight = 3
+
+    G.add_edge(source, target, relationship_type=rel_type, weight=weight)
 
 # Add nodes to the graph with additional attributes
 for node in unique_nodes:
     G.add_node(node, gender='Female' if param['Gender'][param['Character'].index(node)] == 'Female' else 'Male',
                place='Scotland', role='Character', description='Description')
 
-# Add edges to the graph with initial relationships
+## Add edges to the graph with initial relationships and assign weights based on relationship type
 for source, target, rel_type in starting_relationships:
-    G.add_edge(source, target, relationship_type=rel_type, weight=1)
+    weight = 1  # default weight
+    if rel_type == 'Best Friends':
+        weight = 2
+    elif rel_type == 'Love':
+        weight = 3
+
+    G.add_edge(source, target, relationship_type=rel_type, weight=weight)
+
+    # Add nodes to the graph with additional attributes
+    G.add_node(source, gender='Female' if param['Gender'][param['Character'].index(source)] == 'Female' else 'Male',
+               place='Scotland', role='Character', description='Description')
+    G.add_node(target, gender='Female' if param['Gender'][param['Character'].index(target)] == 'Female' else 'Male',
+               place='Scotland', role='Character', description='Description')
 
 # Create layout of the graph
 pos = nx.spring_layout(G, k=400, scale=50, seed=42)
@@ -65,7 +84,7 @@ for rel_type in unique_relationships:
     x_coords = []
     y_coords = []
     hover_texts = []
-    
+
     for source, target, data in edges:
         x_coords.extend([pos[source][0], pos[target][0], None])
         y_coords.extend([pos[source][1], pos[target][1], None])
