@@ -730,7 +730,7 @@
       </edge>
       <edge source="Macduff" target="Menteith" id="53">
         <attvalues>
-          <attvalue for="9" value="cousins" />
+          <attvalue for="9" value="Kinship" />
         </attvalues>
       </edge>
       <edge source="Macduff" target="Angus" id="54">

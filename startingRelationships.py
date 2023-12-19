@@ -43,7 +43,7 @@ starting_relationships = [
     ("Macduff", "Lennox", "Kinship"),
     ("Ross", "Macduff", "Kinship"),
     ("Macduff", "Ross", "Kinship"),
-    ("Macduff", "Menteith", "cousins"),
+    ("Macduff", "Menteith", "Kinship"),
     ("Macduff", "Angus", "Kinship"),
     ("Macduff", "Caithness", "Kinship"),
     ("Malcolm", "Old Siward", "Kinship"),
