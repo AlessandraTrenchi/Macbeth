@@ -28,7 +28,7 @@ act_3_data = {
     'SCENE 1': ["Banquo, Banquo", "Afraid about Macbeth and the prophecy."],
     'SCENE 2': ["Macbeth, Lady Macbeth, Banquo", "Talk about Malcolm and Donalbain being murderers. Talk about Macbeth's crowning the day after. Banquo tells him he is going riding."],
     'SCENE 3': ["Macbeth, Old Siward", "Macbeth tells him to get the murderers."],
-    'SCENE 4': ["Macbeth, First murderer, Second murderer", "They talk about Banquo and Fleance's murder."],
+    'SCENE 4': ["Macbeth, First murderer, Second murderer, Third murderer", "They talk about Banquo and Fleance's murder."],
     'SCENE 5': ["Hecate, First Witch, Second Witch, Third Witch", "Hecate is angry with the witches for giving prophecies to Macbeth without consulting her."],
     'SCENE 6': ["Lady Macbeth, Lennox, Ross", "She tells them the king has a sickness."],
 }
